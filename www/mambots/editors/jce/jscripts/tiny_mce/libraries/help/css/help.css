@@ -1,0 +1,33 @@
+#helpTree {
+	width: 95%;
+	overflow: auto;
+	height: 520px;
+}
+#helpFrame {
+	width: 400px;
+	background: #FFFFFF;
+	height: 520px;
+}
+#handle {
+	cursor: w-resize;
+	float: left;
+	background: #999999;
+	border-left: 1px outset #999999;
+	border-right: 1px outset #999999;
+	height: 520px;
+}
+#handleBtn {
+	top: 235px;
+	position:relative;
+	width: 7px;
+	height: 50px;
+	cursor:default;
+}
+.handleCollapse {
+	background-image: url(../images/collapse.gif);
+	background-repeat:no-repeat;
+}
+.handleExpand {
+	background-image: url(../images/expand.gif);
+	background-repeat:no-repeat;
+}

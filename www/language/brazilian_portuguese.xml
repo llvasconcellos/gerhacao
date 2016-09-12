@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="language">
+	<name>Portugues Brasil</name>
+	    <version>1.0.0</version>
+	<creationDate>2004-09-20</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<files>
+		<filename>brazilian_portuguese.ignore.php</filename>
+		<filename>brazilian_portuguese.php</filename>
+	</files>
+</mosinstall>

@@ -1,0 +1,138 @@
+/* hack to center align floated slider tabs */
+
+/* font tweaking for optima/lucida font */
+#ff-optima h1,#ff-optima h2,#ff-optima h3,#ff-optima h4,#ff-optima h5,#ff-optima h6,
+#ff-lucida h1,#ff-lucida h2,#ff-lucida h3,#ff-lucida h4,#ff-lucida h5,#ff-lucida h6 {
+	letter-spacing: -0.07em;
+}
+
+body#ff-optima ,
+body#ff-lucida {
+	letter-spacing: -0.03em;
+}
+
+body#ff-georgia,
+body#ff-georgia.f-default {
+	font-size: 12px;
+}
+
+span.pathway {
+	display: block;
+	float: left;
+	line-height: 27px;
+}
+
+span.pathway a {
+	display: block;
+	float: left;
+}
+
+span.pathway img {
+	vertical-align: middle;
+	display: block;
+	float: left;
+}
+
+#header {
+	position: relative;
+	z-index: 1;
+}
+
+#showcase, #body-bg {
+	position: relative;
+	z-index: 0;
+}
+
+/* rokconent rotator */
+
+.rok-content-rotator div.content {
+	width: 360px;
+}
+
+.rok-content-rotator {
+	height: 1%;
+}
+
+#main-shadow,
+#main-shadow2 {
+	zoom: 1;
+}
+
+#top-tab {
+	padding-right: 1px;
+	margin-right: 77px;
+}
+
+#bottom-tab {
+	margin-left: 50px;
+	padding-left: 1px;
+}
+
+.rotator-title {
+	line-height: 45px;
+}
+
+.rok-content-rotator li {
+	display: block;
+	float: left;
+}
+
+.rok-content-rotator h2 {
+	text-indent: 20px;
+}
+
+#rokslide-toolbar li {
+	float: left;
+}
+
+#rokslide-toolbar li span {
+	float: left;
+	padding: 0 30px;
+}
+
+.spacer.w99 .block {
+	width: 99.99%;
+}
+
+.spacer.w49 .block {
+	width: 49.99%;
+}
+
+.spacer.w33 .block {
+	width: 33%;
+}
+
+.spacer.w24 .block {
+	width: 24.9%;
+}
+
+#frame .mmpr-2 .module {
+	width: 49.99%;
+}
+
+
+#tabmodules div div div {
+	height: 1%;
+}
+
+#rokslide-toolbar span {
+	padding: 0 15px;
+}
+
+
+
+/* login fixes */
+
+#sl_vert {
+	zoom: 1;
+}
+
+#sl_submitbutton {
+	top: 28px;
+	right: 20px;
+}
+
+/* other stuff */
+
+
+

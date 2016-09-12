@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.12" type="mambot" group="editors">
+    <name>JCE Editor Mambot</name>
+    <version>1.1.5</version>
+    <creationDate>13 June 2007</creationDate>
+    <author>Ryan Demmer</author>
+    <authorEmail>ryandemmer@gmail.com</authorEmail>
+    <authorUrl>http://www.cellardoor.za.net</authorUrl>
+    <copyright>2006/2007 Ryan Demmer</copyright>
+    <license>GNU General Public License</license>
+    <description><![CDATA[
+	<p><strong>JCE</strong> <em>(Joomla Content Editor)</em> is a configuration and extension system for Moxiecode&apos;s <a href"http://tinymce.moxiecode.com" target="_blank" />TinyMCE</a> editor, for the Joomla! CMS.</p>
+	<p>Changelog (from 1.1.4):</p>
+	<ul>
+		<li>Fixed: Ajax problems with retrieving data for Image Manager, AdvLink etc. on some systems. Replaced Mootools Ajax use with simpler solution.</li>
+	</ul>
+	<p>Changelog (from 1.1.3):</p>
+	<ul>
+		<li>Fixed: Custom CSS setting bug #5576</li>
+		<li>Fixed: Align default setting bug in Image Manager</li>
+		<li>Fixed: Relative URLs conversion bug #5588</li>
+	</ul>
+	<p>Changelog (from 1.1.2):</p>
+	<ul>
+		<li>Fixed: Template Colors in Color Picker</li>
+		<li>Fixed: Paragraph / Break bug - #4767</li>
+		<li>Fixed: TinyMCE Compressor is back</li>
+		<li>Added: Global option for upload dialog - select file after upload.</li>
+		<li>Added: Layer plugin is back.</li>
+		<li>Update: TinyMCE to 2.1.1.1</li>
+		<li>Update: Mootools to 1.1.0</li>
+	</ul>
+	<p>Changelog (from 1.1.1):</p>
+	<ul>
+		<li>Added: Configuration options for editor area resizing.</li>
+		<li>Fixed: Image selection error in Image Manager</li>
+		<li>Fixed: Anchors now relative in AdvLink.</li>
+	</ul>
+	<p>Changelog (from 1.1.0 Final):</p>
+	<ul>
+		<li>Fixed: Selection error. Bug #4457</li>
+		<li>Fixed: Undefined variable error in folder tree display. Bug #4454</li>
+		<li>Added: Spell Checker languages configuration.</li>
+	</ul>
+	<p>Changelog (from 1.1.0 beta 2):</p>
+	<ul>
+		<li>API changes - javascript and php classes.</li>
+		<li>New window dialogs.</li>
+		<li>New icons.</li>
+		<li>Numerous bug fixes and code enhancements.</li>
+	</ul>
+	<p>Changelog (from 1.1.0 beta):</p>
+	<p>
+	<ul>
+		<li>Fixed relative url path in JCE class that may have prevented the editor functioning in the frontend.</li>
+		<li>Fixed permissions/access problems affecting user folders.</li>
+		<li>Centralized some Manager related functions.</li>
+		<li>Added 'Verify HTML' option, to specify whether HTML code is cleaned or not (on recommended).</li>
+		<li>Removed xajax functions in favour of a mootools/custom php ajax solution.</li>
+		<li>Added Image and Link commands. The Image Manager and AdvLink plugins automatically overwrite these if installed, therefore only one of each type of plugin can be active at any one time.</li>
+	</ul>
+	</p>
+	<p><strong>Credits:</strong></p>
+	<p>JCE would not exist without these great libraries/scripts:<br />
+		<ul>
+			<li><a href="http://www.joomla.org" target="_blank">Joomla! - obviously</a></li>
+			<li><a href="http://tinymce.moxiecode.com" target="_blank">TinyMCE</a></li>
+			<li><a href="http://mootools.net" target="_blank">Mootools</a></li>
+			<li><a href="http://phpthumb.sourceforge.net" target="_blank">PHPThumb</a></li>
+			<li><a href="http://getid3.sourceforge.net" target="_blank">getID3</a></li>
+			<li><a href="http://www.destroydrop.com/javascripts/tree/" target="_blank">dTree</a></li>
+			<li><a href="http://www.famfamfam.com/lab/icons/silk/" target="_blank">Silk icon set 1.3</a></li>
+		</ul>
+	</p>
+	<p>And these people...<br />
+		<ul>
+			<li>My wife, Amoreen.</li>
+			<li>The Joomla Developers</li>
+			<li>The Joomla Forum Moderators, ChiefGoFor and Brad Baker in particular ;)</li>
+			<li>Victor Drover</li>
+			<li>Eric Caldwell</li>
+			<li>Nic from nab_design.de (thanks again for the header graphic!)</li>
+			<li>All the translators - there is a lot more work ahead, I hope you guys are up for it!</li>
+			<li>Everyone who has supported the JCE project by purchasing a subscription</li>
+			<li>Everyone who has supported the JCE project by helping out in the forum</li>
+			<li>Everyone who has supported the JCE project by being patient and well, supportive.</li>
+			<li>Anyone that I should have thanked, but haven't, only because I've forgotten :(</li>
+		</ul>
+	</p>
+	<p>JCE is dedicated to my father.</p>
+	]]></description>
+    <files>
+        <filename mambot="jce">jce.php</filename>
+        <filename>jce/docs/index.html</filename>
+        <filename>jce/docs/license.htm</filename>
+        <filename>jce/docs/style.css</filename>
+        <filename>jce/index.html</filename>
+        <filename>jce/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/blank.htm</filename>
+        <filename>jce/jscripts/tiny_mce/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/jce.functions.js</filename>
+        <filename>jce/jscripts/tiny_mce/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/classes/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/classes/jce.class.php</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/classes/jce.utils.class.php</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/css/common.css</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/css/common_ie6.css</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/css/common_ie7.css</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/css/dtree.css</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/css/files.css</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/help/css/help.css</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/help/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/help/help.jce.php</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/help/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/help/jscripts/help.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/help/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/help/menu.help.php</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/add.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/asc.png</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/book.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/book_open.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/color.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/copy.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/cut.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/delete.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/desc.png</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/dir_up.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/drive.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/empty.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/error.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/folder.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/folder_open.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/help.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/dcr.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/flv.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/gif.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/jpg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/mov.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/png.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/rm.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/swf.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/icons/wmv.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/info.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/load.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/new_folder.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/nolines_minus.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/nolines_plus.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/page.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/paste.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/rename.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/se_handle.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/search.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/spacer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/upload.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/view.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/win_buttons.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/images/win_header.gif</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/dtree.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/files.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/manager.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/manager_src.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/mootools.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/mootools_basic.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/tiny_mce_utils.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/tiny_mce_utils_src.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/utils.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/utils_src.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/window.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/jscripts/window_src.js</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/langs/en.php</filename>
+        <filename>jce/jscripts/tiny_mce/libraries/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/license.txt</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/advlink.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/advlink.xml</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/css/advlink.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/images/advlink.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/jscripts/functions.js</filename>
+		<filename>jce/jscripts/tiny_mce/plugins/advlink/jscripts/functions_src.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/langs/en.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/advlink/link.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/contextmenu/contextmenu.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/contextmenu/css/contextmenu.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/contextmenu/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/contextmenu/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/contextmenu/images/spacer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/contextmenu/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/images/directionality.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/images/ltr.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/images/rtl.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/directionality/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/emotions.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/emotions.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/readme.txt</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-cool.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-cry.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-embarassed.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-foot-in-mouth.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-frown.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-innocent.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-kiss.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-laughing.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-money-mouth.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-sealed.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-smile.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-surprised.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-tongue-out.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-undecided.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-wink.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/images/smiley-yell.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/jscripts/functions.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/emotions/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/css/content.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/css/page.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/images/fullscreen.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/fullscreen/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/classes/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/classes/manager.class.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/css/manager.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/files.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/images/imgmanager.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/images/sample.jpg</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/images/spacer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/imgmanager.xml</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/index.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/jscripts/functions.js</filename>
+		<filename>jce/jscripts/tiny_mce/plugins/imgmanager/jscripts/functions_src.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/langs/en.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/imgmanager/manager.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/css/inlinepopup.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/images/spacer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/images/window_close.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/images/window_maximize.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/images/window_minimize.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/images/window_resize.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/inlinepopups/jscripts/mcwindows.js</filename>
+		<filename>jce/jscripts/tiny_mce/plugins/layer/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/absolute.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/backward.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/forward.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/insert_layer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/insertlayer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/layer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/movebackward.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/images/moveforward.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/layer/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/nonbreaking/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/nonbreaking/images/nonbreaking.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/nonbreaking/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/nonbreaking/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/nonbreaking/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/blank.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/css/blank.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/css/pasteword.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/images/paste.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/images/pastetext.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/images/pasteword.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/images/selectall.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/jscripts/pastetext.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/jscripts/pasteword.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/paste.xml</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/pastetext.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/paste/pasteword.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/preview/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/preview/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/preview/images/preview.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/preview/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/preview/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/preview/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/print/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/print/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/print/images/print.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/print/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/print/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/print/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/images/replace.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/images/replace_all_button_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/images/replace_button_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/images/search.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/images/searchreplace.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/jscripts/replace.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/jscripts/search.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/jscripts/searchreplace.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/replace.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/search.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/classes/TinyGoogleSpell.class.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/classes/TinyPspell.class.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/classes/TinyPspellShell.class.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/classes/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/css/content.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/css/spellchecker.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/images/spellchecker.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/images/wline.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/spellchecker.xml</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/spellchecker/tinyspell.php</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/css/props.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/images/apply_button_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/images/style_info.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/images/styleprops.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/jscripts/props.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/style/props.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/cell.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/css/cell.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/css/row.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/css/table.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/buttons.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_cell_props.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_delete.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_delete_col.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_delete_row.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_insert_col_after.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_insert_col_before.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_insert_row_after.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_insert_row_before.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_merge_cells.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_row_props.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/images/table_split_cells.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/jscripts/cell.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/jscripts/merge_cells.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/jscripts/row.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/jscripts/table.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/merge_cells.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/row.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/table.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/table/table.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/visualchars/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/visualchars/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/visualchars/images/visualchars.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/visualchars/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/visualchars/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/visualchars/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/css/xhtmlxtras.css</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/abbr.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/acronym.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/attribs.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/cite.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/date_time.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/del.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/ins.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/remove_button_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/images/xhtmlxtras.gif</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/abbr.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/acronym.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/attributes.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/cite.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/del.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/element_common.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/jscripts/ins.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/popupImage.php</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/about.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/anchor.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/charmap.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/color_picker.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/css/colorpicker.css</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/css/editor_content.css</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/css/editor_popup.css</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/css/editor_ui.css</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/css/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/about.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/common_buttons.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/create_accessible_content.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/images/insert_anchor_window.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/images/insert_image_window.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/images/insert_link_window.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/images/insert_table_window.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/index.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/insert_anchor_button.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/insert_image_button.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/insert_link_button.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/insert_table_button.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/en/style.css</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/docs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/editor_template.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/image.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/anchor.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/anchor_symbol.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/backcolor.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/bold.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/bold_de_se.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/bold_es.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/bold_fr.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/bold_ru.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/bold_tw.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/browse.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/bullist.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/button.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/button_blue.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/button_green.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/button_menu.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/button_red.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/button_yellow.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/buttons.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/cancel_button_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/charmap.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/cleanup.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/clipboard.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/close.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/code.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/color.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/colors.jpg</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/copy.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/custom_1.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/cut.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/fontselect.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/fontsizeselect.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/forecolor.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/formatselect.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/help.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/hr.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/image.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/indent.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/insert_button_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/italic.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/italic_de_se.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/italic_es.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/italic_ru.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/italic_tw.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/justifycenter.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/justifyfull.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/justifyleft.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/justifyright.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/link.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/menu_check.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/newdocument.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/numlist.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/opacity.png</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/outdent.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/paste.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/redo.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/removeformat.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/separator.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/spacer.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/statusbar_resize.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/strikethrough.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/styleselect.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/sub.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/sup.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table_delete.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table_delete_col.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table_delete_row.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table_insert_col_after.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table_insert_col_before.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table_insert_row_after.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/table_insert_row_before.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/underline.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/underline_es.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/underline_fr.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/underline_ru.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/underline_tw.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/undo.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/unlink.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/visualaid.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/xp/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/xp/tab_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/xp/tab_end.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/xp/tab_sel_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/xp/tab_sel_end.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/images/xp/tabs_bg.gif</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/about.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/anchor.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/charmap.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/color_picker.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/image.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/link.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/jscripts/source_editor.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/langs/en.js</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/langs/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/link.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/advanced/source_editor.htm</filename>
+        <filename>jce/jscripts/tiny_mce/themes/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/tiny_mce.js</filename>
+        <filename>jce/jscripts/tiny_mce/tiny_mce_gzip.js</filename>
+        <filename>jce/jscripts/tiny_mce/tiny_mce_gzip.php</filename>
+        <filename>jce/jscripts/tiny_mce/tiny_mce_popup.js</filename>
+        <filename>jce/jscripts/tiny_mce/utils/editable_selects.js</filename>
+        <filename>jce/jscripts/tiny_mce/utils/form_utils.js</filename>
+        <filename>jce/jscripts/tiny_mce/utils/index.html</filename>
+        <filename>jce/jscripts/tiny_mce/utils/mclayer.js</filename>
+        <filename>jce/jscripts/tiny_mce/utils/mctabs.js</filename>
+        <filename>jce/jscripts/tiny_mce/utils/validate.js</filename>
+        <filename>jce/lgpl.txt</filename>
+    </files>
+    <params>
+        <param name="@spacer" type="spacer" default="" label="Setup" description="" />
+        <param name="editor_width" type="text" size="5" default="500" label="Editor Width" description="Width of the Editor Window" />
+        <param name="editor_height" type="text" size="5" default="600" label="Editor Height" description="Height of the Editor Window" />
+        <param name="editor_state" type="list" default="mceEditor" label="Default Editor State" description="The default state of the editor - On/Off.">
+            <option value="mceEditor">On</option>
+            <option value="mceNoEditor">Off</option>
+        </param>
+		 <param name="compression" type="list" default="0" label="GZip Compression" description="Compress the editor javascript for quicker loading.">
+            <option value="1">On</option>
+            <option value="0">Off</option>
+        </param>
+		<param name="absolute_url" type="list" default="0" label="Absolute Paths" description="Use Absolute paths to load all client scripts, images etc.">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="relative_url" type="list" default="1" label="Relative URLS" description="Convert all urls (src, href etc.) to relative links, ie: with your site url removed. (Recommended).">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="editor_toggle" type="text" default="[show/hide]" label="Editor Toggle Label" description="The label for the editor toggle link." />
+        <param name="text_direction" type="list" default="ltr" label="Text Direction" description="Ability to change text direction">
+            <option value="ltr">Left to Right</option>
+            <option value="rtl">Right to Left</option>
+        </param>
+        <param name="charset" type="text" default="iso-8859-1" label="Charset/Encoding" description="Charset/Encoding used for header when sending/retrieving data using ajax." />
+        <param name="table_inline" type="list" default="0" label="Inline Table Editing" description="Allow inline editing of Tables.">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="content_css" type="list" default="1" label="Template CSS classes" description="Load CSS classes from template_css.css">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="content_css_custom" type="text" size="50" default="" label="Custom CSS Classes" description="You can specify the loading of a custom CSS file - simply enter the name of the replacement css file. This file MUST be located in the same folder as you template CSS file." />
+        <param name="newlines" type="list" default="0" label="Newlines" description="Newlines will be made into the selected option">
+            <option value="1">BR Elements</option>
+            <option value="0">P Elements</option>
+        </param>
+       <param name="toolbar" type="list" default="top" label="Toolbar" description="Position of the toolbar">
+            <option value="top">Top</option>
+            <option value="bottom">Bottom</option>
+        </param>
+        <param name="@spacer" type="spacer" default="" label="Cleanup" description="" />
+        <param name="verify_html" type="list" default="0" label="Cleanup HTML" description="Perform HTML cleanup">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="fix_table_elements" type="list" default="1" label="Fix Table Elements" description="Block elements will be split into two chunks when a table is found within it to produce an XHTML valid table. See - http://wiki.moxiecode.com/index.php/TinyMCE:Configuration/fix_table_elements">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="fix_list_elements" type="list" default="1" label="Fix List Elements" description="List elements UL/OL converted to valid XHTML. See - http://wiki.moxiecode.com/index.php/TinyMCE:Configuration/fix_list_elements">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="mambot_mode" type="list" default="0" label="Mambot Mode" description="If true, &amp; and &apos; are not encoded when content is saved.">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </param>
+        <param name="entity_encoding" type="list" default="named" label="Entity Encoding" description="This option controls how entities/characters gets processed by TinyMCE/JCE. The value can be set to numeric, named or raw. The default value of this option is named, if named is used the entities option will be used to convert the codes into names.">
+            <option value="numeric">Numeric</option>
+            <option value="named">Named</option>
+            <option value="raw">Raw</option>
+        </param>
+        <param name="font_size_type" type="list" default="length" label="Font Size Type" description="Choose the type of font size to use, either length eg: 10pt, or absolute-size eg: x-small.">
+            <option value="length">Length</option>
+            <option value="absolute">Absolute-Size</option>
+        </param>
+        <param name="invalid_elements" type="text" size="50" default="applet" label="Prohibited Elements" description="Elements that will be cleaned from the text" />
+        <param name="extended_elements" type="textarea" rows="2" cols="35" default="" label="Extended Elements" description="Extend JCE functionality by adding in extra elements here. Format: elm[tag1|tag2]" />
+        <param name="event_elements" type="text" size="50" default="td,img,a" label="Event Elements" description="This option should contain a comma separated list of elements thay may have event attributes such as onclick and simmilar. This option is needed since some browsers execute these events while editing content." />
+        <param name="allow_script" type="list" default="18" label="Allow Javascript" description="Select access level to allow javascript">
+            <option value="99">**Disabled**</option>
+            <option value="0">Guest</option>
+            <option value="18">-Registered</option>
+            <option value="19">--Author</option>
+            <option value="20">---Editor</option>
+            <option value="21">----Publisher</option>
+            <option value="23">-----Manager</option>
+            <option value="24">------Administrator</option>
+            <option value="25">-------Super Administrator</option>
+        </param>
+        <param name="@spacer" type="spacer" default="" label="General" description="" />
+        <param name="html_height" type="text" default="550" size="5" label="HTML Height" description="Height of HTML mode pop-up window." />
+        <param name="html_width" type="text" default="750" size="5" label="HTML Width" description="Width of HTML mode pop-up window." />
+        <param name="preview_height" type="text" default="550" size="5" label="Preview Height" description="Height of Preview mode pop-up window." />
+        <param name="preview_width" type="text" default="750" size="5" label="Preview Width" description="Width of Preview mode pop-up window." />
+        <param name="template_colors" type="textarea" rows="2" cols="35" default="" label="Template Colors" description="A comma seperated list of colors to be used by the JCE ColorPicker, in Hex format, eg: #ff0000, (Maximum 18)." />
+    </params>
+</mosinstall>

@@ -1,0 +1,164 @@
+/* Style 2 */
+
+a {
+	color: #B86838;
+}
+
+/* @group Structure */
+
+#logo {
+	background: url(../images/style2/logo.png) 0 0 no-repeat;
+}
+
+#showcase {
+	background: #21130E url(../images/style2/showcase-bg.png) 0 0 repeat-x;
+}
+
+#showcase2 {
+	background: url(../images/style2/showcase-promo.jpg) 50% 0 no-repeat;
+}
+
+#featured-mod {
+	background: url(../images/style2/featuremod-bg.png) 50% 0 repeat-x;
+}
+
+#featured-mod2 {
+	background: url(../images/style2/featuremod-bg2.jpg) 50% 0 no-repeat;
+}
+
+/* @end */
+
+/* @group Horizontal Menu */
+
+#horiz-menu {
+	background: url(../images/style2/horiz-menu-bg.png) 0 0 repeat-x;
+}
+
+#horiz-menu ul ul {
+	background: #1D140D;
+	border-left: 1px solid #5C3D29;
+	border-right: 1px solid #5C3D29;
+	border-bottom: 1px solid #5C3D29;
+}
+
+#horiz-menu ul ul ul {
+	border-top: 1px solid #5C3D29;
+}
+
+#horiz-menu li a {
+	background: url(../images/style2/horiz-menu-div.png) 100% 50% no-repeat;
+}
+
+#horiz-menu a,
+#horiz-menu li.active a {
+	color: #fff;
+}
+
+#horiz-menu li.active a {
+	color: #B86838;
+}
+
+#horiz-menu a:hover {
+	color: #B86838;
+}
+
+#horiz-menu ul ul li a,
+#horiz-menu ul li.active.parent ul a {
+	background: url(../images/style2/dropdown-arrow.png) 10px 50% no-repeat;
+	color: #B86838;
+}
+
+/* @end */
+
+/* @group Main Menu */
+
+a.mainlevel {
+	background: url(../images/style2/vertmenu-bg.png) 0 0 no-repeat;
+	color: #666;
+}
+
+a#active_menu.mainlevel,
+a.mainlevel:hover {
+	color: #B86838;
+}
+
+a.sublevel:hover,
+a#active_menu.sublevel {
+	color: #B86838;
+}
+
+a.sublevel {
+	color: #666;
+}
+
+/* @end */
+
+/* @group Sub Menu */
+
+ul.menu a {
+	background: url(../images/style1/vertmenu-bg.png) 0 0 no-repeat;
+	color: #666;
+}
+
+ul.menu li.active a,
+ul.menu li a:hover,
+ul.menu li.parent li.active a,
+ul.menu li.parent li.parent li.active a,
+ul.menu li.parent li.active a:hover,
+ul.menu li.parent li.parent li.active a:hover,
+ul.menu li.active a:hover {
+	color: #B86838;
+}
+
+ul.menu li.parent li a,
+ul.menu li.parent li.parent li a {
+	color: #666;
+}
+
+/* @end */
+
+.rok-content-rotator h2 a:hover,
+.rok-content-rotator h2 a.active,
+#rokslide-toolbar li.current {
+	color: #B86838;
+}
+
+/* @group Typography */
+
+ul.bullet-1 li {
+	background: url(../images/style2/dropdown-arrow.png) 0 3px no-repeat;
+}
+
+ul.bullet-2 li {
+	background: url(../images/style2/bullet-2.png) 0 3px no-repeat;
+}
+
+ul.bullet-3 li {
+	background: url(../images/style2/bullet-3.png) 0 3px no-repeat;
+}
+
+ul.bullet-4 li {
+	background: url(../images/style2/bullet-4.png) 0 3px no-repeat;
+}
+
+ul.bullet-5 li {
+	background: url(../images/style2/bullet-5.png) 0 3px no-repeat;
+}
+
+.important2 {
+	border: 1px solid #B86838;
+}
+
+span.highlight-color {
+	background: #B86838;
+	color: #fff;
+}
+
+span.important-title2,
+span.number-color,
+blockquote.color2,
+span.dropcap-color {
+	color: #B86838;
+}
+
+/* @end */

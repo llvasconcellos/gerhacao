@@ -1,0 +1,31 @@
+/* CSS Document */
+.editor {
+	background-color: #F0F0EE;
+	border: 1px solid #eeeeee;
+}
+ul {
+	height: 30px;
+	list-style: none;
+	vertical-align: middle;
+	margin:0px;
+	padding: 0px;
+	margin-bottom: 1px;
+	padding-left: 1px;
+	border: 1px solid #8592B5;
+	white-space: nowrap;
+}
+li {
+	cursor: move;
+	position: relative;
+	float: left;
+	margin-right:1px;
+	margin-top:1px;
+	margin-bottom:1px;
+	border: 1px solid #aaaaaa;
+}
+li.spacer {
+	cursor: move;
+	float: left;
+	margin: 1px;
+}
+

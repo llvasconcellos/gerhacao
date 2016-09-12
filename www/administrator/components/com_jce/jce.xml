@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+<name>JCE</name>
+<version>1.1.1</version>
+<creationDate>06 June 2007</creationDate>
+<author>Ryan Demmer</author>
+<authorEmail>ryandemmer@gmail.com</authorEmail>
+<authorUrl>http://www.cellardoor.za.net/</authorUrl>
+<licence>GPL</licence>
+<copyright>Ryan Demmer 2006/2007</copyright>
+<description><![CDATA[
+    JCE Administration Component version 1.1.1<br />
+	Changelog from 1.1.0<br />
+	<ul>
+        <li>Fixed: Toolbar buttons.</li>
+		<li>Fixed: Language Installer writeable folder list.</li>
+		<li>Added: Layer plugin install.</li>
+		<li>Removed: XHTMLxtras plugin elements list.</li>
+    </ul>
+	Changelog (from 1.1.0 beta 2)<br />
+	<ul>
+        <li>Image Manager and AdvLink are now core plugins.</li>
+		<li>Removed Layout and XHTML Attributes install.</li>
+    </ul>
+	Changelog (from 1.1.0 beta)<br />
+	<ul>
+        <li>Fixed CSS error with 5th row of layout.</li>
+		<li>Added Image and Link commands to install.</li>
+		<li>Added check for install version (only 1.1.0 plugins can now be installed).</li>
+    </ul>
+	Changelog (from 1.0.4)<br />
+    <ul>
+        <li>Removed use of getimagesize to retrieve plugin icon dimensions which was causing loading problems on some systems.</li>
+		<li>Replaced $mosConfig_aboslute_path and $mosConfig_live_site with $mainframe->getCfg equivalents.</li>
+		<li>Added 5th row for button layout.</li>
+    </ul>
+    Changelog (from 1.0.3)<br />
+    <ul>
+        <li>Added check for Editor Mambot when accessing Plugin Manager, Layout Manager, Language Manager.</li>
+    </ul>
+    Changelog (from 1.0.2)<br />
+    <ul>
+        <li>Fixed advlink_favourites table uninstall error.</li>
+        <li>Added underscore to space conversion in jce.php for popup support.</li>
+    </ul>
+    Changelog (from 1.0.1)<br />
+    <ul>
+        <li>Removed favourites db install</li>
+        <li>Added Format Select Command</li>
+        <li>Added new popup image code to support changes to Image Manager popups.</li>
+        <li>Reorganised Language Manager buttons.</li>
+        <li>Removed unused Apply button in Plugin Manager.</li>
+    </ul>
+    ]]></description>
+<files>
+    <filename>jce.php</filename>
+	<filename>index.html</filename>
+</files>
+<install>
+    <queries>
+      <query>DROP TABLE IF EXISTS `#__jce_langs`</query>
+      <query>CREATE TABLE `#__jce_langs` (
+      `id` int(11) NOT NULL auto_increment,
+      `Name` varchar(100) NOT NULL default '',
+      `lang` varchar(100) NOT NULL default '',
+      `published` tinyint(3) NOT NULL default '0',
+      PRIMARY KEY (`id`) )
+      TYPE=MyISAM</query>
+      <query>DROP TABLE IF EXISTS `#__jce_plugins`</query>
+      <query>CREATE TABLE `#__jce_plugins` (
+      `id` int(11) NOT NULL auto_increment,
+      `name` varchar(100) NOT NULL default '',
+      `plugin` varchar(100) NOT NULL default '',
+      `type` varchar(100) NOT NULL default 'plugin',
+      `icon` varchar(255) NOT NULL default '',
+      `layout_icon` varchar(255) NOT NULL default '',
+      `access` tinyint(3) unsigned NOT NULL default '18',
+      `row` int(11) NOT NULL default '0',
+      `ordering` int(11) NOT NULL default '0',
+      `published` tinyint(3) NOT NULL default '0',
+      `editable` tinyint(3) NOT NULL default '0',
+      `elements` varchar(255) NOT NULL default '',
+      `iscore` tinyint(3) NOT NULL default '0',
+      `client_id` tinyint(3) NOT NULL default '0',
+      `checked_out` int(11) unsigned NOT NULL default '0',
+      `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+      `params` text NOT NULL,
+       PRIMARY KEY  (`id`),
+       UNIQUE KEY `plugin` (`plugin`) )
+       TYPE=MyISAM</query>
+    </queries>
+</install>
+<uninstall>
+    <queries>
+      <query>DELETE FROM `#__jce_langs`</query>
+      <query>DROP TABLE `#__jce_langs`</query>
+      <query>DELETE FROM `#__jce_plugins`</query>
+      <query>DROP TABLE `#__jce_plugins`</query>
+    </queries>
+</uninstall>
+<installfile>jce.install.php</installfile>
+<uninstallfile></uninstallfile>
+<administration>
+   <menu>JCE Admin</menu>
+   <submenu>
+   <menu link="option=com_jce&task=config">JCE Configuration</menu>
+   <menu link="option=com_jce&task=lang">JCE Languages</menu>
+   <menu link="option=com_jce&task=showplugins">JCE Plugins</menu>
+   <menu link="option=com_jce&task=editlayout">JCE Layout</menu>
+   </submenu>
+     <files>
+      <filename>admin.jce.html.php</filename>
+      <filename>admin.jce.php</filename>
+      <filename>index.html</filename>
+      <filename>jce.install.php</filename>
+      <filename>toolbar.jce.html.php</filename>
+      <filename>toolbar.jce.php</filename>
+      <filename>layout.php</filename>
+      <filename>layout.html.php</filename>
+	  <filename>css/layout.css</filename>
+	  <filename>css/index.html</filename>
+      <filename>installer/index.html</filename>
+      <filename>installer/installer.php</filename>
+      <filename>installer/installer.class.php</filename>
+      <filename>installer/installer.html.php</filename>
+      <filename>installer/plugins/plugins.class.php</filename>
+      <filename>installer/plugins/plugins.html.php</filename>
+      <filename>installer/plugins/plugins.php</filename>
+      <filename>installer/plugins/index.html</filename>
+      <filename>installer/language/index.html</filename>
+      <filename>installer/language/language.php</filename>
+      <filename>installer/language/language.class.php</filename>
+      <filename>jscripts/builder.js</filename>
+      <filename>jscripts/controls.js</filename>
+      <filename>jscripts/dragdrop.js</filename>
+      <filename>jscripts/effects.js</filename>
+      <filename>jscripts/prototype.js</filename>
+      <filename>jscripts/scriptaculous.js</filename>
+      <filename>jscripts/index.html</filename>
+      <filename>language/en.php</filename>
+      <filename>language/en.xml</filename>
+      <filename>language/index.html</filename>
+      <filename>languages/languages.php</filename>
+      <filename>languages/languages.class.php</filename>
+      <filename>languages/languages.html.php</filename>
+      <filename>languages/index.html</filename>
+      <filename>plugins/plugins.php</filename>
+      <filename>plugins/plugins.class.php</filename>
+      <filename>plugins/plugins.html.php</filename>
+      <filename>plugins/index.html</filename>
+    </files>
+</administration>
+</mosinstall>

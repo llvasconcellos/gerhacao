@@ -1,0 +1,603 @@
+/* @group Headers */
+
+/* Header 1 */
+
+body.header1 #topmod {
+	background: url(../images/headers/header-1/wood-bg1.jpg) repeat-x 50% 100%;
+}
+
+body.header1 #bottom {
+	background: url(../images/headers/header-1/wood-bg1.jpg) top center;
+	color: #fff;
+}
+
+body.header1 #top-tab {
+	background: url(../images/headers/header-1/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header1 #bottom-tab {
+	background: url(../images/headers/header-1/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header1 #bottom .module h3 {
+	background: url(../images/headers/header-1/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header1 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-1/hilite1-h3.png) 0 0 no-repeat;
+	color: #CC7A00;
+}
+
+body.header1 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-1/hilite2-h3.png) 0 0 no-repeat;
+	color: #CC7A00;
+}
+
+body.header1 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-1/hilite3-h3.png) 0 0 no-repeat;
+	color: #CC7A00;
+}
+
+body.header1 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-1/hilite4-h3.png) 0 0 no-repeat;
+	color: #CC7A00;
+}
+
+body.header1 .contentheading,
+body.header1 blockquote.color3,
+body.header1 span.number-color2,
+body.header1 span.important-title3,
+body.header1 span.dropcap-color2 {
+	color: #CC7A00;
+}
+
+body.header1 .important3 {
+	border: 1px solid #CC7A00;
+}
+
+body.header1 span.highlight-color2 {
+	background: #CC7A00;
+	color: #fff;
+}
+
+/* Header 2 */
+
+body.header2 #topmod {
+	background: url(../images/headers/header-2/wood-bg2.jpg) repeat-x 50% 100%;
+}
+
+body.header2 #bottom {
+	background: url(../images/headers/header-2/wood-bg2.jpg) top center;
+	color: #fff;
+}
+
+body.header2 #top-tab {
+	background: url(../images/headers/header-2/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header2 #bottom-tab {
+	background: url(../images/headers/header-2/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header2 #bottom .module h3 {
+	background: url(../images/headers/header-2/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header2 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-2/hilite1-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header2 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-2/hilite2-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header2 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-2/hilite3-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header2 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-2/hilite4-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header2 .contentheading,
+body.header2 blockquote.color3,
+body.header2 span.number-color2,
+body.header2 span.important-title3,
+body.header2 span.dropcap-color2 {
+	color: #999;
+}
+
+body.header2 .important3 {
+	border: 1px solid #999;
+}
+
+body.header2 span.highlight-color2 {
+	background: #999;
+	color: #fff;
+}
+
+/* Header 3 */
+
+body.header3 #topmod {
+	background: url(../images/headers/header-3/wood-bg3.jpg) repeat-x 50% 100%;
+}
+
+body.header3 #bottom {
+	background: url(../images/headers/header-3/wood-bg3.jpg) top center;
+	color: #fff;
+}
+
+body.header3 #top-tab {
+	background: url(../images/headers/header-3/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header3 #bottom-tab {
+	background: url(../images/headers/header-3/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header3 #bottom .module h3 {
+	background: url(../images/headers/header-3/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header3 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-3/hilite1-h3.png) 0 0 no-repeat;
+	color: #A50002;
+}
+
+body.header3 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-3/hilite2-h3.png) 0 0 no-repeat;
+	color: #A50002;
+}
+
+body.header3 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-3/hilite3-h3.png) 0 0 no-repeat;
+	color: #A50002;
+}
+
+body.header3 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-3/hilite4-h3.png) 0 0 no-repeat;
+	color: #A50002;
+}
+
+body.header3 .contentheading,
+body.header3 blockquote.color3,
+body.header3 span.number-color2,
+body.header3 span.important-title3,
+body.header3 span.dropcap-color2 {
+	color: #A50002;
+}
+
+body.header3 .important3 {
+	border: 1px solid #A50002;
+}
+
+body.header3 span.highlight-color2 {
+	background: #A50002;
+	color: #fff;
+}
+
+/* Header 4 */
+
+body.header4 #topmod {
+	background: url(../images/headers/header-4/gradient-1.png) repeat-x 50% 100%;
+}
+
+body.header4 #bottom {
+	background: url(../images/headers/header-4/gradient-1b.png) top center;
+	color: #fff;
+}
+
+body.header4 #top-tab {
+	background: url(../images/headers/header-4/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header4 #bottom-tab {
+	background: url(../images/headers/header-4/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header4 #bottom .module h3 {
+	background: url(../images/headers/header-4/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header4 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-4/hilite1-h3.png) 0 0 no-repeat;
+	color: #178FC0;
+}
+
+body.header4 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-4/hilite2-h3.png) 0 0 no-repeat;
+	color: #178FC0;
+}
+
+body.header4 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-4/hilite3-h3.png) 0 0 no-repeat;
+	color: #178FC0;
+}
+
+body.header4 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-4/hilite4-h3.png) 0 0 no-repeat;
+	color: #178FC0;
+}
+
+body.header4 .contentheading,
+body.header4 blockquote.color3,
+body.header4 span.number-color2,
+body.header4 span.important-title3,
+body.header4 span.dropcap-color2 {
+	color: #178FC0;
+}
+
+body.header4 .important3 {
+	border: 1px solid #178FC0;
+}
+
+body.header4 span.highlight-color2 {
+	background: #178FC0;
+	color: #fff;
+}
+
+/* Header 5 */
+
+body.header5 #topmod {
+	background: url(../images/headers/header-5/gradient-2.png) repeat-x 50% 100%;
+}
+
+body.header5 #bottom {
+	background: url(../images/headers/header-5/gradient-2b.png) top center;
+	color: #fff;
+}
+
+body.header5 #top-tab {
+	background: url(../images/headers/header-5/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header5 #bottom-tab {
+	background: url(../images/headers/header-5/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header5 #bottom .module h3 {
+	background: url(../images/headers/header-5/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header5 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-5/hilite1-h3.png) 0 0 no-repeat;
+	color: #B86838;
+}
+
+body.header5 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-5/hilite2-h3.png) 0 0 no-repeat;
+	color: #B86838;
+}
+
+body.header5 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-5/hilite3-h3.png) 0 0 no-repeat;
+	color: #B86838;
+}
+
+body.header5 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-5/hilite4-h3.png) 0 0 no-repeat;
+	color: #B86838;
+}
+
+body.header5 .contentheading,
+body.header5 blockquote.color3,
+body.header5 span.number-color2,
+body.header5 span.important-title3,
+body.header5 span.dropcap-color2 {
+	color: #B86838;
+}
+
+body.header5 .important3 {
+	border: 1px solid #B86838;
+}
+
+body.header5 span.highlight-color2 {
+	background: #B86838;
+	color: #fff;
+}
+
+/* Header 6 */
+
+body.header6 #topmod {
+	background: url(../images/headers/header-6/gradient-3.png) repeat-x 50% 100%;
+}
+
+body.header6 #bottom {
+	background: url(../images/headers/header-6/gradient-3b.png) top center;
+	color: #fff;
+}
+
+body.header6 #top-tab {
+	background: url(../images/headers/header-6/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header6 #bottom-tab {
+	background: url(../images/headers/header-6/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header6 #bottom .module h3 {
+	background: url(../images/headers/header-6/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header6 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-6/hilite1-h3.png) 0 0 no-repeat;
+	color: #D04400;
+}
+
+body.header6 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-6/hilite2-h3.png) 0 0 no-repeat;
+	color: #D04400;
+}
+
+body.header6 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-6/hilite3-h3.png) 0 0 no-repeat;
+	color: #D04400;
+}
+
+body.header6 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-6/hilite4-h3.png) 0 0 no-repeat;
+	color: #D04400;
+}
+
+body.header6 .contentheading,
+body.header6 blockquote.color3,
+body.header6 span.number-color2,
+body.header6 span.important-title3,
+body.header6 span.dropcap-color2 {
+	color: #D04400;
+}
+
+body.header6 .important3 {
+	border: 1px solid #D04400;
+}
+
+body.header6 span.highlight-color2 {
+	background: #D04400;
+	color: #fff;
+}
+
+/* Header 7 */
+
+body.header7 #topmod {
+	background: url(../images/headers/header-7/gradient-4.png) repeat-x 50% 100%;
+}
+
+body.header7 #bottom {
+	background: url(../images/headers/header-7/gradient-4b.png) top center;
+	color: #fff;
+}
+
+body.header7 #top-tab {
+	background: url(../images/headers/header-7/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header7 #bottom-tab {
+	background: url(../images/headers/header-7/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header7 #bottom .module h3 {
+	background: url(../images/headers/header-7/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header7 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-7/hilite1-h3.png) 0 0 no-repeat;
+	color: #DE0002;
+}
+
+body.header7 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-7/hilite2-h3.png) 0 0 no-repeat;
+	color: #DE0002;
+}
+
+body.header7 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-7/hilite3-h3.png) 0 0 no-repeat;
+	color: #DE0002;
+}
+
+body.header7 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-7/hilite4-h3.png) 0 0 no-repeat;
+	color: #DE0002;
+}
+
+body.header7 .contentheading,
+body.header7 blockquote.color3,
+body.header7 span.number-color2,
+body.header7 span.important-title3,
+body.header7 span.dropcap-color2 {
+	color: #DE0002;
+}
+
+body.header7 .important3 {
+	border: 1px solid #DE0002;
+}
+
+body.header7 span.highlight-color2 {
+	background: #DE0002;
+	color: #fff;
+}
+
+/* Header 8 */
+
+body.header8 #topmod {
+	background: url(../images/headers/header-8/gradient-5.png) repeat-x 50% 100%;
+}
+
+body.header8 #bottom {
+	background: url(../images/headers/header-8/gradient-5b.png) top center;
+	color: #fff;
+}
+
+body.header8 #top-tab {
+	background: url(../images/headers/header-8/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header8 #bottom-tab {
+	background: url(../images/headers/header-8/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header8 #bottom .module h3 {
+	background: url(../images/headers/header-8/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header8 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-8/hilite1-h3.png) 0 0 no-repeat;
+	color: #76930C;
+}
+
+body.header8 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-8/hilite2-h3.png) 0 0 no-repeat;
+	color: #76930C;
+}
+
+body.header8 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-8/hilite3-h3.png) 0 0 no-repeat;
+	color: #76930C;
+}
+
+body.header8 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-8/hilite4-h3.png) 0 0 no-repeat;
+	color: #76930C;
+}
+
+body.header8 .contentheading,
+body.header8 blockquote.color3,
+body.header8 span.number-color2,
+body.header8 span.important-title3,
+body.header8 span.dropcap-color2 {
+	color: #76930C;
+}
+
+body.header8 .important3 {
+	border: 1px solid #76930C;
+}
+
+body.header8 span.highlight-color2 {
+	background: #76930C;
+	color: #fff;
+}
+
+/* Header 9 */
+
+body.header9 #topmod {
+	background: url(../images/headers/header-9/gradient-6.png) repeat-x 50% 100%;
+}
+
+body.header9 #bottom {
+	background: url(../images/headers/header-9/gradient-6b.png) top center;
+	color: #fff;
+}
+
+body.header9 #top-tab {
+	background: url(../images/headers/header-9/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header9 #bottom-tab {
+	background: url(../images/headers/header-9/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header9 #bottom .module h3 {
+	background: url(../images/headers/header-9/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header9 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-9/hilite1-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header9 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-9/hilite2-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header9 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-9/hilite3-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header9 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-9/hilite4-h3.png) 0 0 no-repeat;
+	color: #999;
+}
+
+body.header9 .contentheading,
+body.header9 blockquote.color3,
+body.header9 span.number-color2,
+body.header9 span.important-title3,
+body.header9 span.dropcap-color2 {
+	color: #999;
+}
+
+body.header9 .important3 {
+	border: 1px solid #999;
+}
+
+body.header9 span.highlight-color2 {
+	background: #999;
+	color: #fff;
+}
+
+/* Header 10 */
+
+body.header10 #topmod {
+	background: url(../images/headers/header-10/pattern-1.png) repeat-x 50% 100%;
+}
+
+body.header10 #bottom {
+	background: url(../images/headers/header-10/pattern-1.png) top center;
+	color: #fff;
+}
+
+body.header10 #top-tab {
+	background: url(../images/headers/header-10/top-tab.jpg) 0 0 no-repeat;
+}
+
+body.header10 #bottom-tab {
+	background: url(../images/headers/header-10/bottom-tab.jpg) 0 0 no-repeat;
+}
+
+body.header10 #bottom .module h3 {
+	background: url(../images/headers/header-10/bottommod-arrow.png) 0 2px no-repeat;
+}
+
+body.header10 #main-content .module-hilite1 h3 {
+	background: url(../images/typo/header-10/hilite1-h3.png) 0 0 no-repeat;
+	color: #666;
+}
+
+body.header10 #main-content .module-hilite2 h3 {
+	background: url(../images/typo/header-10/hilite2-h3.png) 0 0 no-repeat;
+	color: #666;
+}
+
+body.header10 #main-content .module-hilite3 h3 {
+	background: url(../images/typo/header-10/hilite3-h3.png) 0 0 no-repeat;
+	color: #666;
+}
+
+body.header10 #main-content .module-hilite4 h3 {
+	background: url(../images/typo/header-10/hilite4-h3.png) 0 0 no-repeat;
+	color: #666;
+}
+
+body.header10 .contentheading,
+body.header10 blockquote.color3,
+body.header10 span.number-color2,
+body.header10 span.important-title3,
+body.header10 span.dropcap-color2 {
+	color: #666;
+}
+
+body.header10 .important3 {
+	border: 1px solid #666;
+}
+
+body.header10 span.highlight-color2 {
+	background: #666;
+	color: #fff;
+}
+
+/* @end */

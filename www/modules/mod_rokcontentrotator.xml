@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>RokContentRotator</name>
+	<author>RocketTheme</author>
+	<creationDate>February 2008</creationDate>
+	<copyright>(C) 2008 RocketTheme. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>www.rockettheme.com</authorUrl>
+	<version>1.2</version>
+	<description><![CDATA[
+	<h2>RokContentRotator Module</h2>
+	<p>ContentRotator module created for RocketTheme <b>rt_synapse</b> template</p>
+	]]></description>
+	<files>
+		<filename module="mod_rokcontentrotator">mod_rokcontentrotator.php</filename>
+		<filename>rokcontentrotator/mootools-release-1.11.js</filename>
+		<filename>rokcontentrotator/rokcontentrotator-1.2-compressed.js</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="show_title" type="radio" default="1" label="Show Rotator Title" description="Select whether to show the Rotator module title">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="type" type="list" default="0" label="Module Mode" description="Allows you to control which type of Content to display in the module">
+			<option value="1">Content Items only</option>
+			<option value="2">Static Content only</option>
+			<option value="3">Both</option>
+			<option value="4">Frontpage Items only</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_front" type="radio" default="1" label="Frontpage Items" description="Show/Hide items designated for the Frontpage - only works when in Content Items only mode">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default 5)" />
+		<param name="catid" type="mos_category" default="" label="Category" description="Selects items from a specific Category." />
+		<param name="secid" type="mos_section" default="" label="Section" description="Selects items from a specific Secion." />
+		<param name="click_title" type="list" default="1" label="Click Title" description="Do you need to click title or just hover">
+			<option value="0">Click</option>
+			<option value="1">Hover</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="jslib" type="radio" default="0" label="Include Mootools JS Library" description="Select whether to include the JS lib as part of this module, Select No if the template already loads this">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_readmore" type="radio" default="1" label="Show Read More" description="Should the Read More link be shown?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="readmore" type="text" default="Read More" label="Read More Label" description="Text to display for readmore if titles are NOT linked" />
+        <param name="duration" type="text" default="800" label="Transition Duration" description="Duration in ms of cross-blend transition" />
+		<param name="preview_count" type="text" default="300" label="Preview Length" description="Length of characters to show in MooTools preview" />
+	</params>
+</mosinstall>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<mosinstall version="1.0.0" type="jcelang" lang="en">
+	<name>English</name>
+	<version>1.0</version>
+	<creationDate>2005</creationDate>
+	<author>Ryan Demmer</author>
+	<authorEmail>N/A</authorEmail>
+	<authorUrl>N/A</authorUrl>
+	<copyright>Ryan Demmer</copyright>
+	<license>LGPL</license>
+	<description>English Language files for JCE</description>
+		<files>
+		<filename language="en">langs/en.js</filename>
+		<filename>themes/advanced/langs/en.js</filename>
+        <filename>plugins/advimage/langs/en.js</filename>
+        <filename>plugins/advlink/langs/en.js</filename>
+        <filename>plugins/advlink/langs/en.php</filename>
+        <filename>plugins/directionality/langs/en.js</filename>
+        <filename>plugins/emotions/langs/en.js</filename>
+        <filename>plugins/fullscreen/langs/en.js</filename>
+        <filename>plugins/paste/langs/en.js</filename>
+        <filename>plugins/preview/langs/en.js</filename>
+        <filename>plugins/print/langs/en.js</filename>
+        <filename>plugins/searchreplace/langs/en.js</filename>
+        <filename>plugins/table/langs/en.js</filename>
+	</files>
+	<administration>
+	<files>
+        <filename>en.php</filename>
+	</files>
+	</administration>
+</mosinstall>

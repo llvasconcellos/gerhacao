@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>RokSlide</name>
+	<author>RocketWerx</author>
+	<creationDate>June 2007</creationDate>
+	<copyright>(C) 2007 RocketTheme. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@rocketwerx.com</authorEmail>
+	<authorUrl>www.rocketwerx.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	<b>RokLatest News Module</b>
+	<p align="justify">RokSlide is a brand-new Mootools powered tab/slider module.  It's very easy to use, just point it to a Joomla! content category and make some simple configuration choices.</p>
+	<b>This RokSlide module for Joomla is maintained at <a href="http://www.rocketwerx.com" target="_blank">RocketWerx.Com</a></b>
+		<br />
+		<hr />
+		<strong>ChangeLog:</strong>
+			<ul>
+				<li><strong>1.0</strong>
+					<ul>
+						<li>Initial Release (<b><a href="http://www.rockettheme.com" target="_blank">Rhuk</a></b>)</li>
+					</ul>
+				</li>
+	]]></description>
+	<files>
+		<filename module="mod_rokslide">mod_rokslide.php</filename>
+		<filename>rokslide/mootools.r597.js</filename>
+		<filename>rokslide/rokslidestrip.js</filename>
+	</files>
+	<params>
+		<param name="catid" type="mos_category" default="0" label="Category" description="A content cateogry" />
+		<param name="width" type="text" default="722" label="Width in px" description="Width of RokSlide in px" />
+		<param name="height" type="text" default="150" label="Heigt in px" description="Height of RokSlide in px" />
+		<param name="image" type="radio" default="1" label="Show images" description="Display content item images">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+        <param name="readmore" type="radio" default="0" label="Read More" description="Show/Hide the Read More button">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+        </param>
+		<param name="items" type="text" default="" label="Max No. of Items" description="Max No of items to display, left blank, this will display all available" />
+		<param name="jslib" type="radio" default="0" label="Include Mootools JS Library" description="Select whether to include the JS lib as part of this module, Select No if the template already loads this">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="jssource" type="radio" default="0" label="Include RokSlide JS Script" description="Select whether to include the Rokslide JS script as part of this module, Select No if the template already loads this">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</mosinstall>
