@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Case sensitive settings!  Use lowercase 'yes' and 'no' -->
+<expose version="2.0">
+	<!-- <param group="Main" name="Language" type="string" comment="Set the frontend language. If not existing, add your own language in strings.xml." value="dutch"/> -->
+	<param group="General" name="Gallery width" type="integer" comment="Adjusts the main gallery width" value="660"/>
+	<param group="General" name="Gallery height" type="integer" comment="Adjusts the main gallery height" value="545"/>
+	<param group="General" name="Gallery Background" type="hex" comment="Adjusts the main gallery background color" value="ffffff"/>
+	<param group="General" name="Gallery Background Image" type="string" comment="Sets the main gallery background image. You can upload images using the Upload BG button. Just remember to refresh the page." value=""/>
+	<param group="Main" name="Main Panel Y" type="integer" comment="Adjusts the vertical position (in pixels) of the main panel." value="255"/>
+	<param group="Main" name="Main Panel Tooltip Text Position" type="string" select="above;below" comment="Enter above|below " value="above"/>
+	<param group="Main" name="Main Panel Height" type="integer" comment="Adjusts the height of the main panel." value="36"/>
+	<param group="Main" name="Main Panel Previous Image Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the previous image button within the main panel." value="0"/>
+	<param group="Main" name="Main Panel Next Image Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the next image button within the main panel." value="60"/>
+	<param group="Main" name="Main Panel Slide Show Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the slideshow button within the main panel." value="180"/>
+	<param group="Main" name="Main Panel Audio Comment Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the audio comment button within the main panel." value="300"/>
+	<param group="Main" name="Main Panel Image Description Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the image description button within the main panel." value="260"/>
+	<param group="Main" name="Main Panel Select Album Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the select album button within the main panel." value="680"/>
+	<param group="Main" name="Main Panel Image Strip Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the show image strip button within the main panel." value="630"/>
+	<param group="Main" name="Main Panel Image Counter X" type="integer" comment="Adjusts the horizontal position (in pixels) of the image counter within the main panel." value="130"/>
+	<param group="Main" name="Main Panel Image Counter Y" type="integer" comment="Adjusts the vertical position (in pixels) of the image counter within the main panel." value="-2"/>
+	<param group="Main" name="Main Panel Album Info X" type="integer" comment="Adjusts the horizontal position (in pixels) of the album info within the main panel." value="500"/>
+	<param group="Main" name="Main Panel Album Info Y" type="integer" comment="Adjusts the vertical position (in pixels) of the album info within the main panel." value="5"/>
+	<param group="Main" name="Main Panel Help Button X" type="integer" comment="Adjusts the horizontal position (in pixels) of the help button within the main panel." value="878"/>
+	<param group="General" name="Image X" type="integer" comment="Adjusts the horizontal position (in pixels) of the image." value="0"/>
+	<param group="General" name="Image Y" type="integer" comment="Adjusts the vertical position (in pixels) of the image." value="-5"/>
+	<param group="General" name="Use Embedded Fonts" type="boolean" select="yes;no" comment="Use the fonts installed in fonts.swf. If you're having problems with some charackters, the disable this setting and the fonts of the visitors browser will be used instead." value="yes"/>
+	<param group="Strip" name="Image Strip Scrollbar Y" type="integer" comment="Adjusts the vertical position (in pixels) of the image strip scrollbar." value="140"/>
+	<param group="Strip" name="Image Strip Y" type="integer" comment="Adjusts the vertical position (in pixels) of the image strip." value="-5"/>
+	<param group="Strip" name="Image Strip Height" type="integer" comment="Adjusts the height (in pixels) of the image strip." value="200"/>
+	<param group="Strip" name="Image Strip Min Scale" type="integer" comment="Adjust the minimum scale (as a percentage) of image thumbnails when displayed in the image strip." value="50"/>
+	<param group="Strip" name="Image Strip Min Alpha" type="integer" comment="When an image in the image strip is in focus (i.e. moused-over), the alpha levels of the other images is reduced by this percentage." value="50"/>
+	<param group="Strip" name="Image Strip Scroll Color" type="hex" comment="The strip scroll are areas on the left and right of the image strip that indicate the scroll direction. This parameter controls the default color." value="ffffff"/>
+	<param group="Strip" name="Image Strip Scroll Rollover Color" type="hex" comment="Adjusts the color of the strip scroll when in focus (i.e. moused-over)." value="f5f5f5"/>
+	<param group="Strip" name="Image Strip Scroll Color Alpha" type="integer" value="100"/>
+	<!-- Case sensitive!  Set to 'Rollover' -->
+	<param group="Strip" name="Image Strip Scroll Event" type="string" select="Rollover" comment="Case sensitive! Use 'Rollover'" value="Rollover"/>
+	<param group="Strip" name="Image Strip Image Info Y" type="integer" comment="Adjusts the vertical position (in pixels) of the image info when a thumbnail is in focus (i.e. moused-over)." value="-20"/>
+	<param group="Strip" name="Image Strip Image Info Vertical Separation" type="integer" comment="Adjusts the vertical separation between the image name and image date/location." value="16"/>
+	<param group="Strip" name="Image Strip Image Description Y" type="integer" comment="Adjusts the vertical position (in pixels) of the image description when a thumbnail is in focus (i.e. moused-over)." value="200"/>
+	<param group="Strip" name="Image Strip Image Description Width" type="integer" comment="Adjust the width (in pixels) of the image description when a thumbnail is in focus (i.e. moused-over)." value="250"/>
+	<param group="Strip" name="Image Strip Image Description Color" type="hex" comment="Adjusts the color of the image description area when a thumbnail is in focus (i.e. moused-over)." value="f0f0f0"/>
+	<param group="Strip" name="Image Strip Image Description Alpha" type="integer" comment="Adjusts the alpha level of the image description area when a thumbnail is in focus (i.e. moused-over)." value="90"/>
+	<param group="Strip" name="Image Strip Image Mask Curvature" type="integer" comment="Adjusts the curvature of the image thumbnails." value="3"/>
+	<param group="Strip" name="Image Strip Image Shadow Enabled" type="boolean" select="yes;no" comment="Toggles shadowing of the image thumbnails." value="yes"/>
+	<param group="Strip" name="Image Strip Image Shadow Size" type="integer" comment="Adjusts the size of the thumnail shadow (in pixels)." value="15"/>
+	<param group="Strip" name="Image Strip Image Shadow Delta" type="integer" value="7"/>
+	<param group="Strip" name="Image Strip Image Shadow Delta X" type="integer" comment="Adjusts the horizontal displacement (in pixels) of the thumbnail shadow." value="1"/>
+	<param group="Strip" name="Image Strip Image Shadow Delta Y" type="integer" comment="Adjusts the vertical displacement (in pixels) of the thumbnail shadow." value="2"/>
+	<param group="Strip" name="Image Strip Image Shadow Alpha" type="integer" comment="Adjusts the alpha levels (as a percentage) of the shadow." value="60"/>
+	<param group="Strip" name="Image Strip Image Bevel Curvature" type="integer" comment="Adjusts the curvature of the bevel corners." value="5"/>
+	<param group="Strip" name="Image Strip Image Bevel Width" type="integer" comment="Adjusts the width of the bevel padding." value="5"/>
+	<param group="Strip" name="Image Strip Image Bevel Outline Thickness" type="float" comment="Adjusts the thickness (in pixels) of the bevel border." value="2.25"/>
+	<param group="Strip" name="Image Strip Image Bevel Outline Color" type="hex" comment="Adjusts the color of the bevel border." value="e8e8e8"/>
+	<param group="Strip" name="Image Strip Image Bevel Outline Color Alpha" type="integer" comment="Adjusts the alpha level (as a percentage) of the bevel border." value="100"/>
+	<param group="Strip" name="Image Strip Image Bevel Color" type="hex" value="ffffff"/>
+	<param group="Strip" name="Image Strip Image Bevel Color Alpha" type="integer" value="100"/>
+	<param group="Strip" name="Image Strip Max Visible Images" type="integer" value="10"/>
+	<param group="Strip" name="Image Strip Gradient Enabled" type="boolean" select="yes;no" comment="Enable the image strip gradient images on both sides. Set to NO if you change the background color." value="yes"/>
+	<param group="Album" name="Image Info Type" type="string" select="piped" value="piped"/>
+	<param group="Album" name="Image Info Piped Vertical Separation" type="integer" value="16"/>
+	<param group="Album" name="Image Info Rowed Vertical Separation 1" type="integer" value="9"/>
+	<param group="Album" name="Image Info Rowed Vertical Separation 2" type="integer" value="3"/>
+	<param group="Album" name="Image Info X" type="integer" value="0"/>
+	<param group="Album" name="Image Info Y" type="integer" value="-30"/>
+	<param group="Album" name="Image Info Anchor" type="string" select="image" value="image"/>
+	<param group="Album" name="Image Info Horizontal Orientation" type="string" select="left;center;right" value="center"/>
+	<param group="Album" name="Image Info Vertical Orientation" type="string" select="top;center;bottom" value="top"/>
+	<param group="Album" name="Image Info Rowed Text Horizontal Alignment" type="string" select="left;center;right" value="right"/>
+	<param group="Album" name="Image Info Rowed Max Width" type="integer" value="300"/>
+	<param group="Album" name="Image Info Horizontal Alignment" type="string" select="left;center;right" value="center"/>
+	<param group="General" name="Audio Comment Volume" type="integer" value="30"/>
+	<param group="General" name="Slide Show Time" type="integer" comment="Slide show delay time in seconds." value="5"/>
+	<param group="General" name="Slide Show Loop" type="boolean" select="yes;no" comment="Loop (Restart) the slide show after last image." value="yes"/>
+	<param group="General" name="Help Guide Enabled" type="boolean" select="yes;no" comment="Enable the help guide. Check strings.xml file for entered text." value="yes"/>
+	<param group="General" name="Help Guide Y" type="integer" Comment="Vertical position in the gallery of the help guide." value="180"/>
+	<param group="Album" name="Image Mask Curvature" type="integer" value="0"/>
+	<param group="Album" name="Image Shadow Enabled" type="boolean" select="yes;no" value="yes"/>
+	<param group="Album" name="Image Shadow Size" type="integer" value="15"/>
+	<param group="Album" name="Image Shadow Delta" type="integer" value="7"/>
+	<param group="Album" name="Image Shadow Delta X" type="integer" value="1"/>
+	<param group="Album" name="Image Shadow Delta Y" type="integer" value="2"/>
+	<param group="Album" name="Image Shadow Alpha" type="integer" value="60"/>
+	<param group="Album" name="Image Bevel Curvature" type="integer" value="0"/>
+	<param group="Album" name="Image Bevel Width" type="integer" value="5"/>
+	<param group="Album" name="Image Bevel Outline Thickness" type="float" value="2.25"/>
+	<param group="Album" name="Image Bevel Outline Color" type="hex" value="f8f8f8"/>
+	<param group="Album" name="Image Bevel Outline Color Alpha" type="integer" value="0"/>
+	<param group="Album" name="Image Bevel Color" type="hex" value="ffffff"/>
+	<param group="Album" name="Image Bevel Color Alpha" type="integer" value="100"/>
+	<param group="Album" name="Image Fade Speed" type="integer" value="5"/>
+	<param group="List" name="Album List X" type="integer" value="-260"/>
+	<param group="List" name="Album List Y" type="integer" value="-0"/>
+	<param group="List" name="Album List Rows" type="integer" value="5"/>
+	<param group="List" name="Album List Column Color" type="hex" value="ffffff"/>
+	<param group="List" name="Album List Column Curvature" type="integer" value="6"/>
+	<param group="List" name="Album List Column Scroll Size" type="integer" value="22"/>
+	<param group="List" name="Album List Column Scroll Color" type="hex" value="ffffff"/>
+	<param group="List" name="Album List Column Scroll Rollover Color" type="hex" value="e0e0e0"/>
+	<param group="List" name="Album List Scroll Color" type="hex" value="e0e0e0"/>
+	<param group="List" name="Album List Scroll Color Alpha" type="integer" value="100"/>
+	<param group="List" name="Album List Item Selected Color" type="hex" value="f0f0f0"/>
+	<param group="List" name="Album List Item Selected Expansion" type="integer" value="15"/>
+	<param group="List" name="Album List Item Rollover Color" type="hex" value="f7f7f7"/>
+	<param group="List" name="Album List Item Color Alpha" type="integer" value="100"/>
+	<param group="List" name="Album List Item Width" type="integer" value="210"/>
+	<param group="List" name="Album List Item Height" type="integer" value="60"/>
+	<param group="List" name="Album List Item Curvature" type="integer" value="6"/>
+	<param group="List" name="Album List Item Text X" type="integer" value="80"/>
+	<param group="List" name="Album List Item Thumb X" type="integer" value="38"/>
+	<param group="List" name="Album List Item Thumb Mask Curvature" type="integer" value="3"/>
+	<param group="List" name="Album List Item Thumb Bevel Curvature" type="integer" value="3"/>
+	<param group="List" name="Album List Item Thumb Bevel Width" type="integer" value="0"/>
+	<param group="List" name="Album List Item Thumb Bevel Outline Thickness" type="float" value="2.25"/>
+	<param group="List" name="Album List Item Thumb Bevel Outline Color" type="hex" value="666666"/>
+	<param group="List" name="Album List Item Thumb Bevel Outline Color Alpha" type="integer" value="100"/>
+	<param group="List" name="Album List Item Thumb Bevel Color" type="hex" value="999999"/>
+	<param group="List" name="Album List Item Thumb Bevel Color Alpha" type="integer" value="100"/>
+	<param group="List" name="Album List Panel Color" type="hex" value="ffffff"/>
+	<param group="List" name="Album List Panel Color Alpha" type="integer" value="0"/>
+	<param group="List" name="Album List Cancel Button X" type="integer" value="10"/>
+	<param group="List" name="Album Info Width" type="integer" value="250"/>
+	<param group="List" name="Album Info Panel Color" type="hex" value="f8f8f8"/>
+	<param group="List" name="Album Info Panel Color Alpha" type="integer" value="90"/>
+	<param group="List" name="Album Info Line Color" type="hex" value="d0d0d0"/>
+	<param group="List" name="Album Info Text Position" type="string" select="above;below" value="above"/>
+	<param group="Album" name="Image Description Fadeout Time" type="integer" value="7"/>
+	<param group="Album" name="Image Description Horizontal Alignment" type="string" select="left;center;right" value="right"/>
+	<param group="Album" name="Image Description Vertical Alignment" type="string" select="top;center;bottom" value="top"/>
+	<param group="Album" name="Image Description X" type="integer" value="-14"/>
+	<param group="Album" name="Image Description Y" type="integer" value="14"/>
+	<param group="Album" name="Image Description Panel Color" type="hex" value="333333"/>
+	<param group="Album" name="Image Description Panel Color Alpha" type="integer" value="30"/>
+	<param group="Album" name="Image Description Max Width" type="integer" value="230"/>
+	<param group="Album" name="Image Description Horizontal Orientation" type="string" select="left;center;right" value="right"/>
+	<param group="Album" name="Image Description Vertical Orientation" type="string" select="top;center;bottom" value="top"/>
+	<param group="Album" name="Image Description Anchor" type="string" select="image" value="image"/>
+	<param group="Album" name="Image Preloading Enabled" type="boolean" select="yes;no" value="yes"/>
+	<param group="General" name="Help Panel Color" type="hex" value="f8f8f8"/>
+	<param group="General" name="Image Load Timeout" type="integer" value="600"/>
+	<param group="General" name="SpeedSense Enabled" type="boolean" select="yes;no" comment="Enable SpeedSence. This will check the downloadspeed and adjust the resolution for a smoothless video stream" value="no"/>
+</expose>

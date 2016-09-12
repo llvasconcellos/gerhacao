@@ -1,0 +1,50 @@
+##
+# @version $Id: htaccess.txt 2007-10-15 $
+# @package Expose
+# @copyright Copyright (C) 2007 Gtek. All rights reserved.
+# @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+# Joomla! is Free Software
+##
+
+#####################################################
+#  READ THIS COMPLETELY IF YOU CHOOSE TO USE THIS FILE
+#
+# If mod_security is enabled on your server, then the flash Manager will mostlikely
+# pop a 'Could not connect with the server' errormessage while uploading your images.
+# This is due a bug in Adobe Flash causing a 'Final boundary missing' error triggering
+# mod_security to block further trafic at this time.
+# The only way to bypass this issue is to rewrite some security rules, but they may
+# already be set by your server administrator in a way that dissallows changing it in
+# your .htaccessfile. If using it causes your server to error out, comment it out (add #
+# to beginning of line) and reload your site in your browser.
+#
+# Be aware! Changing mod_security rules can create security issues!
+#
+#####################################################
+
+# By default mod_security only inspects POST payloads, so mod-security only scans GET
+# datas. But when activated on the server it will also be able to scan POST datas (such
+# as forms) causing the Flash upload to fail. Disable it for Expose Manager image uploads.
+SecFilterScanPOST Off
+
+# If previous line didn't solve the upload error, then try to disable the filtering engine
+# totally for all files in and above this /manager directory by uncommenting next line:
+#SecFilterEngine Off
+
+##########
+
+# Migrating from php4 to php5 problems
+#php_flag zend.ze1_compatibility_mode 0
+
+##########
+
+# By default, the maximum upload filesize is set at 2M, and time-outs at 30sec by the php engine. If you need to
+# upload big images then uncomment and edit next lines:
+#php_value upload_max_filesize 20M
+#php_value post_max_size 20M
+#php_value memory_limit 20M
+#php_value max_input_time 60
+#php_value max_execution_time 60
+#php_value safe_mode off
+
+########## End - Rewrite rules

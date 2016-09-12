@@ -1,0 +1,46 @@
+Album Manager for PHP 1.02 Release Notes
+----------------------------------------
+
+
+BUGFIXES:
+
+When adding photos/videos from the bucket without having selected at least one item the application would go into an infinite loop.
+
+The album list would become jumbled after uploading a photo/video or adding items from the bucket.
+
+
+NEW FEATURES:
+
+The main view now shows the ID of the selected album/collection and photo.
+
+The main view now contains Help button which launches ReadMe.html from the documentation folder. The help button can be disabled by setting the helpEnabled FlashVars parameter to "no".
+
+If the autoLogin FlashVars parameter is set to "yes", Album Manager will try to auto-login by sending a blank password to the server. This can be useful, if, for example, the user has already been authenticated by other means, in which case the _authenticate function in AlbumManager.php can be rewritten to authenticate using the system's method (e.g. session variable).
+
+The package now contains a check_system.php script that can be run to verify that the PHP configuration will run Album Manager and that the required file permissions have been set correctly. REMOVE THIS FILE UPON A SUCCESSFUL CHECK AS IT MAY POSE A SECURITY RISK!
+
+The images and videos are now stored in a separate folder for each album inside the img/ folder. This will reduce clutter for large photosets.
+
+The default size of the interface text can be set with the textSize FlashVars parameter.
+
+The font of the interface text can be set with the textFontFamily FlashVars parameter.
+
+The interface text can be localized by editing misc/strings.xml, and setting the proper language with the language FlashVars parameter in manager.html.
+
+
+CHANGED FEATURES:
+
+The AutoExpandCollections setting in settings.xml is not set to false by default. When this setting is set to true Album Manager automatically expands all collections in the album/collection list.
+
+
+REMOVED FEATURES:
+
+None.
+
+
+IF YOU ARE UPGRADING FROM 1.01:
+
+Replace the passhash.inc.php, settings.xml, watermark.png, and embedcopy.ttf files in the package with your copies, and deploy the new package in place of the old manager.
+
+
+REMEBER TO BACK UP YOUR EXISTING MANAGER FOLDER BEFORE USING THIS NEW VERSION!

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<rss version="2.0">
+	<channel>
+		<title>Contato</title>
+		<description>Gerhação Recursos Humanos</description>
+		<link>http://localhost/gerhacao/index.php?option=com_contact&amp;view=category&amp;catid=3&amp;Itemid=6</link>
+		<lastBuildDate>Mon, 12 Sep 2016 13:48:09 +0000</lastBuildDate>
+		<generator>Joomla! 1.5 - Open Source Content Management</generator>
+		<language>pt-br</language>
+		<item>
+			<title>Comercial</title>
+			<link>http://localhost/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=2%3Acomercial&amp;catid=3%3Agerhacao&amp;Itemid=6</link>
+			<description><![CDATA[ - ]]></description>
+			<category>Gerhação</category>
+		</item>
+		<item>
+			<title>Financeiro</title>
+			<link>http://localhost/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=3%3Afinanceiro&amp;catid=3%3Agerhacao&amp;Itemid=6</link>
+			<description><![CDATA[ - ]]></description>
+			<category>Gerhação</category>
+		</item>
+		<item>
+			<title>RH</title>
+			<link>http://localhost/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=4%3Arh&amp;catid=3%3Agerhacao&amp;Itemid=6</link>
+			<description><![CDATA[ - ]]></description>
+			<category>Gerhação</category>
+		</item>
+		<item>
+			<title>Reclamações e Sugestões</title>
+			<link>http://localhost/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=5%3Areclamacoes-e-sugestoes&amp;catid=3%3Agerhacao&amp;Itemid=6</link>
+			<description><![CDATA[ - ]]></description>
+			<category>Gerhação</category>
+		</item>
+		<item>
+			<title>Currículos</title>
+			<link>http://localhost/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=6%3Acurriculos&amp;catid=3%3Agerhacao&amp;Itemid=6</link>
+			<description><![CDATA[ - ]]></description>
+			<category>Gerhação</category>
+		</item>
+	</channel>
+</rss>

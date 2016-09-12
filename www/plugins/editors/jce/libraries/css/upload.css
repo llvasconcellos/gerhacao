@@ -1,0 +1,94 @@
+/*UPLOAD*/
+div#upload-body {
+	padding: 4px;
+	z-index: 10;
+	width: 90%;
+}
+input.uploadButtonAdd, input.uploadButtonRemove {
+	background-image: url(../img/icons.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 100px;
+	padding: 0px 0px 2px 20px;
+	cursor: pointer;
+}
+input.uploadButtonAdd {
+	background-position: 0 -300px;
+}
+input.uploadButtonRemove {
+	background-position: 0 -340px;
+}
+input#upload-name {
+	width: 250px;
+}
+div#upload-queue-block {
+	height: 100px;
+	overflow: auto;
+}
+ul#upload-queue, ul#upload-queue li ul {
+	list-style: none;
+	white-space: nowrap;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+ul#upload-queue li {
+	height: 18px;
+	margin: 1px 2px 3px 2px;
+	padding: 0px;
+}
+ul#upload-queue li div, ul#upload-queue li span{
+	top: 0px;
+	left: 0px;
+	position: relative;
+	height: 20px;
+}
+ul#upload-queue li span{
+	float: left;
+	margin-left: 22px;
+	width: 70%;
+	z-index: 4;
+	background: none;
+}
+ul#upload-queue li div.queue-loader{
+	float: left;
+	position: absolute;
+	margin-left: 22px;
+	width: 0%;
+	background-color: #BCCCDE;
+	z-index: 3;
+	top: inherit;
+} 
+ul#upload-queue li div.queue-file span {
+	padding: 3px 0px 0px 5px;
+}
+ul#upload-queue li div.queue-progress {
+	left: 20px;
+	padding: 3px 0px 0px 0px;
+	width: 30px;
+}
+ul#upload-queue li div.queue-status {
+	float: right;
+	width: 20px;
+	background:	url(../img/icons.gif) no-repeat;
+}
+ul#upload-queue li div.queue-delete{
+	background-position: 0 -180px;
+	cursor: pointer;
+	z-index: 2;
+}
+ul#upload-queue li div.queue-complete{
+	background-position: 0 -520px;
+}
+ul#upload-queue li div.queue-error{
+	background-position: 0 -340px;
+}
+ul#upload-queue li ul{
+	margin: 0px;
+	padding: 0px;
+}
+ul#upload-queue li ul li.queue-name{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}

@@ -1,0 +1,7 @@
+/* CSS Document */
+select.inputbox.levels, select.inputbox.users {
+	width: 200px;
+}
+input {
+	vertical-align: middle;
+}

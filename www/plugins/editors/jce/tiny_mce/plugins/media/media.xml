@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<install version="1.5.0" type="plugin" plugin="media">
+	<name>Media Support</name>
+	<version>1.5.0</version>
+	<creationDate>01 August 2008</creationDate>
+	<author>Ryan Demmer</author>
+	<authorEmail>ryandemmer@gmail.com</authorEmail>
+	<authorUrl>http://www.cellardoor.za.net/jce/</authorUrl>
+	<copyright>Ryan Demmer</copyright>
+	<license>LGPL</license>
+	<description><![CDATA[ 
+	<p>Media plugin for JCE 1.5.x</p>	
+	]]></description>
+	<icon></icon>
+	<layout></layout>
+	<params group="standard">
+        <param name="media_use_script" type="list" default="0" label="MEDIA PARAM SCRIPT" description="MEDIA PARAM SCRIPT DESC">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+		</param>
+		<param name="media_codebase_flash" type="textarea" rows="2" cols="50" default="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0" label="MEDIA PARAM FLASH" description="" />
+		<param name="media_codebase_shockwave" type="textarea" rows="2" cols="50" default="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=11,0,0,458" label="MEDIA PARAM SHOCKWAVE" description="" />
+		<param name="media_codebase_mplayer" type="textarea" rows="2" cols="50" default="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=5,1,52,701" label="MEDIA PARAM WPLAYER" description="" />
+		<param name="media_codebase_quicktime" type="textarea" rows="2" cols="50" default="http://www.apple.com/qtactivex/qtplugin.cab#version=6,0,2,0" label="MEDIA PARAM QUICKTIME" description="" />
+		<param name="media_codebase_realplayer" type="textarea" rows="2" cols="50" default="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,124,0" label="MEDIA PARAM REAL" description="" />
+		<param name="media_codebase_divx" type="textarea" rows="2" cols="50" default="http://go.divx.com/plugin/DivXBrowserPlugin.cab" label="MEDIA PARAM DIVX" description="" />
+		<param name="media_extensions" type="textarea" rows="2" cols="50" default="windowsmedia=avi,wmv,wm,asf,asx,wmx,wvx;quicktime=mov,qt,mpg,mp3,mp4,mpeg;flash=swf,flv,xml;shockwave=dcr;real=rm,ra,ram;divx=divx" label="PARAM EXTENSIONS" description="PARAM EXTENSIONS DESC"/>
+	</params>
+	<languages>
+		<language tag="en-GB">en-GB.com_jce_media.ini</language>
+	</languages>
+</install>

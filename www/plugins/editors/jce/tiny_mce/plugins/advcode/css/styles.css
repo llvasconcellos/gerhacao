@@ -1,0 +1,93 @@
+/*
+ * CodePress color styles for PHP syntax highlighting
+ */
+span.mcePhpTag {
+	color:#000080;
+}
+span.mcePhpString {
+	color:#5656fa;
+}
+span.mcePhp{
+	color:red;
+	font-weight:bold;
+}
+span.mcePhpVar {
+	color:#006700;
+	font-weight:bold
+}
+span.mcePhpComment {
+	color:gray;
+}
+span.mcePhpReserved {
+	color:#7F0055;
+	font-weight:bold;
+}
+span.mcePhpStyle {
+	color:#800080;
+}
+span.mcePhpScript {
+	color:#800000;
+}
+/*
+ * CodePress color styles for HTML syntax highlighting
+ */
+span.mceHtmlTag {
+	color:#000080;
+}
+span.mceHtmlForm {
+	color:#E67300;
+}
+span.mceHtmlImage {
+	color:#db0000;
+}
+span.mceHtmlAttribute{
+	color:#7777e4;
+}
+span.mceHtmlLink {
+	color:green;
+}
+span.mceHtmlComment {
+	color:gray;
+}
+span.mceHtmlStyle {
+	color:#800080;
+}
+span.mceHtmlScript {
+	color:#800000;
+}
+span.mceHtmlReserved {
+	color:darkblue;font-weight:bold;
+}
+/*
+ * CodePress color styles for CSS syntax highlighting
+ */
+span.mceCssTag {
+	color:#000080;
+}
+span.mceCssComment {
+	color:gray;
+}
+span.mceCssParameter {
+	color:#a0a0dd;
+}
+span.mceCssKey {
+	color:#0000ff;
+}
+span.mceCssValue {
+	color:red;
+}
+/*
+ * CodePress color styles for JavaScript syntax highlighting
+ */
+span.mceJavascriptString {
+	color:#2A00FF;font-weight:normal;
+}
+span.mceJavascriptComment {
+	color:green;
+}
+span.mceJavascriptReserved {
+	color:#7F0055;font-weight:bold;
+}
+span.mceJavascriptSpecial {
+	color:darkblue;font-weight:bold;
+}

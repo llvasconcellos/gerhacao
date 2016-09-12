@@ -1,0 +1,138 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Photos</title>
+<script src="AC_RunActiveContent.js" language="javascript"></script>
+</head>
+<body bgcolor="#ffffff">
+
+<table cellspacing="0" cellpadding="0" border="0" align="center">
+	<tr>
+		<td align="center">
+
+<!-- Expose Javascript for showing large images STARTs here -->
+<script language="JavaScript">
+
+function showpic (args) {
+	var argsarray = args.split ("_SPLIT_");
+	var imgurl = argsarray[0];
+	var caption = argsarray[1];
+	var date = argsarray[2];
+	var location = argsarray[3];
+	window.open ("showpic.html?" +
+		"img=expose/" + imgurl +
+		"&amp;caption=" + escape (caption) +
+		"&amp;date=" + escape (date) +
+		"&amp;location=" + escape (location)
+		, 'pic',
+		"width=" + screen.width +
+		",height=" + screen.height +
+		",toolbar=no,resizable=yes,scrollbars=yes,location=no,top=0,left=0,fullscreen=1,status=no");
+}
+
+function openurl (args) {
+	var url = args;
+	window.open (url);
+}
+
+var InternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+
+function expose_DoFSCommand(command, args) {
+	var exposeObj = InternetExplorer ? expose : document.expose;
+	if (command == "showpic") {
+		showpic (args);
+	}
+	if (command == "openurl") {
+		openurl (args);
+	}
+}
+
+if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 &&
+	navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) {
+		document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+		document.write('on error resume next \n');
+		document.write('Sub expose_FSCommand(ByVal command, ByVal args)\n');
+		document.write('  call expose_DoFSCommand(command, args)\n');
+		document.write('end sub\n');
+		document.write('</SCRIPT\> \n');
+}
+</script>
+<!-- Expose Javascript for showing large images ENDs here -->
+
+<script language="javascript">
+function getQueryVariable(variable) {
+	var query = window.location.search.substring(1);
+	var vars = query.split("&");
+	for (var i=0;i<vars.length;i++) {
+		var pair = vars[i].split("=");
+		if (pair[0] == variable) {
+			return pair[1];
+		}
+	}
+	return '';
+}
+
+	var topLevelCollectionID = getQueryVariable ('topcoll');
+	var autoLoadAlbumID = getQueryVariable ('album');
+	var autoLoadPhotoID = getQueryVariable ('photo');
+	var autoStartSlideShow = getQueryVariable ('playslideshow');
+
+	AC_FL_RunContent(
+		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0',
+		'width', '565',
+		'height', '500',
+		'src', 'expose/swf/expose',
+		'quality', 'high',
+		'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+		'align', 'middle',
+		'play', 'true',
+		'id', 'expose',
+		'bgcolor', '#ffffff',
+		'name', 'expose',
+		'menu', 'false',
+		'allowScriptAccess','sameDomain',
+		'movie', 'expose/swf/expose',
+		'salign', '',
+		'FlashVars', 'bgColor=ffffff&amp;albumsXMLURL=xml/albums.xml&amp;stringsXMLURL=config/strings.xml&amp;formatsXMLURL=config/formats.xml&amp;configXMLURL=config/config.xml&amp;baseXMLURL=xml/&amp;baseImageURL=img/&amp;baseVideoURL=expose/img/&amp;baseAudioURL=img/&amp;topLevelCollectionID=' + topLevelCollectionID + '&amp;autoLoadAlbumID=' + autoLoadAlbumID + '&amp;autoLoadPhotoID=' + autoLoadPhotoID + '&amp;autoStartSlideShow=' + autoStartSlideShow + '&amp;bgImageURL=&amp;fgImageURL=&amp;language=english&amp;useEmbeddedFonts=yes',
+		'base', 'expose'
+		);
+</script>
+
+<noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0"
+		width="565"
+		height="500"
+		name="expose"
+		align="middle">
+		<param name="menu" value="false" />
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="movie" value="expose/swf/expose.swf" />
+		<param name="quality" value="high" />
+		<param name="bgcolor" value="#ffffff" />
+		<param name="base" value="expose" />
+		<param name="FlashVars" value="bgColor=ffffff&amp;albumsXMLURL=xml/albums.xml&amp;stringsXMLURL=config/strings.xml&amp;formatsXMLURL=config/formats.xml&amp;configXMLURL=config/config.xml&amp;baseXMLURL=xml/&amp;baseImageURL=img/&amp;baseVideoURL=expose/img/&amp;baseAudioURL=img/&amp;topLevelCollectionID=&amp;autoLoadAlbumID=&amp;autoLoadPhotoID=&amp;autoStartSlideShow=no&amp;bgImageURL=&amp;fgImageURL=&amp;language=english&amp;useEmbeddedFonts=yes" />
+		<embed src="expose/swf/expose.swf"
+			base="expose"
+			menu="false"
+			quality="high"
+			bgcolor="#ffffff"
+			width="900"
+			height="510"
+			FlashVars="bgColor=ffffff&amp;albumsXMLURL=xml/albums.xml&amp;stringsXMLURL=config/strings.xml&amp;formatsXMLURL=config/formats.xml&amp;configXMLURL=config/config.xml&amp;baseXMLURL=xml/&amp;baseImageURL=img/&amp;baseVideoURL=expose/img/&amp;baseAudioURL=img/&amp;topLevelCollectionID=&amp;autoLoadAlbumID=&amp;autoLoadPhotoID=&amp;autoStartSlideShow=no&amp;bgImageURL=&amp;fgImageURL=&amp;language=english&amp;useEmbeddedFonts=yes"
+			name="expose"
+			align="middle"
+			allowScriptAccess="sameDomain"
+			type="application/x-shockwave-flash"
+			pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+</noscript>
+
+<br><br>
+<span style="font-size: 10px; color: #d0d0d0; font-family: Verdana, Arial, Helvetica, sans-serif">expos&eacute;4 by Ivan Dramaliev, <a href="http://www.slooz.com" target="_blank" style="text-decoration: none; color: #a0a0a0;">www.slooz.com</a>, &copy;2003-2006</span>
+
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

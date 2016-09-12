@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! 1.5 - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://localhost/gerhacao/index.php" xml:lang="pt-br">
+	<title type="text">Contato</title>
+	<subtitle type="text">Gerhação Recursos Humanos</subtitle>
+	<link rel="alternate" type="text/html" href="/gerhacao/index.php?option=com_contact&amp;view=category&amp;catid=3&amp;Itemid=6"/>
+	<id>/gerhacao/index.php?option=com_contact&amp;view=category&amp;catid=3&amp;Itemid=6</id>
+	<updated>2016-09-12T13:47:16Z</updated>
+	<generator uri="http://joomla.org" version="1.5">Joomla! 1.5 - Open Source Content Management</generator>
+<link rel="self" type="application/atom+xml" href="" />
+	<entry>
+		<title>Comercial</title>
+		<link rel="alternate" type="text/html" href="/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=2%3Acomercial&amp;catid=3%3Agerhacao&amp;Itemid=6"/>
+		<published>2016-09-12T13:47:16Z</published>
+		<updated>2016-09-12T13:47:16Z</updated>
+		<id>/gerhacao/index.php?option=com_contact&amp;amp;view=contact&amp;amp;id=2%3Acomercial&amp;amp;catid=3%3Agerhacao&amp;amp;Itemid=6</id>
+		<summary type="html"> - </summary>
+		<content type="html"> - </content>
+	</entry>
+	<entry>
+		<title>Financeiro</title>
+		<link rel="alternate" type="text/html" href="/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=3%3Afinanceiro&amp;catid=3%3Agerhacao&amp;Itemid=6"/>
+		<published>2016-09-12T13:47:16Z</published>
+		<updated>2016-09-12T13:47:16Z</updated>
+		<id>/gerhacao/index.php?option=com_contact&amp;amp;view=contact&amp;amp;id=3%3Afinanceiro&amp;amp;catid=3%3Agerhacao&amp;amp;Itemid=6</id>
+		<summary type="html"> - </summary>
+		<content type="html"> - </content>
+	</entry>
+	<entry>
+		<title>RH</title>
+		<link rel="alternate" type="text/html" href="/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=4%3Arh&amp;catid=3%3Agerhacao&amp;Itemid=6"/>
+		<published>2016-09-12T13:47:16Z</published>
+		<updated>2016-09-12T13:47:16Z</updated>
+		<id>/gerhacao/index.php?option=com_contact&amp;amp;view=contact&amp;amp;id=4%3Arh&amp;amp;catid=3%3Agerhacao&amp;amp;Itemid=6</id>
+		<summary type="html"> - </summary>
+		<content type="html"> - </content>
+	</entry>
+	<entry>
+		<title>Reclamações e Sugestões</title>
+		<link rel="alternate" type="text/html" href="/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=5%3Areclamacoes-e-sugestoes&amp;catid=3%3Agerhacao&amp;Itemid=6"/>
+		<published>2016-09-12T13:47:16Z</published>
+		<updated>2016-09-12T13:47:16Z</updated>
+		<id>/gerhacao/index.php?option=com_contact&amp;amp;view=contact&amp;amp;id=5%3Areclamacoes-e-sugestoes&amp;amp;catid=3%3Agerhacao&amp;amp;Itemid=6</id>
+		<summary type="html"> - </summary>
+		<content type="html"> - </content>
+	</entry>
+	<entry>
+		<title>Currículos</title>
+		<link rel="alternate" type="text/html" href="/gerhacao/index.php?option=com_contact&amp;view=contact&amp;id=6%3Acurriculos&amp;catid=3%3Agerhacao&amp;Itemid=6"/>
+		<published>2016-09-12T13:47:16Z</published>
+		<updated>2016-09-12T13:47:16Z</updated>
+		<id>/gerhacao/index.php?option=com_contact&amp;amp;view=contact&amp;amp;id=6%3Acurriculos&amp;amp;catid=3%3Agerhacao&amp;amp;Itemid=6</id>
+		<summary type="html"> - </summary>
+		<content type="html"> - </content>
+	</entry>
+</feed>

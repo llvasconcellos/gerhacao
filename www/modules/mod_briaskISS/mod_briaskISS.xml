@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5.1" >
+	<name>ImageSlideShow</name>
+	<author>Briask</author>
+	<creationDate>March 2008</creationDate>
+	<copyright></copyright>
+	<license>GNU GPL</license>
+	<authorEmail>briask@briask.com</authorEmail>
+	<authorUrl>http://www.briask.com</authorUrl>
+	<version>1.0</version>
+	<description>A rotating image slideshow module. Note for ImageSlideShow to resize and siaply images it create a sub-directory called briaskthumbs. Delete this directory if changes are made to affect the thumbnails.</description>
+	<files>
+		<filename module="mod_briaskISS">mod_briaskISS.php</filename>
+		<filename module="mod_briaskISS">mod_briaskUtility.php</filename>
+		<filename module="mod_briaskISS">mod_briaskISS.css</filename>
+		<filename module="mod_briaskISS">mod_briaskISS.js</filename>
+		<filename module="mod_briaskISS">index.html</filename>
+		<filename module="mod_briaskISS">copying.lic</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="Directory" type="text" default = "images/stories/fruit" label="Image Directory"  description = "Image Directory"/>
+		<param name="pxHeight" type="text" default = "200" label="Heigth in pixels"  description = "Heigth in pixels"/>
+		<param name="pxWidth" type="text" default = "200" label="Width in pixels"  description = "Width in pixels"/>
+		<param name="transDelay" type="text" default = "50" label="Transition Delay"  description = "Transition Delay"/>
+		<param name="nextDelay" type="text" default = "15000" label="Next Image Delay"  description = "Next Image Delay"/>
+		<param name="Title" type="text" default = "An Image Slideshow" label="Slideshow title"  description = "Title to appear on Slideshow"/>
+		<param name="URL" type="text" default = "http://www.joomla.org" label="URL"  description = "URL to link to when Slideshow image is clicked."/>
+		<param name="EnableLink" type="radio" default="0" label="Enable Link?" description="Enable Link on Picture" >
+			<option value="0">Disable</option>
+			<option value="1">Enable (same window)</option>
+			<option value="2">Enable (new window)</option>
+		</param>
+		<param name="Sequence" type="radio" default="0" label="Display Sequence?" description="What sequence to use to display the images." >
+			<option value="0">Disable</option>
+			<option value="1">Shuffle</option>
+			<option value="2">Sorted</option>
+			<option value="3">Totally Random</option>
+		</param>
+		<param name="Resize" type="radio" default="0" label="Resize Images?" description="If enabled ISS will copy all images in the specified directory to a thumbnail directory and resize the images to the height/width specified and will attempt to maintain proportions. These thumbnails will then be used for the display." >
+			<option value="0">Disable</option>
+			<option value="1">Resize images</option>
+		</param>
+	</params>
+</install>

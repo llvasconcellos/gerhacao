@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="component" version="1.5">
+	<name>RSform</name>
+	<creationDate>24/04/2008</creationDate>
+	<author>http://anonym.to/?www.rsjoomla.com</author>
+	<copyright>(C) 2007-2008</copyright>
+	<authorEmail>http://anonym.to/?support@rsjoomla.com</authorEmail>
+	<authorUrl>http://anonym.to/?www.rsjoomla.com</authorUrl>
+	<version>1.0.1</version>
+	<description>With RSform!Pro you can quickly add forms to your Joomla! website.</description>
+
+	<installfile>install.rsform.php</installfile>
+	<uninstallfile>uninstall.rsform.php</uninstallfile>
+
+	<files>
+		<filename>front.css</filename>
+		<filename>index.html</filename>
+		<filename>rsform.class.php</filename>
+		<filename>rsform.html.php</filename>
+		<filename>rsform.php</filename>
+		<filename>calendar/cal.js</filename>
+		<filename>calendar/calendar.css</filename>
+		<filename>calendar/callt.gif</filename>
+		<filename>calendar/calrt.gif</filename>
+		<filename>calendar/calx.gif</filename>
+		<filename>calendar/index.html</filename>
+		<filename>controller/adapter.php</filename>
+		<filename>controller/ajax.js</filename>
+		<filename>controller/functions.js</filename>
+		<filename>controller/functions.php</filename>
+		<filename>controller/validation.php</filename>
+		<filename>fonts/ariblk.ttf</filename>
+		<filename>fonts/index.html</filename>
+		<filename>fonts/prst.ttf</filename>
+		<filename>fonts/times.ttf</filename>
+		<filename>images/index.html</filename>
+		<filename>images/nogd.gif</filename>
+		<filename>images/rsform.gif</filename>
+		<filename>languages/default.php</filename>
+		<filename>languages/french.php</filename>
+		<filename>languages/index.html</filename>
+		<filename>uploads/index.html</filename>
+	</files>
+	
+	<install>
+		<queries></queries>
+	</install>
+
+	<uninstall>
+		<queries></queries>
+	</uninstall>
+
+
+	<administration>		
+		<menu>RSform!Pro</menu>
+			<submenu>
+				<menu task="forms.manage">Manage Forms</menu>
+				<menu task="submissions.manage">Manage Submissions</menu>
+				<menu task="configuration.edit">Configuration</menu>
+				<menu task="backup.restore">Backup/Restore</menu>
+				<menu task="updates.manage">Updates</menu>
+			</submenu>
+		<files>
+			<filename>rsform.xml</filename>
+			<filename>admin.rsform.html.php</filename>
+			<filename>admin.rsform.php</filename>
+			<filename>index.html</filename>
+			<filename>style.css</filename>
+			<filename>toolbar.rsform.html.php</filename>
+			<filename>toolbar.rsform.php</filename>
+			<filename>images/backup.png</filename>
+			<filename>images/config.png</filename>
+			<filename>images/forms.png</filename>
+			<filename>images/index.html</filename>
+			<filename>images/load.gif</filename>
+			<filename>images/logo.gif</filename>
+			<filename>images/mainmenu.png</filename>
+			<filename>images/restore.png</filename>
+			<filename>images/samples.png</filename>
+			<filename>images/support.png</filename>
+			<filename>images/systeminfo.png</filename>
+			<filename>images/viewdata.png</filename>
+			<filename>images/icons/button.gif</filename>
+			<filename>images/icons/calendar.gif</filename>
+			<filename>images/icons/captcha.gif</filename>
+			<filename>images/icons/check.gif</filename>
+			<filename>images/icons/downarrow.png</filename>
+			<filename>images/icons/edit.png</filename>
+			<filename>images/icons/freetext.gif</filename>
+			<filename>images/icons/hidden.gif</filename>
+			<filename>images/icons/image.gif</filename>
+			<filename>images/icons/index.html</filename>
+			<filename>images/icons/password.gif</filename>
+			<filename>images/icons/publish.png</filename>
+			<filename>images/icons/radio.gif</filename>
+			<filename>images/icons/remove.png</filename>
+			<filename>images/icons/select.gif</filename>
+			<filename>images/icons/textarea.gif</filename>
+			<filename>images/icons/textfield.gif</filename>
+			<filename>images/icons/ticket.gif</filename>
+			<filename>images/icons/unpublish.png</filename>
+			<filename>images/icons/uparrow.png</filename>
+			<filename>images/icons/upload.gif</filename>
+			<filename>images/layouts/2cols2lines.gif</filename>
+			<filename>images/layouts/2colsinline.gif</filename>
+			<filename>images/layouts/2lines.gif</filename>
+			<filename>images/layouts/index.html</filename>
+			<filename>images/layouts/inline.gif</filename>
+			<filename>layouts/2cols2lines.php</filename>
+			<filename>layouts/2colsinline.php</filename>
+			<filename>layouts/2lines.php</filename>
+			<filename>layouts/index.html</filename>
+			<filename>layouts/inline.php</filename>
+			<filename>tmp/index.html</filename>
+			<filename>tmp/install.xml</filename>
+			<filename>tmp/rsform-install.sql</filename>
+			<filename>tmp/rsform-uninstall.sql</filename>
+			<filename>tmp/sample-install.sql</filename>
+		</files>
+	</administration>
+
+  	<params>
+		<param name="formId" type="text" default="1" label="Form Id" description="This is the form id. You can see this number in the Manage Forms screen, on the last column." />
+	</params>
+</install>

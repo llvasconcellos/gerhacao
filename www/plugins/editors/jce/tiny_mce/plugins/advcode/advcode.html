@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{#advcode_dlg.title}</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/advcode.js"></script>
+    <link href="css/advcode.css" rel="stylesheet" type="text/css" />
+	<base target="_self" />
+</head>
+<body onResize="SourceEditor.onResize();" style="display:none; overflow:hidden;">
+    <fieldset>
+        <legend>{#advcode_dlg.title}</legend>
+        <div id="fontLine" style="float:right;">
+       		<label for="fontsizeplus">{#advcode_dlg.fontsize}</label><input type="button" class="plus" onClick="SourceEditor.toggleFontSize('+');" /><input type="button" class="minus" onClick="SourceEditor.toggleFontSize('-');" />
+        </div>
+            <div id="editorLanguageLine" style="float:right;">
+            <label for="editorLanguage">{#advcode_dlg.language}</label><select id="editorLanguage" onChange="SourceEditor.setEditorLanguage(this.value);">
+            	<option value="html">HTML</option>
+            	<option value="css">CSS</option>
+            </select>
+        </div>
+        <div id="wrapLine" style="float:right;">
+        	<label for="wraped">{#advcode_dlg.wordwrap}</label><input type="checkbox" id="wraped" onClick="SourceEditor.toggleWordWrap();" class="radio" />
+        </div>
+        <div id="autocompleteLine" style="float:right;">
+        	<label for="autocomplete">{#advcode_dlg.autocomplete}</label><input type="checkbox" id="autocomplete" checked="checked" onClick="SourceEditor.toggleAutoComplete();" class="radio" />
+        </div>
+        <div id="numbersLine" style="float:right;">
+        	<label for="numbers">{#advcode_dlg.numbers}</label><input type="checkbox" id="numbers" checked="checked" onClick="SourceEditor.toggleLineNumbers();" class="radio" />
+        </div>
+        <div id="highlightLine" style="float:right;">
+       		<label for="wraped">{#advcode_dlg.highlight}</label><input type="checkbox" id="highlight" checked="checked" onClick="SourceEditor.toggleEditor();" class="radio" />
+        </div>
+        <br style="clear: both" />
+        <textarea name="htmlSource" id="htmlSource" rows="15" cols="100" dir="ltr" wrap="off" class="mceFocus" style="font-size:11px;"></textarea>
+    </fieldset>
+    <div class="mceActionPanel">
+        <div style="float: left">
+        	<input type="submit" name="insert" value="{#update}" id="insert" onClick="SourceEditor.saveContent();return false;" />
+        </div>
+        
+        <div style="float: right">
+        	<input type="button" name="cancel" value="{#cancel}" onClick="tinyMCEPopup.close();" id="cancel" />
+        </div>
+    </div>
+</body>
+</html>

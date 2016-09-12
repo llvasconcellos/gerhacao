@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<settings>
+	<setting name="ImportSmallWidth" type="integer">200</setting>
+	<setting name="ImportSmallHeight" type="integer">150</setting>
+	<setting name="ImportWidth" type="integer">800</setting>
+	<setting name="ImportHeight" type="integer">400</setting>
+	<setting name="ImportLargeWidth" type="integer">900</setting>
+	<setting name="ImportLargeHeight" type="integer">700</setting>
+	<setting name="ImportLarge" type="boolean">false</setting>
+	<setting name="ImportQuality" type="percent">80</setting>
+	<setting name="ImportEmbedCopyright" type="boolean">false</setting>
+	<setting name="ImportEmbedCopyrightText" type="string"/>
+	<setting name="ImportEmbedCopyrightTextSize" type="integer">12</setting>
+	<setting name="ImportEmbedCopyrightTextColorAlpha" type="percent">50</setting>
+	<setting name="ImportEmbedCopyrightTextColorR" type="hexint">255</setting>
+	<setting name="ImportEmbedCopyrightTextColorG" type="hexint">255</setting>
+	<setting name="ImportEmbedCopyrightTextColorB" type="hexint">255</setting>
+	<setting name="ImportEmbedWatermark" type="boolean">false</setting>
+	<setting name="AlbumThumbWidth" type="integer">64</setting>
+	<setting name="AlbumThumbHeight" type="integer">48</setting>
+	<setting name="AlbumThumbQuality" type="percent">80</setting>
+	<setting name="AutoExpandCollections" type="boolean">false</setting>
+	<setting name="VideoThumbWidth" type="integer">200</setting>
+	<setting name="VideoThumbHeight" type="integer">150</setting>
+	<setting name="VideoThumbQuality" type="percent">80</setting>
+</settings>

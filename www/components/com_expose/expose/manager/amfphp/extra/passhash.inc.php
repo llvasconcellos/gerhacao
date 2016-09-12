@@ -1,0 +1,1 @@
+<?php $GLOBALS["passhash"] = "3f3701136874a5338f55eda54a57eba0"; ?>

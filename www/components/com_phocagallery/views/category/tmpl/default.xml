@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="PHOCAGALLERY CATEGORY LAYOUT">
+		<message>
+			<![CDATA[PHOCAGALLERY CATEGORY LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>PHOCAGALLERY CATEGORY LAYOUT</name>
+		<description>PHOCAGALLERY CATEGORY LAYOUT DESC</description>
+		<url addpath="/administrator/components/com_phocagallery/elements">
+			<param name="id" type="phocagallery" section="com_phocagallery" default="0" label="Select Category" description="A Phoca gallery category" />
+		</url>
+		<params>
+			<param name="show_pagination" type="radio" default="1" label="Pagination" description="Show/Hide Pagination support">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			
+			<param name="show_pagination_limit" type="radio" default="1" label="Display Select" description="Show/Hide the Display Select dropdown">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			
+			<param name="show_feed_link" type="radio" default="1" label="Show a feed link" description="PARAMSHOWFEEDLINK">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="display_cat_name_title" type="radio" default="1" label="Display Category Name in Page Title" description="Display Category Name in Page Title DESC">
+				<option value="0">Hide</option>
+				<option value="1">Show</option>
+			</param>
+			
+			<param name="display_cat_name_breadcrumbs" type="list" default="0" label="Display Category Name in Breadcrumbs" description="Display Category Name in Breadcrumbs DESC">
+				<option value="0">Menu Item Title</option>
+				<option value="1">Menu Item Title - Category Title</option>
+				<option value="2">Category Title</option>
+			</param>
+			
+		</params>
+	</state>
+</metadata>

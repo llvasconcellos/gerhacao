@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<expose version="2.0">
+	<string id="translationby">
+		<english>www.slooz.com</english>
+		<czech></czech>
+		<danish>Frederik K. Frydendal</danish>
+		<dutch>Willy Baas for DutchJoomla.org</dutch>
+		<french>Fred Monin</french>
+		<german>Lars Oeschey</german>
+		<hungarian>Marosics TamÃ¡s</hungarian>
+		<italian></italian>
+		<norwegian></norwegian>
+		<polish>crolic@o2.pl</polish>
+		<portuguese></portuguese>
+		<romanian>Cristian Sfercoci</romanian>
+		<spanish></spanish>
+		<swedish></swedish>
+	</string>
+	<!-- Check http://dev.joomla.org/content/view/42/66/ for language code -->
+	<string id="languagecode">
+		<english>en</english>
+		<czech>cze</czech>
+		<danish>da</danish>
+		<dutch>nl</dutch>
+		<french>fr</french>
+		<german>de</german>
+		<hungarian>hu</hungarian>
+		<italian>it</italian>
+		<norwegian>nb</norwegian>
+		<polish>pl</polish>
+		<portuguese>pt</portuguese>
+		<romanian>ro</romanian>
+		<spanish>es</spanish>
+		<swedish>sv</swedish>
+	</string>
+	<string id="previmage">
+		<english>Previous</english>
+		<czech>Předchozí</czech>
+		<danish>Tilbage</danish>
+		<dutch>Vorige</dutch>
+		<french>Précédente</french>
+		<german>Vorheriges</german>
+		<hungarian>Előző</hungarian>
+		<italian>Precedente</italian>
+		<norwegian>Forrige</norwegian>
+		<polish>Poprzedni</polish>
+		<portuguese>Anterior</portuguese>
+		<romanian>Precendenta</romanian>
+		<spanish>Anterior</spanish>
+		<swedish>Föregående bild</swedish>
+	</string>
+	<string id="nextimage">
+		<english>Next</english>
+		<czech>Následující</czech>
+		<danish>Frem</danish>
+		<dutch>Volgende</dutch>
+		<french>Suivante</french>
+		<german>Nächstes</german>
+		<hungarian>Következő</hungarian>
+		<italian>Prossima</italian>
+		<norwegian>Neste</norwegian>
+		<polish>Nastepny</polish>
+		<portuguese>Seguinte</portuguese>
+		<romanian>Urmatoarea</romanian>
+		<spanish>Siguiente</spanish>
+		<swedish>Nästa</swedish>
+	</string>
+	<string id="playslideshow">
+		<english>Play slide show</english>
+		<czech>Spustit slide-show</czech>
+		<danish>Afspil billedserie</danish>
+		<dutch>Speel diashow</dutch>
+		<french>Lancer le diaporama</french>
+		<german>Diashow abspielen</german>
+		<hungarian>Diavetítés indítása</hungarian>
+		<italian>Avvia slide show</italian>
+		<norwegian>Start lysbildeserie</norwegian>
+		<polish>Pokaz slajdow</polish>
+		<portuguese>Mostrar apresentação</portuguese>
+		<romanian>Lanseaza slide show</romanian>
+		<spanish>Mostrar presentación</spanish>
+		<swedish>Starta bildspel</swedish>
+	</string>
+	<string id="stopslideshow">
+		<english>Stop slide show</english>
+		<czech>Zastavit slide-show</czech>
+		<danish>Stop billedserie</danish>
+		<dutch>Stop slideshow</dutch>
+		<french>Stopper le diaporama</french>
+		<german>Stop Diashow</german>
+		<hungarian>Diavetítés megállítása</hungarian>
+		<italian>Ferma slide show</italian>
+		<norwegian>Stop lysbildeserie</norwegian>
+		<polish>Zatrzymaj pokaz</polish>
+		<portuguese>Parar a apresentação</portuguese>
+		<romanian>Inchide slide show</romanian>
+		<spanish>Parar presentación</spanish>
+		<swedish>Stoppa bildspel</swedish>
+	</string>
+	<string id="largeimagebuttonlabel">
+		<english>Show large image</english>
+		<czech>Zobrazit úplný obrázek</czech>
+		<danish>Vis stort billede</danish>
+		<dutch>Vergroot foto</dutch>
+		<french>Agrandir l'image</french>
+		<german>Grosses Bild zeigen</german>
+		<hungarian>Nagyobb kép megjelenítése</hungarian>
+		<italian>Mostra immagine grande</italian>
+		<norwegian>Vis stort bilde</norwegian>
+		<polish>Duzy format</polish>
+		<portuguese>Mostrar a imagem em tamanho maior</portuguese>
+		<romanian>Mareste imaginea</romanian>
+		<spanish>Imagen ampliada</spanish>
+		<swedish>Visa stor bild</swedish>
+	</string>
+	<string id="selectalbum">
+		<english>Select album</english>
+		<czech>Vybrat album</czech>
+		<danish>Vlg album</danish>
+		<dutch>Selecteer album</dutch>
+		<french>Selectionner un album</french>
+		<german>Album auswählen</german>
+		<hungarian>Album kiválasztása</hungarian>
+		<italian>Seleziona album</italian>
+		<norwegian>Velg album</norwegian>
+		<polish>Wybierz album</polish>
+		<portuguese>Selecione um álbum</portuguese>
+		<romanian>Selecteaza album</romanian>
+		<spanish>Seleccionar album</spanish>
+		<swedish>Välj album</swedish>
+	</string>
+	<string id="showimagestrip">
+		<english>Show image strip</english>
+		<czech>Ukázat obrazový pružek aktuálního alba</czech>
+		<danish>Vis billedestripe</danish>
+		<dutch>Toon foto's op rij</dutch>
+		<french>Afficher la bande d'image</french>
+		<german>Index zeigen</german>
+		<hungarian>Tartalom megjelenítése</hungarian>
+		<italian>Mostra l'indice</italian>
+		<norwegian>Vis bildestripe</norwegian>
+		<polish>Miniatury</polish>
+		<portuguese>Mostrar lista de imagens</portuguese>
+		<romanian>Afiseaza ca banda derulanta</romanian>
+		<spanish>Ver miniaturas</spanish>
+		<swedish>Visa små bilder</swedish>
+	</string>
+	<string id="youarein">
+		<english>You are in:</english>
+		<czech>Nacházíte se v albu:</czech>
+		<danish>Du er i:</danish>
+		<dutch>Je bent in:</dutch>
+		<french>Vous êtes dans:</french>
+		<german>Sie sind in:</german>
+		<hungarian>Itt van:</hungarian>
+		<italian>Sei in:</italian>
+		<norwegian>Du er i:</norwegian>
+		<polish>Jestes w albumie:</polish>
+		<portuguese>Você está em:</portuguese>
+		<romanian>Esti in:</romanian>
+		<spanish>Estas viendo:</spanish>
+		<swedish>Nu visas:</swedish>
+	</string>
+	<string id="selectanalbum">
+		<english>Select an album:</english>
+		<czech>Vybrat album:</czech>
+		<danish>Vlg album:</danish>
+		<dutch>Selecteer een album:</dutch>
+		<french>Selectionnez un album:</french>
+		<german>Album auswählen:</german>
+		<hungarian>Album kiválasztása</hungarian>
+		<italian>Seleziona un album:</italian>
+		<norwegian>Velg album:</norwegian>
+		<polish>Wybierz album</polish>
+		<portuguese>Selecione um álbum:</portuguese>
+		<romanian>Selecteaza un album:</romanian>
+		<spanish>Selecciona un album:</spanish>
+		<swedish>Välj ett album:</swedish>
+	</string>
+	<string id="helpguide">
+		<english>To find out how to navigate click on</english>
+		<czech>Pro zjištění jak funguje navigace, klikněte zde</czech>
+		<danish>Klik her for at finde ud af hvordan du kan navigere</danish>
+		<dutch>Voor hulp klik op</dutch>
+		<french>Pour savoir comment naviguer cliquez sur</french>
+		<german>Zur Navigationshilfe hier klicken</german>
+		<hungarian>Kattintson rÃ¡, ha tudni szeretnÃ© hogyan kell irÃ¡nyÃ­tani</hungarian>
+		<italian>To find out how to navigate click on</italian>
+		<norwegian>Klikk her for  finne ut hvordan du kan navigere</norwegian>
+		<polish>Jak poruszac sie po stronie</polish>
+		<portuguese>Para saber como navegar clique aqui</portuguese>
+		<romanian>Pentru a stii cum sa navigati faceti click pe</romanian>
+		<spanish>Para saber como navegar hazme click</spanish>
+		<swedish>Hur du kan navigera klicka på</swedish>
+	</string>
+	<string id="help">
+		<english>Help</english>
+		<czech>Pomoc</czech>
+		<danish>Hjlp</danish>
+		<dutch>Help</dutch>
+		<french>Aide</french>
+		<german>Hilfe</german>
+		<hungarian>Súgó</hungarian>
+		<italian>Guida</italian>
+		<norwegian>Hjelp</norwegian>
+		<polish>Pomoc</polish>
+		<portuguese>Ajuda</portuguese>
+		<romanian>Ajutor</romanian>
+		<spanish>Ayuda</spanish>
+		<swedish>Hjälp</swedish>
+	</string>
+	<string id="playaudiocomment">
+		<english>Play audio comment</english>
+		<czech>Přehrát hlasový komentář</czech>
+		<danish>Afspil lydkommentar</danish>
+		<dutch>Speel audio</dutch>
+		<french>écouter le commentaire audio</french>
+		<german>Audio Kommentar abspielen</german>
+		<hungarian>Hangos hozzÃ¡szÃ³lÃ¡s lejÃ¡tszÃ¡sa</hungarian>
+		<italian>Play audio comment</italian>
+		<norwegian>Spill lydkommentar</norwegian>
+		<polish>Posluchaj komentarza</polish>
+		<portuguese>Tocar comentário em Audio</portuguese>
+		<romanian>Asculta comentariu audio</romanian>
+		<spanish>Reproducir comentario de audio</spanish>
+		<swedish>Spela ljudkommentar</swedish>
+	</string>
+	<string id="stopaudiocomment">
+		<english>Stop audio comment</english>
+		<czech>Zastavit hlasový komentář</czech>
+		<danish>Stop lydkommentar</danish>
+		<dutch>Stop audio</dutch>
+		<french>Arrêter le commentaire audio</french>
+		<german>Audiokommentar anhalten</german>
+		<hungarian>Hangos hozzÃ¡szÃ³lÃ¡s megÃ¡llÃ­tÃ¡sa</hungarian>
+		<italian>Stop audio comment</italian>
+		<norwegian>Stop lydkommentar</norwegian>
+		<polish>Zatrzymaj komentarz</polish>
+		<portuguese>Parar comentário em audio</portuguese>
+		<romanian>Opreste comentariu audio</romanian>
+		<spanish>Para comentario de audio</spanish>
+		<swedish>Stoppa ljudkommentar</swedish>
+	</string>
+	<string id="imagedesc">
+		<english>Image description</english>
+		<czech>Popis obrázku</czech>
+		<danish>Billed beskrivelse</danish>
+		<dutch>Foto beschrijving</dutch>
+		<french>Description de l'image</french>
+		<german>Bildbeschreibung</german>
+		<hungarian>Képcímke</hungarian>
+		<italian>Descrizione</italian>
+		<norwegian>Bilde beskrivelse</norwegian>
+		<polish>Opis zdjecia</polish>
+		<portuguese>Descrição da imagem</portuguese>
+		<romanian>Descrierea imaginii</romanian>
+		<spanish>Descripción de la imagen</spanish>
+		<swedish>Bildbeskrivning</swedish>
+	</string>
+	<string id="helptext1">
+		<english>Click on an image slide to view the larger image. You can also select another album, switch back to an image strip view, step through images, start slide shows, and play audio comments by using the buttons described below.</english>
+		<czech>Klikněte na obrázek slide, abyste mohli zobrazit obrázek v plné velikosti. Můžete také vybrat další album, tlačítkem zpět docílíte změnšení obrázku a pohled na náhledy, začněte také pouštět prezentace, zábavné zvukové komentáře za použití tlačítek popisovaných dole.</czech>
+		<danish>Klik p billedet for at forstrre det. Du kan ogs vlge et andet album, skift tilbage til billedstripen, klik dig gennem billederne, start billedserie og afspild lydkommentar ved at bruge knapperne som beskrevet nedenfor.</danish>
+		<dutch>Klik op een foto om te vergroten. Je kunt ook een ander album selecteren, foto's op rij bekijken, diashows bekijken en audio afspelen (indien beschikbaar) door onderstaande knoppen te gebruiken.</dutch>
+		<french>Cliquez sur une diapositive pour agrandir l'image. Vous pouvez également choisir un autre album, revenir à une bande d'image, naviguer entre les images, lancer des diaporamas et lire des commentaires audio en utilisant les boutons décrits ci-dessous.</french>
+		<german>Klicken Sie auf ein Bild, um eine grössere Ansicht zu erhalten. Sie können auch ein anderes Album auswählen, zurück zur Indexansicht wechseln, durch die Bilder blättern, Diashows starten und Audiokommentare abspielen, indem sie die unten beschriebenen Buttons benutzen.</german>
+		<hungarian>Nagyobb méret megjelenítésére kattintson a képre. Ha rákattint a gombokra, választhat másik albumot is, visszamehet a tartlomjegyzékhez, lapozgathatja a képeket, elindíthatja a diavetítést és lejátszhatja a hangüzeneteket.</hungarian>
+		<italian>Clicca su un'immagine per vederla in formato più grande. Puoi anche selezionare un altro album, tornare all'indice, avanzare tra le immagini, avviare lo slide shows, e riprodurre commenti audio usando i bottoni descritti sotto.</italian>
+		<norwegian>Klikk p et bilde for  forstrre det. Du kan ogs velge et annet album, bytte tilbake til bildestripen, klikke deg gjennom bildene, starte lysbildeserier og spille lydkommentarer ved  bruke knappene beskrevet nedenfor.</norwegian>
+		<polish>Kliknij na miniaturke, zeby zobaczyc zdjecie w duzym formacie. Mozesz takze wybrac inny album, wrocic do miniaturek, przejzec obrazki, wlaczyc pokaz slajdow, i odsluchac komentarze, uzywajac przyciskow opisanych ponizej</polish>
+		<portuguese>Clique na imagem para vê-la em tamanho maior. Pode também selecionar outro álbum, regressar à lista de imagens, passar através das imagens, começar uma apresentação e reproduzir áudio usando os botões descritos em baixo.</portuguese>
+		<romanian>Apasati pe diapozitiv pentru a mari Imaginea.Puteti de asemenea selecta alt album,reveni la banda de imagini,naviga intre imagini,lansa slide shows si citi comentariile audio folosind butoanele descrise mai jos.</romanian>
+		<spanish>Haz click sobre la miniatura para ver la imagen ampliada. Tambien puedes seleccionar otro album, volver a cambiar a una imagen de la miniatura, saltar varias imagenes, ver la miniaturas, y reproducir los comentarios de audio usando los botones que se describen a continuación.</spanish>
+		<swedish>Klicka på en bild för att visa större bild. Du kan även välja ett annat album, hoppa tillbaka till små bilder, gå igenom bild-för-bild, start bildspel och spela ljudkommentarer genom använda knapparna nedan.</swedish>
+	</string>
+	<string id="helptext2">
+		<english>Load the previous or the next image, or begin a slide show.</english>
+		<czech>Nahrajte předchozí nebo následující snímek, nebo spusťte prezentaci.</czech>
+		<danish>Vis forrige billede, nste billede eller start en billedserie</danish>
+		<dutch>Toon volgende of vorige foto, of start een diashow.</dutch>
+		<french>Charger l'image précèdente ou l'image suivante ou lancer le diaporama.</french>
+		<german>Zum vorherigen oder nächsten Bild springen, oder eine Diashow starten.</german>
+		<hungarian>Ugrás az előző vagy a következő képhez, ill. diavetítés indítása.</hungarian>
+		<italian>Carica l'immagine precedente o la successiva, o avvia lo slide show.</italian>
+		<norwegian>Vis forrige bilde, neste bilde eller starte en lysbildeserie.</norwegian>
+		<polish>Zaladuj poprzednie lub nastepne zdjecie, lub rozpocznij pokaz slajdow</polish>
+		<portuguese>Carregar a imagem anterior ou a seguinte ou começar uma apresentação.</portuguese>
+		<romanian>Incarca imaginea precedenta sau imaginea urmatoare sau porneste un slide show</romanian>
+		<spanish>Cargar anterior o siguiente imagen, o empezar a ver las miniaturas.</spanish>
+		<swedish>Ladda föregående eller nästa bild, eller starta bildspel.</swedish>
+	</string>
+	<string id="helptext3">
+		<english>Select another album, or view an image strip of the current album.</english>
+		<czech>Vyberte další album, nebo se dívejte na obrazový proužek aktuálního alba.</czech>
+		<danish>Vlg et andet album, eller vis billedstripen til nuvrende album</danish>
+		<dutch>Selecteer een ander album of bekijk foto's op een rij van het huidige album.</dutch>
+		<french>Choisir un autre album ou visualiser la bande d'image de l'album en cours.</french>
+		<german>Ein anderes Album auswählen, oder den Index anzeigen.</german>
+		<hungarian>Másik album választása vagy ugrás a tartalomjegyzékre.</hungarian>
+		<italian>Seleziona un altro album, o vedi l'indice delle immagini di questo album.</italian>
+		<norwegian>Velg ett annet album, eller vis bildestripen til nvrende album.</norwegian>
+		<polish>Wybierz inny album, lub zobacz pasek miniatur aktualnego albumu</polish>
+		<portuguese>Selecione outro álbum, ou veja uma lista de imagens do álbum atual.</portuguese>
+		<romanian>Selecteaza alt album sau vizualizati ca diapozitiv albumul curent</romanian>
+		<spanish>Seleccionar otro album, o ver una imagen miniaturizada del actual album.</spanish>
+		<swedish>Välj ett annat album eller visa små bilder för detta album.</swedish>
+	</string>
+	<string id="helptext4">
+		<english>View the image description, or play the audio comment for the image.</english>
+		<czech>Dívejte se na obrazový popis, přehrajte zvukový komentář k obrazùm, nebo se dívejte  na fullscreenové verze obrazu.</czech>
+		<danish>Vis billedbeskrivelse, eller afspil lydkommentaren til billedet</danish>
+		<dutch>Bekijk de beschrijving of speel audio af van huidige foto.</dutch>
+		<french>Voir la description de l'image ou lire le commentaire audio de l'image.</french>
+		<german>Bildbeschreibung anzeigen oder Audiokommentar abspielen</german>
+		<hungarian>Képcímke megjelenítése, hangüzenet lejátszása vagy a kép nagyítása.</hungarian>
+		<italian>Vedi la descrizione dell'immagine, riproduci il commento audio, o vedi l'immagine a tutto schermo.</italian>
+		<norwegian>Vis bildebeskrivelsen, eller spill av lydkommentaren til bildet.</norwegian>
+		<polish>Zobacz opis zdjecia, lub odsluchaj komentarz</polish>
+		<portuguese>Veja a descrição da imagem, reproduza os comentários áudio da imagem ou veja uma versão em tela cheia da imagem.</portuguese>
+		<romanian>Vizualizati descrierea imaginii sau cititi comentariile audio ale imaginii</romanian>
+		<spanish>Ver la descripción de la imagen, o reproducir el comentario de audio de la imagen.</spanish>
+		<swedish>Visa bildbeskrivning, spela ljudkommentaren för denna bild eller visa en fullskärms version av bilden.</swedish>
+	</string>
+	<string id="largeimagebuttonlabel">
+		<english>Show larger image</english>
+		<czech>Ukázat plnou velikost obrázku</czech>
+		<danish>Vis strre billede</danish>
+		<dutch>Vergroot de foto</dutch>
+		<french>Agrandir l'image</french>
+		<german>Grösseres Bild zeigen</german>
+		<hungarian>Nagyobb kép megjelenítése</hungarian>
+		<italian>Ingrandisci</italian>
+		<norwegian>Vis strre bilde</norwegian>
+		<polish>Pokaz duze zdjecie</polish>
+		<portuguese>Mostrar uma imagen maior</portuguese>
+		<romanian>Mareste imaginea</romanian>
+		<spanish>Ver imagen ampliada</spanish>
+		<swedish>Visa större bild</swedish>
+	</string>
+	<string id="albumlistcancel">
+		<english>Cancel</english>
+		<czech>Cancel</czech>
+		<danish>Annuller</danish>
+		<dutch>Annuleren</dutch>
+		<french>Annuler</french>
+		<german>Abbrechen</german>
+		<hungarian>Mégse</hungarian>
+		<italian>Annulla</italian>
+		<norwegian>Avbryt</norwegian>
+		<polish>Anuluj</polish>
+		<portuguese>Cancelar</portuguese>
+		<romanian>Anuleaza</romanian>
+		<spanish>Cancelar</spanish>
+		<swedish>Avbryt</swedish>
+	</string>
+</expose>

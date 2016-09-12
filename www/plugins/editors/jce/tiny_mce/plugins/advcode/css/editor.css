@@ -1,0 +1,45 @@
+body {
+	margin-top:13px;
+	background:white;
+	margin-left:16px;
+	font-family:monospace;
+	white-space:pre;
+	background: #fff;
+	background-repeat:repeat-y;
+	background-position:0 3px;
+	line-height:16px;
+	height:100%;
+	width: 80%;
+	white-space: pre;
+}
+pre {
+	margin: 0;
+	white-space: pre;
+}
+pre.soft, body.soft {
+ 	white-space: pre-wrap;       /* css-3 */
+ 	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+ 	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	display: block;
+	white-space: pre;
+}
+b, i, s, u, a, em, tt, ins, big, cite, strong, var, dfn {
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+}
+span {
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+}
+body.show-line-numbers {
+	background-image:url(../img/numbers.png);
+	margin-left:32px;
+}

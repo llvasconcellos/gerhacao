@@ -1,0 +1,1464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- Common strings -->
+	<string id="translationby">
+		<english>www.slooz.com</english>
+		<dutch>Willy Baas for DutchJoomla.org</dutch>
+		<french>Mato</french>
+		<hungarian>Marisics Tamàs</hungarian>
+		<polish>Crolic</polish>
+		<serbian>::eboye::</serbian>
+		<spanish>ChaosKnign</spanish>
+	</string>
+	<!-- Check http://dev.joomla.org/content/view/42/66/ for language code -->
+	<string id="languagecode">
+		<english>en</english>
+		<dutch>nl</dutch>
+		<french>fr</french>
+		<hungarian>hu</hungarian>
+		<polish>pl</polish>
+		<serbian>sr</serbian>
+		<spanish>es</spanish>
+	</string>
+	<string id="error">
+		<english>Error</english>
+		<dutch>Fout</dutch>
+		<french>Erreur</french>
+		<hungarian>Hiba</hungarian>
+		<polish>Blad</polish>
+		<serbian>Greška</serbian>
+		<spanish>Error</spanish>
+	</string>
+	<string id="success">
+		<english>Success</english>
+		<dutch>Succes</dutch>
+		<french>Succès</french>
+		<hungarian>Kész</hungarian>
+		<polish>Sukces</polish>
+		<serbian>Espešno</serbian>
+		<spanish>Éxito</spanish>
+	</string>
+	<string id="ok">
+		<english>OK</english>
+		<dutch>OK</dutch>
+		<french>OK</french>
+		<hungarian>OK</hungarian>
+		<polish>OK</polish>
+		<serbian>OK</serbian>
+		<spanish>Acceptar</spanish>
+	</string>
+	<string id="cancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="yes">
+		<english>Yes</english>
+		<dutch>Ja</dutch>
+		<french>Oui</french>
+		<hungarian>Igen</hungarian>
+		<polish>Tak</polish>
+		<serbian>Da</serbian>
+		<spanish>SÍ</spanish>
+	</string>
+	<string id="no">
+		<english>No</english>
+		<dutch>Nee</dutch>
+		<french>Non</french>
+		<hungarian>Nem</hungarian>
+		<polish>Nie</polish>
+		<serbian>Ne</serbian>
+		<spanish>No</spanish>
+	</string>
+	<string id="confirm">
+		<english>Confirm</english>
+		<dutch>Bevestig</dutch>
+		<french>Confirmer</french>
+		<hungarian>Megerősítés</hungarian>
+		<polish>Potwierdz</polish>
+		<serbian>Potvrda</serbian>
+		<spanish>Confirmar</spanish>
+	</string>
+
+	<!-- Login interface -->
+	<string id="login_lblpass">
+		<english>Password</english>
+		<dutch>Wachtwoord</dutch>
+		<french>Mot de passe</french>
+		<hungarian>Jelszó</hungarian>
+		<polish>Haslo</polish>
+		<serbian>Šifra</serbian>
+		<spanish>Contraseña</spanish>
+	</string>
+	<string id="login_btnlogin">
+		<english>Log in</english>
+		<dutch>Log in</dutch>
+		<french>Entrer</french>
+		<hungarian>Bejelentkezés</hungarian>
+		<polish>Zaloguj</polish>
+		<serbian>Logovanje</serbian>
+		<spanish>Iniciar Sesión</spanish>
+	</string>
+	<string id="login_btnchpass">
+		<english>Change password</english>
+		<dutch>Wachtwoord wijzigen</dutch>
+		<french>Editer mot de passe</french>
+		<hungarian>Jelszó változtatása</hungarian>
+		<polish>Zmien haslo</polish>
+		<serbian>Promeni šifru</serbian>
+		<spanish>Cambiar contraseña</spanish>
+	</string>
+	<string id="login_chksavepass">
+		<english>Save</english>
+		<dutch>Opslaan</dutch>
+		<french>Sauver</french>
+		<hungarian>Mentés</hungarian>
+		<polish>Zachowaj</polish>
+		<serbian>Sačuvaj</serbian>
+		<spanish>Guardar</spanish>
+	</string>
+
+	<!-- Add items from bucket window -->	
+	<string id="addfrombkt_lblwindow">
+		<english>Add items from the bucket</english>
+		<dutch>Voeg items vanuit de bucket toe</dutch>
+		<french>Ajout d'éléments depuis le serveur</french>
+		<hungarian>Elemek csoportos hozzáadása</hungarian>
+		<polish>Dodaj ze schowka</polish>
+		<serbian>Dodaj fotke iz korpe</serbian>
+		<spanish>Agregar artículos del archivo bucket</spanish>
+	</string>
+	<string id="addfrombkt_lblphotos">
+		<english>Photos</english>
+		<dutch>Foto's</dutch>
+		<french>Photos</french>
+		<hungarian>Fényképek</hungarian>
+		<polish>Zdjecia</polish>
+		<serbian>Fotografije</serbian>
+		<spanish>Fotos</spanish>
+	</string>
+	<string id="addfrombkt_lblvideos">
+		<english>Videos</english>
+		<dutch>video's</dutch>
+		<french>Vidéos</french>
+		<hungarian>Mozgóképek</hungarian>
+		<polish>Filmy</polish>
+		<serbian>Video</serbian>
+		<spanish>Videos</spanish>
+	</string>
+	<string id="addfrombkt_lblfilter">
+		<english>Filter</english>
+		<dutch>Filter</dutch>
+		<french>Filtre</french>
+		<hungarian>Szűrő</hungarian>
+		<polish>Filtr</polish>
+		<serbian>Filter</serbian>
+		<spanish>Filtro</spanish>
+	</string>
+	<string id="addfrombkt_chkremitems">
+		<english>Remove from bucket</english>
+		<dutch>Verwijder uit bucket</dutch>
+		<french>Retirer du serveur</french>
+		<hungarian>Törlés a csoportból</hungarian>
+		<polish>Usun ze schowka</polish>
+		<serbian>Izbaci iz korpe</serbian>
+		<spanish>Eliminar del archivo /bucket</spanish>
+	</string>
+	<string id="addfrombkt_btnadditems">
+		<english>Add items</english>
+		<dutch>Voeg items toe</dutch>
+		<french>Ajouter</french>
+		<hungarian>Elemek hozzáadása</hungarian>
+		<polish>Dodaj</polish>
+		<serbian>Dodaj fotke</serbian>
+		<spanish>Agregar artículos</spanish>
+	</string>
+	<string id="addfrombkt_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="addfrombkt_msgseloneitem">
+		<english>Select at least one item</english>
+		<dutch>Selecteer minstens 1 item</dutch>
+		<french>Séléctionnez au moins un élément</french>
+		<hungarian>Legalább egy elem kijelölése</hungarian>
+		<polish>Wybierz przynajmniej jeden plik</polish>
+		<serbian>Selektujte bar jednu fotku</serbian>
+		<spanish>Seleccione al menos un artículo</spanish>
+	</string>
+	<string id="addfrombkt_headfile">
+		<english>File</english>
+		<dutch>Bestand</dutch>
+		<french>Fichier</french>
+		<hungarian>Fájl</hungarian>
+		<polish>Plik</polish>
+		<serbian>Fajl</serbian>
+		<spanish>Archivo</spanish>
+	</string>
+	<string id="addfrombkt_progadditems">
+		<english>Adding items...</english>
+		<dutch>Toevoegen items...</dutch>
+		<french>Ajout en cours...</french>
+		<hungarian>Elemek hozzáadása...</hungarian>
+		<polish>Dodawnie plikow...</polish>
+		<serbian>Dodavanje fotki...</serbian>
+		<spanish>Agregando artículos...</spanish>
+	</string>
+
+	<!-- Change password window -->
+	<string id="chgpass_lblwindow">
+		<english>Change password</english>
+		<dutch>Wachtwoord wijzigen</dutch>
+		<french>Changer le mot de passe</french>
+		<hungarian>Jelszó változtatása</hungarian>
+		<polish>Zmien Haslo</polish>
+		<serbian>Promeni šifru</serbian>
+		<spanish>Cambiar contraseña</spanish>
+	</string>
+	<string id="chgpass_currpass">
+		<english>Current password</english>
+		<dutch>Huidig wachtwoord</dutch>
+		<french>Mot de passe actuel</french>
+		<hungarian>Jelenlegi jelszó</hungarian>
+		<polish>Aktualne haslo</polish>
+		<serbian>Trenutna šifra</serbian>
+		<spanish>Contraseña actual</spanish>
+	</string>
+	<string id="chgpass_newpass">
+		<english>New password</english>
+		<dutch>Nieuw wachtwoord</dutch>
+		<french>Nouveau mot de passe</french>
+		<hungarian>Új jelszó</hungarian>
+		<polish>Nowe haslo</polish>
+		<serbian>Nova šifra</serbian>
+		<spanish>Contraseña nueva</spanish>
+	</string>
+	<string id="chgpass_confirmpass">
+		<english>Confirm password</english>
+		<dutch>Bevestig wachtwoord</dutch>
+		<french>Confirmer le mot de passe</french>
+		<hungarian>Jelszó megerősítése</hungarian>
+		<polish>Potwierdx haslo</polish>
+		<serbian>Potvrdi šifru</serbian>
+		<spanish>Confirme contraseña</spanish>
+	</string>
+	<string id="chgpass_btnchange">
+		<english>Change</english>
+		<dutch>Wijzig</dutch>
+		<french>Changer</french>
+		<hungarian>Megváltoztatás</hungarian>
+		<polish>Zmien</polish>
+		<serbian>Promeni</serbian>
+		<spanish>Cambiar</spanish>
+	</string>
+	<string id="chgpass_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="chgpass_msgnoemptypass">
+		<english>Current password cannot be empty</english>
+		<dutch>Huidig wachtwoord kan niet leeg zijn</dutch>
+		<french>Le mot de passe actuel ne peut pas être vide</french>
+		<hungarian>A jelenlegi jelszó mező nem maradhat üresen</hungarian>
+		<polish>Aktualne haslo nie moze byc puste</polish>
+		<serbian>Trenutna šifra ne može biti prazna</serbian>
+		<spanish>Contraseña actual no puede estar vacío</spanish>
+	</string>
+	<string id="chgpass_msgnonewemptypass">
+		<english>New password cannot be empty</english>
+		<dutch>Nieuw wachtwoord kan niet leeg zijn</dutch>
+		<french>Le nouveau mot de passe ne peut pas être vide</french>
+		<hungarian>Az új jelszó mező nem maradhat üresen</hungarian>
+		<polish>Nowe haslo nie moze byc puste</polish>
+		<serbian>Nova šifra ne može biti prazna</serbian>
+		<spanish>Contraseña nueva no puede estar vacío</spanish>
+	</string>
+	<string id="chgpass_msgmismatch">
+		<english>New password does not match confirmation</english>
+		<dutch>Nieuw wachtwoord komt niet overeen met de bevestiging</dutch>
+		<french>Le nouveau mot de passe et la confirmation sont différents</french>
+		<hungarian>A két jelszó nem egyezik</hungarian>
+		<polish>Nowe haslo nie zgadza sie z potwierdzeniem</polish>
+		<serbian>Nova šifra se ne poklapa sa potvrdom</serbian>
+		<spanish>Contraseñas no coinciden</spanish>
+	</string>
+	<string id="chgpass_succchange">
+		<english>Password successfully changed</english>
+		<dutch>Wachtwoord wijzigen geslaagd</dutch>
+		<french>Le mot de passe a été correctement mis à jour</french>
+		<hungarian>Jelszó sikeresen megváltoztatva</hungarian>
+		<polish>Haslo zmienione</polish>
+		<serbian>Šifra uspešno promenjena</serbian>
+		<spanish>Contraseña cambiado exitosamente</spanish>
+	</string>
+	<string id="chgpass_invpass">
+		<english>Invalid login password</english>
+		<dutch>Log in wachtwoord ongeldig</dutch>
+		<french>Mot de passe invalide</french>
+		<hungarian>Hibás belépési jelszó</hungarian>
+		<polish>Blednie wprowadzone haslo</polish>
+		<serbian>Pogrešna šifra</serbian>
+		<spanish>Contraseña inválida</spanish>
+	</string>
+
+	<!-- Create album window -->
+	<string id="crtalbum_lblwindow">
+		<english>Create album</english>
+		<dutch>Maak album</dutch>
+		<french>Créer un album</french>
+		<hungarian>Album létrehozása</hungarian>
+		<polish>Stworz album</polish>
+		<serbian>Napravi album</serbian>
+		<spanish>Crear álbum</spanish>
+	</string>
+	<string id="crtalbum_lbltitle">
+		<english>Title</english>
+		<dutch>Titel</dutch>
+		<french>Titre</french>
+		<hungarian>Címke</hungarian>
+		<polish>Tytul</polish>
+		<serbian>Naziv</serbian>
+		<spanish>Título</spanish>
+	</string>
+	<string id="crtalbum_lblplacein">
+		<english>Place in</english>
+		<dutch>Plaatsen in</dutch>
+		<french>Placer dans</french>
+		<hungarian>Hely</hungarian>
+		<polish>Umiesc w</polish>
+		<serbian>Postavi u</serbian>
+		<spanish>Colocar en</spanish>
+	</string>
+	<string id="crtalbum_btncreate">
+		<english>Create</english>
+		<dutch>Aanmaken</dutch>
+		<french>Créer</french>
+		<hungarian>Létrehozás</hungarian>
+		<polish>Utworz</polish>
+		<serbian>Napravi</serbian>
+		<spanish>Crear</spanish>
+	</string>
+	<string id="crtalbum_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="crtalbum_nametoplevel">
+		<english>Top level</english>
+		<dutch>Top niveau</dutch>
+		<french>Racine</french>
+		<hungarian>Legfelső szint</hungarian>
+		<polish>Folder glowny</polish>
+		<serbian>Gornji nivo</serbian>
+		<spanish>Nivel superior</spanish>
+	</string>
+
+	<!-- Create album thumbnail window -->
+	<string id="crtalbthumb_lblwindow">
+		<english>Create album or collection thumbnail</english>
+		<dutch>Aanmaken album of collectie thumbnail</dutch>
+		<french>Créer la miniature de l'album / collection</french>
+		<hungarian>Album vagy gyűjtemény miniatűrének létrehozása</hungarian>
+		<polish>Utworz ikone albumu albo kolekcji</polish>
+		<serbian>Napravi thumbnail za album ili kolekciju</serbian>
+		<spanish>Crear álbum o colección de miniaturas</spanish>
+	</string>
+	<string id="crtalbthumb_lblassignto">
+		<english>Assign to</english>
+		<dutch>Toewijzen aan</dutch>
+		<french>Assigner à</french>
+		<hungarian>Hozzárendelés ehhez</hungarian>
+		<polish>Przyporzadkuj do</polish>
+		<serbian>Dodeli na</serbian>
+		<spanish>Assignar a</spanish>
+	</string>
+	<string id="crtalbthumb_btncreate">
+		<english>Create</english>
+		<dutch>Aanmaken</dutch>
+		<french>Créer</french>
+		<hungarian>Létrehozás</hungarian>
+		<polish>Utworz</polish>
+		<serbian>Napravi</serbian>
+		<spanish>Crear</spanish>
+	</string>
+	<string id="crtalbthumb_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+
+	<!-- Create collection window -->
+	<string id="crtcoll_lblwindow">
+		<english>Create collection</english>
+		<dutch>Maak collectie</dutch>
+		<french>Créer une collection</french>
+		<hungarian>Gyűjtemény létrehozása</hungarian>
+		<polish>Utworz kolekcje</polish>
+		<serbian>Napravi kolekciju</serbian>
+		<spanish>Crear colección</spanish>
+	</string>
+	<string id="crtcoll_lbltitle">
+		<english>Title</english>
+		<dutch>Titel</dutch>
+		<french>Titre</french>
+		<hungarian>Címke</hungarian>
+		<polish>Tytul</polish>
+		<serbian>Naziv</serbian>
+		<spanish>Título</spanish>
+	</string>
+	<string id="crtcoll_lblplacein">
+		<english>Place in</english>
+		<dutch>Plaatsen in</dutch>
+		<french>Placer dans</french>
+		<hungarian>Hely</hungarian>
+		<polish>Umiesc w</polish>
+		<serbian>Postavi u</serbian>
+		<spanish>Colocar en</spanish>
+	</string>
+	<string id="crtcoll_btncreate">
+		<english>Create</english>
+		<dutch>Aanmaken</dutch>
+		<french>Créer</french>
+		<polish>Utworz</polish>
+		<serbian>Napravi</serbian>
+		<spanish>Crear</spanish>
+	</string>
+	<string id="crtcoll_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="crtcoll_nametoplevel">
+		<english>Top level</english>
+		<dutch>Top niveau</dutch>
+		<french>Racine</french>
+		<hungarian>Legfelső szint</hungarian>
+		<polish>Folder glowny</polish>
+		<serbian>Gornji nivo</serbian>
+		<spanish>Nivel superior</spanish>
+	</string>
+
+	<!-- Move album/collection window -->
+	<string id="movealb_lblwindow">
+		<english>Move album or collection</english>
+		<dutch>Verplaats album of collectie</dutch>
+		<french>Déplacer l'album / collection</french>
+		<hungarian>Album vagy gyűjtemény áthelyezése</hungarian>
+		<polish>Przenies album do kolekcji</polish>
+		<serbian>Premesti album ili kolekciju</serbian>
+		<spanish>Mover álbum o colección</spanish>
+	</string>
+	<string id="movealb_lblmoveto">
+		<english>Title</english>
+		<dutch>Titel</dutch>
+		<french>Titre</french>
+		<hungarian>Címke</hungarian>
+		<polish>Tytul</polish>
+		<serbian>Naziv</serbian>
+		<spanish>Título</spanish>
+	</string>
+	<string id="movealb_btnmove">
+		<english>Move</english>
+		<dutch>Verplaats</dutch>
+		<french>Déplacer</french>
+		<hungarian>Áthelyezés</hungarian>
+		<polish>Przenies</polish>
+		<serbian>Premesti</serbian>
+		<spanish>Mover</spanish>
+	</string>
+	<string id="movealb_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="movealb_nametoplevel">
+		<english>Top level</english>
+		<dutch>Top niveau</dutch>
+		<french>Racine</french>
+		<hungarian>Legfelső szint</hungarian>
+		<polish>Folder glowny</polish>
+		<serbian>Gornji nivo</serbian>
+		<spanish>Nivel superior</spanish>
+	</string>
+
+	<!-- Move photos window -->
+	<string id="movephoto_lblwindow">
+		<english>Move photos and videos</english>
+		<dutch>Verplaats foto's en video's</dutch>
+		<french>Déplacer les photos et Vidéos</french>
+		<hungarian>Fényképek és mozgóképek áthelyezése</hungarian>
+		<polish>Przenies zdjecia i filmy</polish>
+		<serbian>Premesti fotke i video</serbian>
+		<spanish>Mover fotos y videos</spanish>
+	</string>
+	<string id="movephoto_lblmoveto">
+		<english>Title</english>
+		<dutch>Aanmaken</dutch>Titel
+		<french>Titre</french>
+		<hungarian>Címke</hungarian>
+		<polish>Tytul</polish>
+		<serbian>Naslov</serbian>
+		<spanish>Título</spanish>
+	</string>
+	<string id="movephoto_btnmove">
+		<english>Move</english>
+		<dutch>Verplaats</dutch>
+		<french>Déplacer</french>
+		<hungarian>Áthelyezés</hungarian>
+		<polish>Przenies</polish>
+		<serbian>Premesti</serbian>
+		<spanish>Mover</spanish>
+	</string>
+	<string id="movephoto_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="movephoto_msglblselalbfst">
+		<english>Select an album first</english>
+		<dutch>Selecteer eerst een album</dutch>
+		<french>Choisissez un album d'abord</french>
+		<hungarian>Előbb válasszon albumot</hungarian>
+		<polish>Najpierw wybierz album</polish>
+		<serbian>Selektujte prvo album</serbian>
+		<spanish>Primero seleccione un álbum</spanish>
+	</string>
+	<string id="movephoto_msgnomovetocoll">
+		<english>Cannot move to a collection. Select an album instead.</english>
+		<dutch>Kan niet verplaatsen naar een collectie. Selecteer een album</dutch>
+		<french>Impossible de déplacer vers une collection : sélectionnez plutôt un album</french>
+		<hungarian>Nem tudom áthelyezni gyűjteménybe. Inkább válasszon albumot.</hungarian>
+		<polish>Nie mozna przeniesc do kolekcji. Wybierz album.</polish>
+		<serbian>Nemoguće je premestiti kolekciju. Selektujte album</serbian>
+		<spanish>Colección no se puede mover. En vez, Seleccione un álbum.</spanish>
+	</string>
+
+	<!-- Photo preview window -->
+	<string id="photopreview_lblwindow">
+		<english>Photo preview</english>
+		<dutch>Foto preview</dutch>
+		<french>Voir la Photo</french>
+		<hungarian>Fénykép előnézet</hungarian>
+		<polish>Podglad zdjecia</polish>
+		<serbian>Foto prikaz</serbian>
+		<spanish>Vista preliminar de fotos</spanish>
+	</string>
+
+	<!-- Rename album/collection window -->
+	<string id="renalbum_lblwindowalb">
+		<english>Rename album</english>
+		<dutch>Hernoem album</dutch>
+		<french>Renommer l'album</french>
+		<hungarian>Album átnevezése</hungarian>
+		<polish>Zmien nazwe albumu</polish>
+		<serbian>Preimenuj album</serbian>
+		<spanish>Renombrar álbum</spanish>
+	</string>
+	<string id="renalbum_lblwindowcoll">
+		<english>Rename collection</english>
+		<dutch>Hernoem collectie</dutch>
+		<french>Renommer la collection</french>
+		<hungarian>Gyűjtemény átnevezése</hungarian>
+		<polish>Zmien nazwe kolekcji</polish>
+		<serbian>Preimenuj kolekciju</serbian>
+		<spanish>Renombrar colección</spanish>
+	</string>
+	<string id="renalbum_lbltitle">
+		<english>Title</english>
+		<dutch>Titel</dutch>
+		<french>Titre</french>
+		<hungarian>Címke</hungarian>
+		<polish>Tytul</polish>
+		<serbian>Naziv</serbian>
+		<spanish>Título</spanish>
+	</string>
+	<string id="renalbum_btnrename">
+		<english>Rename</english>
+		<dutch>Hernoem</dutch>
+		<french>Renommer</french>
+		<hungarian>Átnevezés</hungarian>
+		<polish>Zmien nazwe</polish>
+		<serbian>Preimenuj</serbian>
+		<spanish>Renombrar</spanish>
+	</string>
+	<string id="renalbum_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+
+	<!-- Video preview window -->
+	<string id="vidpreview_lblwindow">
+		<english>Video preview</english>
+		<dutch>Video preview</dutch>
+		<french>Voir la vidéo</french>
+		<hungarian>Mozgókép előnézete</hungarian>
+		<polish>Podglad filmu</polish>
+		<serbian>Video prikaz</serbian>
+		<spanish>Vista preliminar de video</spanish>
+	</string>
+	<string id="vidpreview_btncapthumb">
+		<english>Capture to thumbnail</english>
+		<dutch>Bijschrift thumbnail</dutch>
+		<french>Capture une miniature</french>
+		<hungarian>Rögzítés miniatűrként</hungarian>
+		<polish>Przechwyc ikone</polish>
+		<serbian>Uhvati za thumbnail</serbian>
+		<spanish>Capturar a miniatura</spanish>
+	</string>
+	<string id="vidpreview_progencoding">
+		<english>Encoding</english>
+		<dutch>Codering</dutch>
+		<french>Encodage</french>
+		<hungarian>Kódolás</hungarian>
+		<polish>Rozkodowanie</polish>
+		<serbian>Encodiranje</serbian>
+		<spanish>Codificar</spanish>
+	</string>
+	<string id="vidpreview_proguploading">
+		<english>Uploading</english>
+		<dutch>Uploaden</dutch>
+		<french>Envoi</french>
+		<hungarian>Feltöltés</hungarian>
+		<polish>Wysylanie</polish>
+		<serbian>Uploadovanje</serbian>
+		<spanish>Transferir</spanish>
+	</string>
+	<string id="vidpreview_msgplzwait">
+		<english>Please wait a few seconds \n before encoder becomes ready</english>
+		<dutch>Wacht een paar seconden \n tot de encoder klaar is</dutch>
+		<french>Attendez quelques secondes \n que l'encodeur soit prêt</french>
+		<hungarian>Kérem várjon egy kicsit, \n míg készen áll a kódoló</hungarian>
+		<polish>Poczekaj kilka sekund, az plik zostanie rozkodowany</polish>
+		<serbian>Molimo sačekajte nekoliko sekundi \n pre nego encoder bude spreman</serbian>
+		<spanish>Favor aguarde un momento para \n que se prepare el codificador</spanish>
+	</string>
+
+	<!-- Upload photos window -->
+	<string id="upphotos_lblwindow">
+		<english>Upload photos</english>
+		<dutch>Upload foto's</dutch>
+		<french>Envoyer des photos</french>
+		<hungarian>Fényképek feltöltése</hungarian>
+		<polish>Wysylanie zdjec</polish>
+		<serbian>Uploaduj fotke</serbian>
+		<spanish>Transferir fotos</spanish>
+	</string>
+	<string id="upphotos_btnaddphotos">
+		<english>Add photos</english>
+		<dutch>Voeg foto's toe</dutch>
+		<french>Ajouter des photos</french>
+		<hungarian>Fényképek hozzáadása</hungarian>
+		<polish>Dodaj zdjecia</polish>
+		<serbian>Dodaj fotke</serbian>
+		<spanish>Agregar fotos</spanish>
+	</string>
+	<string id="upphotos_btnupload">
+		<english>Upload</english>
+		<dutch>Upload</dutch>
+		<french>Envoyer</french>
+		<hungarian>Feltöltés</hungarian>
+		<polish>Wyslij</polish>
+		<serbian>Upload</serbian>
+		<spanish>Transferir</spanish>
+	</string>
+	<string id="upphotos_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="upphotos_lblsize">
+		<english>{0} KB</english>
+		<dutch>{0} KB</dutch>
+		<french>{0} Ko</french>
+		<hungarian>(0) KB</hungarian>
+		<polish>{0} KB</polish>
+		<serbian>{0} KB</serbian>
+		<spanish>{0} KB</spanish>
+	</string>
+	<string id="upphotos_lblupresizing">
+		<english>Resizing {0}</english>
+		<dutch>Herschalen {0}</dutch>
+		<french>Redimensionner {0}</french>
+		<hungarian>Átméretezés (0)</hungarian>
+		<polish>Zmiana rozmiaru {0}</polish>
+		<serbian>Menjanje veličine{0}</serbian>
+		<spanish>Cambiando tamaño {0}</spanish>
+	</string>
+	<string id="upphotos_lblupuploading">
+		<english>Uploading {0}</english>
+		<dutch>Uploaden {0}</dutch>
+		<french>Envoi {0}</french>
+		<hungarian>Feltöltés (0)</hungarian>
+		<polish>Wysylanie {0}</polish>
+		<serbian>Uploadovanje{0}</serbian>
+		<spanish>Transfiriendo {0}</spanish>
+	</string>
+	<string id="upphotos_imgdesc">
+		<english>Images (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</english>
+		<dutch>Afbeeldingen (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</dutch>
+		<french>Images (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</french>
+		<hungarian>Fényképek (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</hungarian>
+		<polish>Zdjecia (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</polish>
+		<serbian>Fotke (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</serbian>
+		<spanish>Imágenes (*.jpg, *.jpeg, *.png, *.tif, *.tiff)</spanish>
+	</string>
+	<string id="upphotos_headfile">
+		<english>File</english>
+		<dutch>Bestand</dutch>
+		<french>Fichier</french>
+		<hungarian>Fájl</hungarian>
+		<polish>Plik</polish>
+		<serbian>Fajl</serbian>
+		<spanish>Archivos</spanish>
+	</string>
+	<string id="upphotos_headsize">
+		<english>Size</english>
+		<dutch>Formaat</dutch>
+		<french>Taille</french>
+		<hungarian>Méret</hungarian>
+		<polish>Rozmiar</polish>
+		<serbian>Veličina</serbian>
+		<spanish>Tamaño</spanish>
+	</string>
+	<string id="upphotos_msgdoneuploading">
+		<english>Finished uploading photos</english>
+		<dutch>Uploaden foto's klaar</dutch>
+		<french>Envoi des photos terminé</french>
+		<hungarian>Fényképek feltöltése kész</hungarian>
+		<polish>Zakonczono wysylanie zdjec</polish>
+		<serbian>Završeno uploadovanje fotki</serbian>
+		<spanish>Transferencia de fotos terminó</spanish>
+	</string>
+	<string id="upphotos_msgerrcomm">
+		<english>Could not communicate with the server</english>
+		<dutch>Kan geen verbinding maken met de server</dutch>
+		<french>Problème de communication avec le serveur</french>
+		<hungarian>Nem tudok kapcsolódni a szerverre</hungarian>
+		<polish>Nie moge polaczyc sie z serwerem</polish>
+		<serbian>Nemoguće je uspostaviti vezu sa serverom</serbian>
+		<spanish>No se pudo comunicar con el servidor</spanish>
+	</string>
+	<string id="upphotos_msgerrfile">
+		<english>Could not read file</english>
+		<dutch>Kan bestand niet lezen</dutch>
+		<french>Impossible de lire le fichier</french>
+		<hungarian>Nem tudom olvasni a fájlt</hungarian>
+		<polish>Nie moge czytac pliku</polish>
+		<serbian>Nemoguće je pročitati fajl</serbian>
+		<spanish>No se pudo leer el archivo</spanish>
+	</string>
+	<string id="upphotos_msgsecerr">
+		<english>Security error</english>
+		<dutch>Beveiligings fout</dutch>
+		<french>Erreur de sécurité</french>
+		<hungarian>Biztonsági hiba</hungarian>
+		<polish>Blad zabezpieczen</polish>
+		<serbian>Sigurnosna greška</serbian>
+		<spanish>Error de seguridad</spanish>
+	</string>
+
+	<!-- Upload videos window -->
+	<string id="upvideos_lblwindow">
+		<english>Upload videos</english>
+		<dutch>Upload video's</dutch>
+		<french>Envoi des vidéos</french>
+		<hungarian>Fényképek feltöltése</hungarian>
+		<polish>Wysylanie zdjec</polish>
+		<serbian>Uploaduj fotke</serbian>
+		<spanish>Transferir fotos</spanish>
+	</string>
+	<string id="upvideos_btnaddvideos">
+		<english>Add videos</english>
+		<dutch>Voeg video's toe</dutch>
+		<french>Ajouter vidéos</french>
+		<hungarian>Mozgóképek hozzáadása</hungarian>
+		<polish>Dodaj filmy</polish>
+		<serbian>Dodaj video</serbian>
+		<spanish>Agregar videos</spanish>
+	</string>
+	<string id="upvideos_btnupload">
+		<english>Upload</english>
+		<dutch>Upload</dutch>
+		<french>Envoyer</french>
+		<hungarian>Feltöltés</hungarian>
+		<polish>Wyslij</polish>
+		<serbian>Upload</serbian>
+		<spanish>Transferir</spanish>
+	</string>
+	<string id="upvideos_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="upvideos_lblsize">
+		<english>{0} KB</english>
+		<dutch>{0} KB</dutch>
+		<french>{0} Ko</french>
+		<hungarian>{0} KB</hungarian>
+		<polish>{0} KB</polish>
+		<serbian>{0} KB</serbian>
+		<spanish>{0} KB</spanish>
+	</string>
+	<string id="upvideos_lblupuploading">
+		<english>Uploading {0}</english>
+		<dutch>Uploaden {0}</dutch>
+		<french>Envoi {0}</french>
+		<hungarian>Feltöltés (0)</hungarian>
+		<polish>Wysylanie {0}</polish>
+		<serbian>Uploading{0}</serbian>
+		<spanish>Transfiriendo {0}</spanish>
+	</string>
+	<string id="upvideos_viddesc">
+		<english>Flash videos (*.flv)</english>
+		<dutch>Flash video's (*flv)</dutch>
+		<french>Videos Flash (*.flv)</french>
+		<hungarian>Flash filmek (*.flv)</hungarian>
+		<polish>Filmy flash (*.flv)</polish>
+		<serbian>Fleš Video (*.flv)</serbian>
+		<spanish>Videos flash (*.flv)</spanish>
+	</string>
+	<string id="upvideos_headfile">
+		<english>File</english>
+		<dutch>Bestand</dutch>
+		<french>Fichier</french>
+		<hungarian>Fájl</hungarian>
+		<polish>Plik</polish>
+		<serbian>Fajl</serbian>
+		<spanish>Archivo</spanish>
+	</string>
+	<string id="upvideos_headsize">
+		<english>Size</english>
+		<dutch>Grootte</dutch>
+		<french>Taille</french>
+		<hungarian>Méret</hungarian>
+		<polish>Rozmiar</polish>
+		<serbian>Veličina</serbian>
+		<spanish>Tamaño</spanish>
+	</string>
+	<string id="upvideos_msgdoneuploading">
+		<english>Finished uploading videos</english>
+		<dutch>Uploaden video's klaar</dutch>
+		<french>Envoi des vidéos terminé</french>
+		<hungarian>Mozgóképek feltöltése kész</hungarian>
+		<polish>Zakonczono wysylanie filmow</polish>
+		<serbian>Završeno uploadovanje videa</serbian>
+		<spanish>Transferencia de videos terminó</spanish>
+	</string>
+	<string id="upvideos_msgerrcomm">
+		<english>Could not communicate with the server</english>
+		<dutch>Kan geen verbinding maken met de server</dutch>
+		<french>Problème de communication avec le serveur</french>
+		<hungarian>Nem tudok kapcsolódni a szerverre</hungarian>
+		<polish>Nie moge polaczyc sie z serwerem</polish>
+		<serbian>Nemoguće je uspostaviti vezu sa serverom</serbian>
+		<spanish>No se pudo comunicar con el servidor</spanish>
+	</string>
+	<string id="upvideos_msgerrfile">
+		<english>Could not read file</english>
+		<dutch>Kan bestand niet lezen</dutch>
+		<french>Impossible de lire le fichier</french>
+		<hungarian>Nem tudom olvasni a fájlt</hungarian>
+		<polish>Nie moge czytac pliku</polish>
+		<serbian>Nemoguće je pročitati fajl</serbian>
+		<spanish>No se pudo leer el archivo</spanish>
+	</string>
+	<string id="upvideos_msgsecerr">
+		<english>Security error</english>
+		<dutch>Beveiligings fout</dutch>
+		<french>Erreur de sécurité</french>
+		<hungarian>Biztonsági hiba</hungarian>
+		<polish>Blad zabezpieczen</polish>
+		<serbian>Sigurnosna greška</serbian>
+		<spanish>Error de seguridad</spanish>
+	</string>
+
+	<!-- Settings window -->
+	<string id="settings_lblwindow">
+		<english>Settings</english>
+		<dutch>Instellingen</dutch>
+		<french>Configuration</french>
+		<hungarian>Beállítások</hungarian>
+		<polish>Ustawienia</polish>
+		<serbian>Podešavanja</serbian>
+		<spanish>Ajustes</spanish>
+	</string>
+	<string id="settings_btnapply">
+		<english>Apply</english>
+		<dutch>Toepassen</dutch>
+		<french>Appliquer</french>
+		<hungarian>Alkalmaz</hungarian>
+		<polish>Zatwierdz</polish>
+		<serbian>Primeni</serbian>
+		<spanish>Applicar</spanish>
+	</string>
+	<string id="settings_btncancel">
+		<english>Cancel</english>
+		<dutch>Annuleer</dutch>
+		<french>Annuler</french>
+		<hungarian>Mégse</hungarian>
+		<polish>Anuluj</polish>
+		<serbian>Obustavi</serbian>
+		<spanish>Cancelar</spanish>
+	</string>
+	<string id="settings_btnphotouploads">
+		<english>Photo uploads</english>
+		<dutch>Foto uploads</dutch>
+		<french>Photos</french>
+		<hungarian>Fényképek feltöltése</hungarian>
+		<polish>Wysylanie zdjec</polish>
+		<serbian>Upload fotki</serbian>
+		<spanish>Transferir fotos</spanish>
+	</string>
+	<string id="settings_btnvideo">
+		<english>Video</english>
+		<dutch>Video</dutch>
+		<french>Vidéo</french>
+		<hungarian>Mozgókép</hungarian>
+		<polish>Filmy</polish>
+		<serbian>Video</serbian>
+		<spanish>Video</spanish>
+	</string>
+	<string id="settings_msgsetapplied">
+		<english>New settings applied</english>
+		<dutch>Nieuwe instellingen toegepast</dutch>
+		<french>Nouveaux paramètres appliqués avec succès</french>
+		<hungarian>Új beállítások alkalmazva</hungarian>
+		<polish>Nowe ustawienia zatwierdzone</polish>
+		<serbian>Nova podešavanja primenjena</serbian>
+		<spanish>Se aplicaron ajustes nuevos</spanish>
+	</string>
+	<string id="settings_photoup_lblresizing">
+		<english>Resizing</english>
+		<dutch>Herschalen</dutch>
+		<french>Dimensions</french>
+		<hungarian>Átméretezés</hungarian>
+		<polish>Zmiana rozmiaru</polish>
+		<serbian>Promena veličine</serbian>
+		<spanish>Cambiar dimensión</spanish>
+	</string>
+	<string id="settings_photoup_lblcopyright">
+		<english>Copyright</english>
+		<dutch>Copyright</dutch>
+		<french>Copyright</french>
+		<hungarian>Szerzői jog</hungarian>
+		<polish>Prawa autorskie</polish>
+		<serbian>Copyright</serbian>
+		<spanish>Derechos de Autor</spanish>
+	</string>
+	<string id="settings_photoup_lblsmfitbox">
+		<english>Small fitting box</english>
+		<dutch>Kleine afbeelding</dutch>
+		<french>Petite taille</french>
+		<hungarian>Keskeny méretű doboz</hungarian>
+		<polish>Maly lacznik</polish>
+		<serbian>Mali kvadrat</serbian>
+		<spanish>Límite pequeña</spanish>
+	</string>
+	<string id="settings_photoup_lblnorfitbox">
+		<english>Medium fitting box</english>
+		<dutch>Medium afbeelding</dutch>
+		<french>Taille moyenne</french>
+		<hungarian>Közepes méretű doboz</hungarian>
+		<polish>Sredni lacznik</polish>
+		<serbian>Srednji kvadrat</serbian>
+		<spanish>Límite mediana</spanish>
+	</string>
+	<string id="settings_photoup_lbllgfitbox">
+		<english>Large fitting box</english>
+		<dutch>Grote afbeelding</dutch>
+		<french>Grande taille</french>
+		<hungarian>Nagy méretű doboz</hungarian>
+		<polish>Duzy lacznik</polish>
+		<serbian>Veliki kvadrat</serbian>
+		<spanish>Límite grande</spanish>
+	</string>
+	<string id="settings_photoup_lblquality">
+		<english>Quality</english>
+		<dutch>Kwaliteit</dutch>
+		<french>Qualité</french>
+		<hungarian>Minőség</hungarian>
+		<polish>Jakosc</polish>
+		<serbian>Kvalitet</serbian>
+		<spanish>Calidad</spanish>
+	</string>
+	<string id="settings_photoup_lbltextsize">
+		<english>Text size</english>
+		<dutch>Tekst grootte</dutch>
+		<french>Taille du texte</french>
+		<hungarian>Szövegméret</hungarian>
+		<polish>Rozmiar tekstu</polish>
+		<serbian>Veličina teksta</serbian>
+		<spanish>Tamaño de tipo</spanish>
+	</string>
+	<string id="settings_photoup_lbltextcolor">
+		<english>Text color</english>
+		<dutch>Tekst kleur</dutch>
+		<french>Couleur du texte</french>
+		<hungarian>Szövegszín</hungarian>
+		<polish>Kolor tekstu</polish>
+		<serbian>Boja teksta</serbian>
+		<spanish>Color de texto</spanish>
+	</string>
+	<string id="settings_photoup_lblred">
+		<english>Red</english>
+		<dutch>Rood</dutch>
+		<french>Rouge</french>
+		<hungarian>Piros</hungarian>
+		<polish>Czerwony</polish>
+		<serbian>Crvena</serbian>
+		<spanish>Rojo</spanish>
+	</string>
+	<string id="settings_photoup_lblgreen">
+		<english>Green</english>
+		<dutch>Groen</dutch>
+		<french>Vert</french>
+		<hungarian>Zöld</hungarian>
+		<polish>Zielony</polish>
+		<serbian>Zelena</serbian>
+		<spanish>Verde</spanish>
+	</string>
+	<string id="settings_photoup_lblblue">
+		<english>Blue</english>
+		<dutch>Blauw</dutch>
+		<french>Bleu</french>
+		<hungarian>Kék</hungarian>
+		<polish>Niebieski</polish>
+		<serbian>Plava</serbian>
+		<spanish>Azul</spanish>
+	</string>
+	<string id="settings_photoup_lblopacity">
+		<english>Opacity</english>
+		<dutch>Opaciteit</dutch>
+		<french>Opacité</french>
+		<hungarian>Átlátszóság</hungarian>
+		<polish>Nieprzezroczysty</polish>
+		<serbian>Providnost</serbian>
+		<spanish>Opacidad</spanish>
+	</string>
+	<string id="settings_photoup_chkcrtlgimg">
+		<english>Create large image</english>
+		<dutch>Maak grote foto</dutch>
+		<french>Créer une grande image</french>
+		<hungarian>Nagyméretű kép létrehozása</hungarian>
+		<polish>Utworz duzy obrazek</polish>
+		<serbian>Napravi veliku fotku</serbian>
+		<spanish>Crear imagen grande</spanish>
+	</string>
+	<string id="settings_photoup_chkembedcopy">
+		<english>Embed copyright text</english>
+		<dutch>Invoegen copyright tekst</dutch>
+		<french>Ajouter un copyright</french>
+		<hungarian>Embed copyright text</hungarian>
+		<polish>Wstaw informacje o prawach autorskich</polish>
+		<serbian>Dodaj copyright tekst</serbian>
+		<spanish>Incrustar texto de Derechos de Autor</spanish>
+	</string>
+	<string id="settings_photoup_chkembedwmark">
+		<english>Embed watermark</english>
+		<dutch>Invoegen watermerk</dutch>
+		<french>Ajouter un filigrane</french>
+		<hungarian>Vízjel beágyazása</hungarian>
+		<polish>Wstaw znak wodny</polish>
+		<serbian>Dodaj vodeni žig</serbian>
+		<spanish>Incrustar filigrana</spanish>
+	</string>
+	<string id="settings_video_lblvideothumb">
+		<english>Thumbnail</english>
+		<dutch>Thumbnail</dutch>
+		<french>Miniature</french>
+		<hungarian>Miniatűr kép</hungarian>
+		<polish>Miniatura</polish>
+		<serbian>Thumbnail</serbian>
+		<spanish>Miniatura</spanish>
+	</string>
+	<string id="settings_video_lblsize">
+		<english>Size</english>
+		<dutch>Grootte</dutch>
+		<french>Taille</french>
+		<hungarian>Méret</hungarian>
+		<polish>Rozmiar</polish>
+		<serbian>Veličina</serbian>
+		<spanish>Tamañ</spanish>
+	</string>
+	<string id="settings_video_lblquality">
+		<english>Quality</english>
+		<dutch>Kwaliteit</dutch>
+		<french>Qualité</french>
+		<hungarian>Minőség</hungarian>
+		<polish>Jakosc</polish>
+		<serbian>Kvalitet</serbian>
+		<spanish>Calidad</spanish>
+	</string>
+
+	<!-- Main interface -->
+	<string id="main_btnlogout">
+		<english>Log out</english>
+		<dutch>Log uit</dutch>
+		<french>Déconnexion</french>
+		<hungarian>Kijelentkezés</hungarian>
+		<polish>Wyloguj</polish>
+		<serbian>Odloguj se</serbian>
+		<spanish>Cerrar sesión</spanish>
+	</string>
+	<string id="main_btnhelp">
+		<english>Help</english>
+		<dutch>Help</dutch>
+		<french>Aide</french>
+		<hungarian>Súgó</hungarian>
+		<polish>Pomoc</polish>
+		<serbian>Pomoć</serbian>
+		<spanish>Ayuda</spanish>
+	</string>
+	<string id="main_btnsettings">
+		<english>Settings</english>
+		<dutch>Instellingen</dutch>
+		<french>Config</french>
+		<hungarian>Beállítások</hungarian>
+		<polish>Ustawienia</polish>
+		<serbian>Podešavanja</serbian>
+		<spanish>Ajustes</spanish>
+	</string>
+	<string id="main_btnuploadphotos">
+		<english>Upload photos</english>
+		<dutch>Upload foto's</dutch>
+		<french>Envoi de photos</french>
+		<hungarian>Fényképek feltöltése</hungarian>
+		<polish>Wyslij zdjecia</polish>
+		<serbian>Upload fotki</serbian>
+		<spanish>Transferir fotos</spanish>
+	</string>
+	<string id="main_btnuploadvideos">
+		<english>Upload videos</english>
+		<dutch>Upload video's</dutch>
+		<french>Envoi de vidéos</french>
+		<hungarian>Mozgóképek feltöltése</hungarian>
+		<polish>Wyslij filmy</polish>
+		<serbian>Upload videa</serbian>
+		<spanish>Transferir videos</spanish>
+	</string>
+	<string id="main_btnaddfrombkt">
+		<english>Add from bucket</english>
+		<dutch>Voeg toe uit bucket</dutch>
+		<french>Ajout depuis Serveur</french>
+		<hungarian>Csoportos hozzáadás</hungarian>
+		<polish>Dodaj ze schowka</polish>
+		<serbian>Dodaj iz korpe</serbian>
+		<spanish>Agregar del archivo /bucket</spanish>
+	</string>
+	<string id="main_btnmvalbitemup">
+		<english>Up</english>
+		<dutch>Omhoog</dutch>
+		<french>Haut</french>
+		<hungarian>Fel</hungarian>
+		<polish>Gora</polish>
+		<serbian>Gore</serbian>
+		<spanish>Arriba</spanish>
+	</string>
+	<string id="main_btnmvalbitemdown">
+		<english>Down</english>
+		<dutch>Omlaag</dutch>
+		<french>Bas</french>
+		<hungarian>Le</hungarian>
+		<polish>Dol</polish>
+		<serbian>Dole</serbian>
+		<spanish>Abajo</spanish>
+	</string>
+	<string id="main_btnmvalbitemto">
+		<english>Move to</english>
+		<dutch>Verplaats naar</dutch>
+		<french>Déplacer</french>
+		<hungarian>Áthelyez ide</hungarian>
+		<polish>Przenies do</polish>
+		<serbian>Premesti u</serbian>
+		<spanish>Mover a</spanish>
+	</string>
+	<string id="main_btndelalbitems">
+		<english>Delete items</english>
+		<dutch>Verwijder items</dutch>
+		<french>Supprimer</french>
+		<hungarian>Elemek törlése</hungarian>
+		<polish>Usun pilki</polish>
+		<serbian>Obriši fotke</serbian>
+		<spanish>Eliminar artículos</spanish>
+	</string>
+	<string id="main_btncrtalbthumb">
+		<english>Create album thumb</english>
+		<dutch>Maak album thumbnail</dutch>
+		<french>Créer miniature</french>
+		<hungarian>Album miniatűr kép létrehozása</hungarian>
+		<polish>Utworz miniaturke albumu</polish>
+		<serbian>Napravi thumbnail za album</serbian>
+		<spanish>Crear miniatura para álbum</spanish>
+	</string>
+	<string id="main_btnrenalbum">
+		<english>Rename</english>
+		<dutch>Hernoem</dutch>
+		<french>Renommer</french>
+		<hungarian>Átnevezés</hungarian>
+		<polish>Zmien nazwe</polish>
+		<serbian>Preimenuj</serbian>
+		<spanish>Renombrar</spanish>
+	</string>
+	<string id="main_btnmvalbumto">
+		<english>Move to</english>
+		<dutch>Verplaats naar</dutch>
+		<french>Déplacer</french>
+		<hungarian>Áthelyezés ide</hungarian>
+		<polish>Przenies do</polish>
+		<serbian>Premesti u</serbian>
+		<spanish>Mover a</spanish>
+	</string>
+	<string id="main_btndelalbum">
+		<english>Delete</english>
+		<dutch>Verwijder</dutch>
+		<french>Effacer</french>
+		<hungarian>Törlés</hungarian>
+		<polish>Usun</polish>
+		<serbian>Obriši</serbian>
+		<spanish>Eliminar</spanish>
+	</string>
+	<string id="main_btnmvalbumup">
+		<english>Up</english>
+		<dutch>Omhoog</dutch>
+		<french>Haut</french>
+		<hungarian>Fel</hungarian>
+		<polish>GOra</polish>
+		<serbian>Gore</serbian>
+		<spanish>Arriba</spanish>
+	</string>
+	<string id="main_btnmvalbumdown">
+		<english>Down</english>
+		<dutch>Omlaag</dutch>
+		<french>Bas</french>
+		<hungarian>Le</hungarian>
+		<polish>Dol</polish>
+		<serbian>Dole</serbian>
+		<spanish>Abajo</spanish>
+	</string>
+	<string id="main_btncrtcoll">
+		<english>Create collection</english>
+		<dutch>Maak collectie</dutch>
+		<french>Créer collection</french>
+		<hungarian>Gyűjtemény létrehozása</hungarian>
+		<polish>Utworz kolekcje</polish>
+		<serbian>Napravi kolekciju</serbian>
+		<spanish>Crear colección</spanish>
+	</string>
+	<string id="main_btncrtalb">
+		<english>Create album</english>
+		<dutch>Maak album</dutch>
+		<french>Créer album</french>
+		<hungarian>Album létrehozása</hungarian>
+		<polish>Utworz album</polish>
+		<serbian>Napravi album</serbian>
+		<spanish>Crear álbum</spanish>
+	</string>
+	<string id="main_lblalbums">
+		<english>Albums</english>
+		<dutch>Albums</dutch>
+		<french>Albums</french>
+		<hungarian>Albumok</hungarian>
+		<polish>Albumy</polish>
+		<serbian>Albumi</serbian>
+		<spanish>álbumes</spanish>
+	</string>
+	<string id="main_lblphotosvideos">
+		<english>Photos and videos</english>
+		<dutch>foto's en video's</dutch>
+		<french>Photos et vidéos</french>
+		<hungarian>Fényképek és mozgókéepk</hungarian>
+		<polish>Zdjecia i filmy</polish>
+		<serbian>Foto i video</serbian>
+		<spanish>Fotos y videos</spanish>
+	</string>
+	<string id="main_lblalbumdesc">
+		<english>Description</english>
+		<dutch>Omschrijving</dutch>
+		<french>Description</french>
+		<hungarian>Leírás</hungarian>
+		<polish>Opis</polish>
+		<serbian>Opis</serbian>
+		<spanish>Descripción</spanish>
+	</string>
+	<string id="main_lblphotodesc">
+		<english>Description</english>
+		<dutch>Omschrijving</dutch>
+		<french>Description</french>
+		<hungarian>Leírás</hungarian>
+		<polish>Opis</polish>
+		<serbian>Opis</serbian>
+		<spanish>Descripción</spanish>
+	</string>
+	<string id="main_lblid">
+		<english>ID: {0}</english>
+		<dutch>ID: {0}</dutch>
+		<french>ID: {0}</french>
+		<hungarian>ID: (0)</hungarian>
+		<polish>ID: {0}</polish>
+		<serbian>ID: {0}</serbian>
+		<spanish>Identificador: {0}</spanish>
+	</string>
+	<string id="main_msgdelselalbitemsq">
+		<english>Delete selected items?</english>
+		<dutch>Verwijder geselecteerde items ?</dutch>
+		<french>Effacer les éléments sélectionnés ?</french>
+		<hungarian>Kijelölt elemek törlése?</hungarian>
+		<polish>Usunac zaznaczone pliki?</polish>
+		<serbian>Obriši selektovano?</serbian>
+		<spanish>¿Eliminar artículos selecionados?</spanish>
+	</string>
+	<string id="main_msgselitemsq">
+		<english>Delete selected items?</english>
+		<dutch>Verwijder geselecteerde items ?</dutch>
+		<french>Effacer les éléments sélectionnés ?</french>
+		<hungarian>Kijelölt elemek törlése?</hungarian>
+		<polish>Usunac zaznaczone pliki?</polish>
+		<serbian>Obriši selektovano?</serbian>
+		<spanish>¿Eliminar artículos selecionados?</spanish>
+	</string>
+	<string id="main_msgneedreproc">
+		<english>Your albums need reprocessing in order to assign IDs. \n Proceed with reprocessing now?</english>
+		<dutch>Uw albums moeten opnieuw verwerkt worden om ID's toe te wijzen. \n Nu doorgaan met opnieuw verwerken ?</dutch>
+		<french>Votre album a besoin d'un traitement pour assigner des IDs. \n Voulez-vous le faire maintenant ?</french>
+		<hungarian>Albumokat újra fel kell dolgozni, hogy szabályszerűen hozzárendeltessenek az ID-khez</hungarian>
+		<polish>Twoje albumy wymagaja zmian aby byc zgodne z porzadkiem IDs. \n Kontynulowac zmiane?</polish>
+		<serbian>Vaši albumi moraj biti isprocesovani da bi dobili ID. \n Nastavi sa procesovanjem?</serbian>
+		<spanish>Sus álbumes necesitan ser reprocesados para asignarles identificadores. \n ¿Proceder con el reproceso?</spanish>
+	</string>
+	<string id="main_headtitle">
+		<english>Title</english>
+		<dutch>Titel</dutch>
+		<french>Titre</french>
+		<hungarian>Cím</hungarian>
+		<polish>Tytul</polish>
+		<serbian>Naslov</serbian>
+		<spanish>Título</spanish>
+	</string>
+	<string id="main_headdate">
+		<english>Date</english>
+		<dutch>Datum</dutch>
+		<french>Date</french>
+		<hungarian>Időpont</hungarian>
+		<polish>Data</polish>
+		<serbian>Datum</serbian>
+		<spanish>Fecha</spanish>
+	</string>
+	<string id="main_headlocation">
+		<english>Location</english>
+		<dutch>Locatie</dutch>
+		<french>Lieu</french>
+		<hungarian>Hely</hungarian>
+		<polish>Miejsce</polish>
+		<serbian>Lokacija</serbian>
+		<spanish>Ubicación</spanish>
+	</string>
+	<string id="main_msgdelselalbq">
+		<english>Delete selected album or collection?</english>
+		<dutch>Verwijder geselecteerd album of collectie ?</dutch>
+		<french>Effacer l'album / collection sélectionné(e) ?</french>
+		<hungarian>Kijelölt album vagy gyűjtemény törlése?</hungarian>
+		<polish>Usunac zaznaczony album lub kolekcje?</polish>
+		<serbian>Obriši slektovan album ili kolekciju?</serbian>
+		<spanish>¿Eliminar álbum o colección selecionado?</spanish>
+	</string>
+	<string id="main_menuapplytitle">
+		<english>Apply title to rest</english>
+		<dutch>Pas titel toe op de rest</dutch>
+		<french>Appliquer le titre aux autres</french>
+		<hungarian>Cím hozzárendelése mindhez</hungarian>
+		<polish>Zatwierdz tytul reszty</polish>
+		<serbian>Dodeli Naslov ostalima</serbian>
+		<spanish>Aplicar título a los demas</spanish>
+	</string>
+	<string id="main_menuapplydate">
+		<english>Apply date to rest</english>
+		<dutch>Pas datum toe aan de rest</dutch>
+		<french>Appliquer la date aux autres</french>
+		<hungarian>Időpont hozzárendelése mindhez</hungarian>
+		<polish>Zatwierdz date reszty</polish>
+		<serbian>Dodeli datum ostalima</serbian>
+		<spanish>Aplicar fecha a los demas</spanish>
+	</string>
+	<string id="main_menuapplylocation">
+		<english>Apply location to rest</english>
+		<dutch>Pas locatie toe aan de rest</dutch>
+		<french>Appliquer le lieu aux autres</french>
+		<hungarian>Hely hozzárendelése mindhez</hungarian>
+		<polish>Zatwierdz miejsce reszty</polish>
+		<serbian>Dodeli lokaciju ostalima</serbian>
+		<spanish>Aplicar ubicación a los demas</spanish>
+	</string>
+	<string id="main_menuapplydesc">
+		<english>Apply description to rest</english>
+		<dutch>Pas omschrijving toe aan de rest</dutch>
+		<french>Appliquer la description aux autres</french>
+		<hungarian>Leírás hozzárendelése mindhez</hungarian>
+		<polish>Zatwierdz opis reszty</polish>
+		<serbian>Dodeli opis ostalima</serbian>
+		<spanish>Aplicar descripción a los demas</spanish>
+	</string>
+	<string id="main_menuapplydescchg">
+		<english>Apply description changes</english>
+		<dutch>Pas omschrijving toe aan de rest</dutch>
+		<french>Appliquer les changements de description</french>
+		<hungarian>Leírások megváltoztatásának alkalmazása</hungarian>
+		<polish>Zatwierdz zmiane opisu</polish>
+		<serbian>Dodeli promene opisa</serbian>
+		<spanish>Aplicar los cambios de descripión</spanish>
+	</string>
+	<string id="main_msgselsinglephoto">
+		<english>Select a single photo</english>
+		<dutch>Selecteer een enkele foto</dutch>
+		<french>Sélectionnez une seule photo</french>
+		<hungarian>Egyedi fénykép kiválasztása</hungarian>
+		<polish>Wybierz pojedyncze zdjecie</polish>
+		<serbian>Selektuj samo jednu fotku</serbian>
+		<spanish>Selecionar solo una foto</spanish>
+	</string>
+</strings>

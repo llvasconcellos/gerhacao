@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="template">
+    <name>rt_novus_j15</name>
+    <version>1.0.0</version>
+    <creationDate>12/01/07</creationDate>
+    <author>rhuk</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2007-2008 - RocketTheme.com</copyright>
+    <license>GNU/GPL</license>
+    <description>
+			<![CDATA[
+			<h1>RocketTheme Novus</h1>
+
+			<img src="../templates/rt_novus_j15/template_thumbnail.png" align="left" hspace="10" />Novus is a clean and professional GPL template, featuring a fast loading design that is perfect for many applications.
+
+			<h3>Changelog</h3>
+			
+			<b>1.0.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]>  	
+    </description>
+		<files>
+			<filename>index.php</filename>
+			<filename>params.ini</filename>
+			<filename>rt_styleloader.php</filename>
+			<filename>rt_styleswitcher.php</filename>
+			<filename>rt_utils.php</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>templateDetails.xml</filename>
+			<folder>html/</folder>
+            <folder>css/</folder>
+            <folder>images/</folder>
+            <folder>js/</folder>
+		</files>
+		<positions>
+			<position>toolbar</position>
+			<position>top</position>
+			<position>banner</position>
+			<position>left</position>
+			<position>user1</position>
+			<position>user2</position>
+			<position>user3</position>
+			<position>user4</position>
+			<position>user5</position>
+			<position>user6</position>
+			<position>user7</position>
+			<position>user8</position>
+		</positions>
+    <params>
+			<param name="sideColumn" type="text" default="25%" label="Side Column Width" description="with in px or %" />
+			<param name="templateWidth" type="text" default="950" label="Template Width" description="Width in px for Fixed Template Width Style" />
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="menuType" type="list" default="splitmenu" label="Menu Type" description="Type of menu for main navigation">
+				<option value="splitmenu">SplitMenu</option>
+				<option value="module">Toolbar Module Position</option>
+			</param>
+			<param name="menuName" type="text" default="mainmenu" label="Menu Name" description="Name of Joomla! menu for the main navigation" />
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="defaultFont" type="list" default="default" label="Font Size" description="Font size variation to use">
+				<option value="smaller">Smaller</option>
+				<option value="default">Default</option>
+				<option value="larger">Larger</option>
+			</param>
+			<param name="showBreadcrumbs" type="radio" default="0" label="Show Breadcrumbs" description="Show/Hide the Breadcrumbs">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+            <param name="iepngFix" type="radio" default="0" label="IE PNG Fix" description="Enable / Disable the IE PNG Fix">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</param>
+    </params>
+</install>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
+<install type="module" version="1.5.0">
+	<name>Vinaora Visitors Counter</name>
+	<author>VINAORA</author>
+	<creationDate>2009-04-20</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 VINAORA.COM. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@vinaora.com</authorEmail>
+	<authorUrl>http://vinaora.com</authorUrl>
+	<version>1.6.2</version>
+	<description>
+		<![CDATA[
+			<h3>Vinaora Visitors Counter</h3>
+			<p>Version: <b>1.6.2</b></p>
+			<p>Release date: <b>2009-04-20</b></p>
+			<p>Homepage: <b><a href="http://vinaora.com/" title="Joomla! Guides - Hướng dẫn Joomla!" target="_self">http://vinaora.com/</a></b></p>
+			<p>This module shows you the visitors of your site.</p>
+			<h4>Features</h4>
+			<ul>
+				<li>6 cool styles</li>
+				<li>New Icon</li>
+				<li>Show Today - Yesterday - Week - Month - All statistics</li>
+				<li>Show Guest's Info: IP Address, Browser...</li>
+				<li>Show Online Now</li>
+				<li>Incresing Performance by Caching</li>
+				<li>Support all languages</li>
+				<li>Automatic delele old records</li>
+				<li>Custom Pre-text and Post-text</li>
+				<li>A script based on mod_digit_counter by www.iw1qlh.net/</li>
+				<li>Valid <b><u>XHTML</u></b> and <b><u>CSS</u></b></li>
+			</ul>
+		]]>
+	</description>
+	<files>
+
+		<filename module="mod_vvisit_counter">mod_vvisit_counter.php</filename>
+		<filename module="mod_vvisit_counter">helper.php</filename>
+		<filename module="mod_vvisit_counter">browsers.php</filename>
+		<filename module="mod_vvisit_counter">index.html</filename>
+		<filename module="mod_vvisit_counter">readme.html</filename>
+		
+		<filename module="mod_vvisit_counter">tmpl/index.html</filename>
+		<filename module="mod_vvisit_counter">tmpl/default.php</filename>
+		
+		<filename module="mod_vvisit_counter">images/index.html</filename>
+		<filename module="mod_vvisit_counter">images/blue/index.html</filename>
+		<filename module="mod_vvisit_counter">images/boxes/index.html</filename>
+		<filename module="mod_vvisit_counter">images/italic/index.html</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/index.html</filename>
+		<filename module="mod_vvisit_counter">images/nixie/index.html</filename>
+		<filename module="mod_vvisit_counter">images/slot/index.html</filename>
+		
+		<filename module="mod_vvisit_counter">images/blue/0.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/1.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/2.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/3.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/4.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/5.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/6.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/7.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/8.gif</filename>
+		<filename module="mod_vvisit_counter">images/blue/9.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/0.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/1.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/2.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/3.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/4.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/5.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/6.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/7.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/8.gif</filename>
+		<filename module="mod_vvisit_counter">images/boxes/9.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/0.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/1.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/2.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/3.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/4.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/5.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/6.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/7.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/8.gif</filename>
+		<filename module="mod_vvisit_counter">images/italic/9.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/0.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/1.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/2.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/3.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/4.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/5.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/6.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/7.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/8.gif</filename>
+		<filename module="mod_vvisit_counter">images/mechanical/9.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/0.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/1.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/2.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/3.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/4.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/5.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/6.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/7.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/8.gif</filename>
+		<filename module="mod_vvisit_counter">images/nixie/9.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/0.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/1.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/2.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/3.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/4.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/5.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/6.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/7.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/8.gif</filename>
+		<filename module="mod_vvisit_counter">images/slot/9.gif</filename>
+
+		<filename module="mod_vvisit_counter">images/vtoday.gif</filename>
+		<filename module="mod_vvisit_counter">images/vyesterday.gif</filename>
+		<filename module="mod_vvisit_counter">images/vweek.gif</filename>
+		<filename module="mod_vvisit_counter">images/vmonth.gif</filename>
+		<filename module="mod_vvisit_counter">images/vall.gif</filename>
+		
+		<filename module="mod_vvisit_counter">images/vtoday.png</filename>
+		<filename module="mod_vvisit_counter">images/vyesterday.png</filename>
+		<filename module="mod_vvisit_counter">images/vweek.png</filename>
+		<filename module="mod_vvisit_counter">images/vmonth.png</filename>
+		<filename module="mod_vvisit_counter">images/vall.png</filename>
+		
+		<filename module="mod_vvisit_counter">sql/index.html</filename>
+		<filename module="mod_vvisit_counter">sql/install.vvisit_counter.sql</filename>
+		<filename module="mod_vvisit_counter">sql/uninstall.vvisit_counter.sql</filename>
+	</files>
+
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="today" type="text" size="35" default="Today" label="Show Today" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />	
+		<param name="yesterday" type="text" size="35" default="Yesterday" label="Show Yesterday" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />	
+		<param name="week" type="text" size="35" default="This week" label="Show This week" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />
+		<param name="lweek" type="text" size="35" default="Last week" label="Show Last week" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />		
+		<param name="month" type="text" size="35" default="This month" label="Show This month" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />
+		<param name="lmonth" type="text" size="35" default="Last month" label="Show Last month" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />
+		<param name="all" type="text" size="35" default="All" label="Show All days" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="beginday" type="text" size="35" default="" label="Show 'Starting Day'" description="The day when you installed this counter. Example: 'Since Apr 2009'. Default: Don't show." />
+		<param name="online" type="text" size="35" default="Online (20 minutes ago):" label="Show 'Online Now'" description="Show number of online visitors in 20 minutes ago. Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />
+		<param name="guestip" type="text" size="35" default="Your IP:" label="Show 'Guest IP'" description="Translate to your language. Type 0 (zero) or O, if you dont' want to show it." />
+		<param name="guestinfo" type="text" size="35" default="Yes" label="Show Others Info" description="Show Guest's Browser, Guest's Platform... Type 0 (zero) or O, if you dont' want to show it. Leave blank to default." />
+		<param name="formattime" type="text" size="35" default="Now: %Y-%m-%d %H:%M" label="Show Date/Time Now" description="Show Date/Time Now. %Y - year, %m - month, %d - day, %H - hour, %W - minute, %S - second. Type 0 (zero) or O, if you dont' want to show it. Leave blank to default." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="digit_type" type="list" default="mechanical" label="Digit counter type" description="Select the type of display. Choose the last one if you don't want to show digit counter." >
+			<option value="mechanical">Mechanical</option>
+			<option value="nixie">Nixie</option>
+			<option value="blue">Blue</option>
+			<option value="slot">Slot</option>
+			<option value="boxes">Boxes</option>
+			<option value="italic">Italic</option>
+			<option value="NONE">- Don't show -</option>
+		</param>		
+		<param name="widthtable" type="list" default="90" label="Width Table" description="The width (%) of statistics table." >
+			<option value="100">100%</option>
+			<option value="95">95%</option>
+			<option value="90">90%</option>
+			<option value="85">85%</option>
+			<option value="80">80%</option>
+			<option value="75">75%</option>
+			<option value="70">70%</option>
+			<option value="65">65%</option>
+			<option value="60">60%</option>
+			<option value="55">55%</option>
+			<option value="50">50%</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="sessiontime" type="text" default="10" label="Session Time" description="Session Lifetime. Default: 10 minutes." />	
+		<param name="initialvalue" type="text" default="0" label="Initial Value" description="Initial Value. Type any number which you want. The counter begin from this number. Default: 0 visitor." />
+		<param name="issunday" type="radio" default="1" label="Start of Week" description="The day start of week." >
+			<option value="1">Sunday</option>
+			<option value="0">Monday</option>
+		</param>
+		
+	</params>
+	<params group="advanced">
+		<param name="iscache" type="radio" default="1" label="Caching" description="Choose 'Yes' to cache the content of this module and improve performance." >
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="deldays" type="text" default="70" label="# Days Archive" description="Number of days which you want to store the statistics. Recommend: 15 days (02 weeks) and turn off 'Show This Month, Show Last Month' options. Default: 63 days (02 months). Don't set too high." />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="pretext" type="textarea" cols="20" rows="5" default="" label="Pre-text" description="The text or HTML code displays at the top of this module." />
+		<param name="posttext" type="textarea" cols="20" rows="5" default="" label="Post-text" description="The text or HTML code displays at the end of this module." />
+	</params>
+</install>

@@ -1,0 +1,198 @@
+----------------------------------------------------------------------------------
+Expose Changelog
+----------------------------------------------------------------------------------
+
+------------------------------------------------
+-- 4.6.3-- RELEASE Alpha3c
+------------------------------------------------
+04/05/2008 ****************
+- Fixed frontend config-read issue with PHP4 (config.expose.php)
+- Fixed backend configuration issue with PHP4 (admin.expose.html.php: realpath() missing)
+
+------------------------------------------------
+-- 4.6.3-- RELEASE Alpha3b
+------------------------------------------------
+24/04/2008 ****************
+- Fixed wrong language path call in expose.html.php
+- Disabled old Expose syscheck with forced redirect to systemCheck page
+- Fixed some manager language selection errors
+- Added Servian Manager language
+
+------------------------------------------------
+-- 4.6.3-- RELEASE Alpha3a
+------------------------------------------------
+19/04/2008 ****************
+- Fixed linking to slideshow
+- Fixed 'RG_Emulation' and 'Magic Quotes' check in Check_System page
+
+------------------------------------------------
+-- 4.6.3-- RELEASE Alpha3
+------------------------------------------------
+31/03/2008 ****************
+- Changed config save procs (now looping through xml file and saving changed post values, instead of looping post data and saving as xml settings.
+- Simplified config save coding + xml file check if writable + close xmlfile after use ($dom->free();) for release used memory
+- Added more checks in System Check
+- Added 'Use Embedded Fonts' in settings
+- Replaced showpic.html by Shadowbox script from http://mjijackson.com/shadowbox (tip from tschonnie)
+- Language selection by Joomla settings (front and backend)
+- Added more selectionboxes in config + simplified sourcecode to show them
+
+10/03/2008 ****************
+- Added translation file like J1.5 format, but readable with class for use in J1.0.x, for translating settings and CheckSystem page
+- Added Manager settings in general configuration tabs
+- Added backend Manager languages dutch, hungarian, polish and spanish
+- Added frontend languages hungarian, polish, romanian, and corrected deutch.
+- Added backend language french
+
+------------------------------------------------
+-- 4.6.3-- RELEASE Alpha2
+------------------------------------------------
+22/02/2008 ****************
+- Config.xml is case sensitive! Adjusted some values
+- and adj admin.expose.html.php to save required case
+- Typo in config.expose.php: added brackets to functionexist L134
+
+03/02/2008 ****************
+- Fixed check_system bug on checking writable files
+- Fixed typos in check_system (config.xml instead of settings.xml)
+- Removed iframe from manager in admin.expose.html + created manager.html.php
+- Rewrite configuration and fonts config page into tabbed page + selectionboxes
+- Updated php file header information
+- Removed old SEF workaround, and applied true SEF routines (currently only works on apache with mod_rewrite enabled)
+- Code modifs to make Expose install and function for Joomla 1.0.x and 1.5 with one and the same package
+- Added redirection to Wiki and Download pages at JoomlaCode.org
+
+23/12/2007 ****************
+- Fixed some xhtml errors in expose.html and manager.html (&amp;)
+- Added Romanian language
+- Video playback problems due wrong path in expose.html: baseVideoURL
+- Code cleanup common.inc.php (removed ending tabs and spaces)
+- Code cleanup showpic.html (added missing span end tag L171)
+- Added <noscript> code to expose.html.php (Expose now runs pationally without JavaScript enabled)
+- Rewrite xml settings lookup in expose.html.php getxml()
+- Cleanup expose.html
+
+------------------------------------------------
+-- 4.6.2--
+------------------------------------------------
+12/11/2007 ****************
+- Typo in strings.xml: removed double tag-opener '<' in line 70
+- New admin authentication failure redirect in admin.expose.php
+
+11/11/2007 ****************
+- Fixed some xhtml errors in expose.html.php (&amp; <!--)
+- Added absolute url in showpic javascript
+- Added commented htaccess.txt in /manager directory
+- Added Language setting + added all available languages in strings.xml
+- New expanded check_system script + default installation check
+- Added index.html pages in all directories + modified installation file
+- Little fix so Expose also installs on Joomla 1.5 with latecy mode now
+- Update domxml-php4-to-php5.php (v1.19)
+
+------------------------------------------------
+--4.6.1--
+------------------------------------------------
+26.07.2007 *****************
+- Update domxml-php4-to-php5.php (1.18)
+- Cleanup Joomla installationfile expose.xml 
+
+20.07.2007 *****************
+- Changed version number for better version control with the core
+- Uploadimage.php and uploadimg.php is code from older Joomla release; removed for security reasons. (Only used for upload backgroundimage) until updated version is ready.
+- removed _VALID_MOS of AMFphp plugin files again. Not a security issue and manager doesn't login after adding this line
+
+------------------------------------------------
+--RC4--
+------------------------------------------------
+19.07.2007 *****************
+Fixed security hole in expose background image upload
+- uploadimg.php haS been ptached. 
+- security patch: added defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' ); to some AMFphp plugin files
+
+14.05.2007 *****************
+Update domxml-php4-to-php5.php (now 1v17)
+
+17.05.2007 *****************
+Manager login failed with PHP 5.2.x (no errors in logs or on screen)
+- Update Amfphp plugin (amfphp/amf-core/app/Gateway.php file has been fixed)
+
+Before *********************
+Added index.html file in expose\manager\bucket
+- Now the \bucket directory is created on install
+
+Fixed SEO bug in expose.html.php
+- Thanks to Hambon in function getQueryVariable(variable)
+
+Changed the config.xml
+- Added comment="Help Text here" // Helps the user to understand the values
+- Added Gallery height="" // Able to change the gallery height easily 
+- Added Gallery width=""  // Able to change the gallery width easily 
+- Added Gallery Background color="" // Able to change the gallery background color
+- Added Gallery Background Image="" // Able to change the gallery background image
+
+Added new backend
+- Expose now has a real joomla backend and most all configuration is done from there
+
+Added check system 
+- Backend dose not work if extension is not awaliable and informs the user what is wrong
+
+Added the option to edit most all config in the backend.
+- All values in config.xml and formats.xml are now editable in the joomla backend
+
+Added option to upload the background image and select it from list.
+- Now you can upload the background image in the backend and point to it using the configuration
+
+Added option to edit the font color and font size in the backend
+- Now you can change all font configuration in the backend. including font size,color etc..
+
+Reverted to the standalone Album Manager
+
+----------------------------------------------------------------------------------
+--Core RC4--
+----------------------------------------------------------------------------------
+- Albums and photos can be auto-launched, and a root collection can be set
+- A slide show can be automatically started
+- A background/foreground image can be loaded
+- More interface elements can be now customized
+
+----------------------------------------------------------------------------------
+RC 3
+----------------------------------------------------------------------------------
+- Substantial speed improvements in handling albums consisting of hundreds of photos
+- Expose can now be run in full-screen mode when opened as a file; just place expose.swf where expose.html is
+- The preloader animation now properly center-aligns itself
+
+----------------------------------------------------------------------------------
+RC 2
+----------------------------------------------------------------------------------
+- Added support for Flash video
+- Videos support multiple streams using SpeedSense to determine a visitor's bandwidth
+- Changed how scrolling works in the album list view
+- Added a Cancel button to the album list view
+- Added scrollbar to the image strip view
+- ZIP distro stores all files in a root folder called expose; this should make it easier to Mac folks to unzip into a clean location
+
+----------------------------------------------------------------------------------
+RC 1
+----------------------------------------------------------------------------------
+- Fixed a critical bug with the advancement of images
+
+----------------------------------------------------------------------------------
+Beta 1
+----------------------------------------------------------------------------------
+- Fixed preloader and image loading bugs
+- Added support for shadows in image viewer and image strip
+- Image strip is now more customizable
+- ZIP package distribution no longer uses a root expose folder
+- Moved GIF files used in showing large images into a showpic_gifs folder inside the expose folder
+- Thumbnail loading pauses when user views a larger image
+
+----------------------------------------------------------------------------------
+Alpha 1
+----------------------------------------------------------------------------------
+- Button positions, image timeout, album list elements now customizable
+- Added support for album thumbnails, image descriptions in image strip, and album descriptions
+- Added support for viewing large images
+- Scrolling in image strip can now be done via mouse rollover as well (previously required a mouse click)
+- Image strip does not switch to image view on mouse rollout
+- Added support for viewing large images

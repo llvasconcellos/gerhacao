@@ -1,0 +1,24 @@
+/* CSS Document */
+.icon-32-lock { 
+	background-image: url(../img/toolbar/icon-32-lock.png); 
+}
+.icon-32-refresh { 
+	background-image: url(../img/toolbar/icon-32-refresh.png); 
+}
+.icon-remove { 
+	height: 20px;
+	background: url(../img/delete.png) no-repeat;
+	padding: 2px;
+}
+.icon-add { 
+	background: url(../img/add.png) no-repeat; 
+	padding: 2px;
+}
+.icon-text {
+	margin-left: 20px;
+} 
+.icon-legend {
+	height: 20px;
+	background: url(../img/icons.png) no-repeat;
+	padding: 2px;
+}

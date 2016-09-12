@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="language">
+	<name>Brazilian Portuguese</name>
+	<tag>pt-BR</tag>
+	<version>1.5.0</version>
+	<creationDate>30-01-2009</creationDate>
+	<author>Fernando Soares</author>
+	<authorEmail>fsoares@fsoares.com.br</authorEmail>
+	<authorUrl>www.fernandosoares.com.br</authorUrl>
+	<copyright>(C) 2009 Fernando Soares. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>Tradução para o Português Brasileiro do JCE 1.5</description>
+	<site>
+		<files folder="site">	
+			<filename>pt-BR.com_jce.ini</filename>
+			<filename>pt-BR.com_jce_advlink.ini</filename>
+			<filename>pt-BR.com_jce_browser.ini</filename>
+			<filename>pt-BR.com_jce_imgmanager.ini</filename>
+			<filename>pt-BR.com_jce_media.ini</filename>
+			<filename>pt-BR.com_jce_paste.ini</filename>
+			<filename>pt-BR.com_jce_spellchecker.ini</filename>
+		</files>
+	</site>
+	<tinymce>
+		<files folder="tinymce">
+			<filename>langs/pt.js</filename>
+			<filename>langs/pt_dlg.js</filename>
+			<filename>plugins/advcode/langs/pt.js</filename>
+			<filename>plugins/advcode/langs/pt_dlg.js</filename>
+			<filename>plugins/advlink/langs/pt_dlg.js</filename>
+			<filename>plugins/browser/langs/pt_dlg.js</filename>
+			<filename>plugins/emotions/langs/pt_dlg.js</filename>
+			<filename>plugins/imgmanager/langs/pt_dlg.js</filename>
+			<filename>plugins/paste/langs/pt_dlg.js</filename>
+			<filename>plugins/preview/langs/pt.js</filename>
+			<filename>plugins/searchreplace/langs/pt_dlg.js</filename>
+			<filename>plugins/style/langs/pt_dlg.js</filename>
+			<filename>plugins/table/langs/pt_dlg.js</filename>
+			<filename>plugins/xhtmlxtras/langs/pt_dlg.js</filename>
+			<filename>themes/advanced/langs/pt.js</filename>
+			<filename>themes/advanced/langs/pt_dlg.js</filename>
+		</files>
+	</tinymce>
+	<administration> 
+		<files folder="admin">
+			<filename>pt-BR.com_jce.ini</filename>
+		</files>
+	</administration> 
+</install

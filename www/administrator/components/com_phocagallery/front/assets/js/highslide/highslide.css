@@ -1,0 +1,102 @@
+.highslide-wrapper div {
+    /*font-family: Verdana, Helvetica;*/
+    font-size: 10pt;
+}
+.highslide-html {
+    background-color: white;
+}
+.highslide-html-blur {
+}
+.highslide-html-content {
+	position: absolute;
+    display: none;
+}
+.highslide-loading {
+    display: block;
+	color: black;
+	font-size: 8pt;
+	font-family: sans-serif;
+	font-weight: bold;
+    text-decoration: none;
+	padding: 2px;
+	border: 1px solid black;
+    background-color: white;
+    
+    padding-left: 22px;
+    background-image: url(graphics/loader.white.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+}
+a.highslide-credits,
+a.highslide-credits i {
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+	font-size: 10px;
+}
+a.highslide-credits:hover,
+a.highslide-credits:hover i {
+    color: white;
+    background-color: gray;
+}
+
+
+/* Styles for the popup */
+.highslide-wrapper, .rounded-white {
+	background-color: white;
+}
+.highslide-wrapper .highslide-html-content {
+    width: 400px;
+    padding: 0 5px 5px 5px;
+}
+.highslide-wrapper .highslide-header {
+	padding-bottom: 5px;
+}
+.highslide-wrapper .highslide-header ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	list-style-type:none;
+}
+.highslide-wrapper .highslide-header ul li {
+	display: inline;
+	padding-left: 0.8em;
+	list-style-type:none;
+}
+.highslide-wrapper .highslide-header ul li.highslide-previous, .highslide-wrapper .highslide-header ul li.highslide-next {
+	display: none;
+	list-style-type:none;
+}
+.highslide-wrapper .highslide-header a {
+
+	color: gray;
+	text-decoration: underline;
+}
+.highslide-wrapper .highslide-header a:hover {
+	color: black;
+}
+.highslide-wrapper .highslide-header .highslide-move a {
+	cursor: move;
+}
+.highslide-wrapper .highslide-footer {
+	height: 15px;
+}
+.highslide-wrapper .highslide-footer .highslide-resize {
+	float: right;
+	margin-top: 4px;
+	height: 11px;
+	width: 11px;
+	background: url(graphics/resize.gif);
+}
+.highslide-wrapper .highslide-body {
+}
+.highslide-move {
+    cursor: move;
+	list-style-type:none;
+}
+.highslide-close {
+	list-style-type:none;
+}
+.highslide-resize {
+    cursor: nw-resize;
+}

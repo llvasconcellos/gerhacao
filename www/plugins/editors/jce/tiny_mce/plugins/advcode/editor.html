@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>CodePress - Real Time Syntax Highlighting Editor written in JavaScript</title>
+	<meta name="description" content="CodePress - source code editor window" />
+
+	<script type="text/javascript">
+	var language = 'generic';
+	var engine = 'older';
+	var ua = navigator.userAgent;
+	var ts = (new Date).getTime(); // timestamp to avoid cache
+	var lh = location.href;
+	
+	if(/msie/i.test(ua)) engine 		= 'msie';
+	else if(/khtml/i.test(ua)) engine 	= 'khtml'; 
+	else if(/opera/i.test(ua)) engine 	= 'opera'; 
+	else if(/gecko/i.test(ua)) engine 	= 'gecko';
+
+	if(lh.match('language=')) language = lh.replace(/.*language=(.*?)(&.*)?$/,'$1');
+
+	document.write('<link type="text/css" href="css/editor.css" rel="stylesheet" />');
+	document.write('<link type="text/css" href="css/styles.css" rel="stylesheet" />');
+	document.write('<scr'+'ipt type="text/javascript" src="js/'+engine+'.js?ts='+ts+'"></scr'+'ipt>');
+	document.write('<scr'+'ipt type="text/javascript" src="js/'+language+'.js?ts='+ts+'"></scr'+'ipt>');
+	</script>
+
+</head>
+
+<script type="text/javascript">
+if(engine == "opera"){
+	document.write('<body></body>');
+}else{
+	document.write('<body><pre> </pre></body>');
+}
+</script>
+
+</html>

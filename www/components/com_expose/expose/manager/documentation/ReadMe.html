@@ -1,0 +1,195 @@
+<html>
+	<head>
+		<title>exposé Album Manager for PHP ReadMe</title>
+		<style type="text/css"> 
+		body { background-color: white; }
+	.pagetitle { font-family: Arial; font-size: 18px; color: #333333; }
+	.section { font-family: Georgia, Trebuchet MS, Verdana; font-size: 14px; font-weight: bold; color: #333333; }
+	.sectiontext { font-family: Georgia, Trebuchet MS, Verdana; font-size: 12px; color: #000000; }
+	    </style>
+	</head>
+	<body>
+		<table align="center" width="600" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="center" class="pagetitle">exposé Album Manager for PHP</td>
+			</tr>
+			<tr>
+				<td height="50">&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="section">About Album Manager</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					The Album Manager for exposé application is intended to make it easy for you to 
+				create, remove, and edit albums, photos, and videos from within the confines of a web browser. It allows you to manage your media collection from anywhere there is access to the web. </td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+			<tr>
+				<td class="section">Requirements</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					<p>This application requires that PHP version 4 or higher, the GD library, DOMXML library and the iconv library
+					extensions are installed on your web server (iconv comes on most Un*x-type OSes). You will need Flash Player 8 to open the application in a web
+					browser.</p>					
+				</td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+			<tr>
+				<td class="section">Notes</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					<p>You are advised to back up your existing
+					data before running Album Manager for PHP for the first time..</p>
+				</td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+			
+			<tr>
+				<td class="section">Installation</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext"><p>To install, copy the contents of the ZIP package (the manager folder and its contents)
+					into your expose folder (<b>this is the folder that contains
+					img, xml, and config folders</b>).</p>
+				<p>You may need to give write permissions to the web server user for the following files and folders: <strong>expose/img/</strong>, <strong>expose/xml/</strong>, <strong>manager/bucket/</strong>, <strong>manager/amfphp/extra/passhash.inc.php</strong>, and <strong>manager/amfphp/extra/settings.xml</strong>.</p>
+				<p>Should you run into any problems, you can try opening <b>check_system.php</b> in a web browser to see if the script will detect the culprit. </p></td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+			
+			<tr>
+				<td class="section">Usage</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					To start load the Album Manager in a web browser by typing the URL of the <strong>manager.html</strong>					file, e.g. <b>http://www.example.com/expose/manager/manager.html</b>.
+					<p>
+					The first thing you want to do is change the default password, which is <b>manager</b>.
+					Click on the <b>Change password</b> button and enter the new password.
+					<p>
+					Now use your new login password to log in.
+					<p>
+					Once you see the main interface, have a look at the screenshot at the bottom of this
+					readme page to get an idea about what each button does.
+					<p>
+					The changes you make -- with the exception of the photo and album descriptions, which
+					require that you specifically initiate their updates -- commit
+					immediately, and you can preview the edits in expos&eacute; right away.
+					<p>
+					If you decide you want to embed your own watermark at the bottom right corner of each
+					image, you will need to create a transparent PNG image that contains it, and replace <strong>watermark.png</strong>					with it. You can find <strong>watermark.png</strong> in <strong>manager/amfphp/extra/</strong>. There is no restriction on
+					the dimensions of the watermark.
+					<p>
+					You may also use your own TTF font to render the copyright text in each image. To do so
+					replace <strong>manager/fonts/embedcopy.ttf</strong> with your TTF file.
+					<p>
+					Every time you create an album or a collection a default thumbnail image gets assigned
+					to them. You can create your own custom thumbnail images (64x48 pixels recommended) and
+					replace <strong>albthumb.jp</strong>g and <strong>collthumb.jpg</strong> located in<strong> manager/amfphp/extra/</strong> with your own 
+					copies.
+				</td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+			<tr>
+				<td class="section">Bucket</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					<p>Album Manager allows adding photos and videos from a "bucket". The bucket is a folder on the web server where you can upload the source images and videos for later adding
+					to your media collection. You might find it easier to FTP your files instead of using
+					the uploading features in Album Manager, which is where the bucket would come in handy.</p>
+					<p>The bucket folder is located in <strong>manager/bucket/</strong>. </p>
+					<p>In the window for adding media from the bucket you can filter the list of files by entering the bits of file name to look for into the filter text input and pressing Enter. For example, if you upload some images in to a <strong>vacation</strong> folder inside the bucket, and some other images into a <strong>wedding</strong> folder in the bucket, you can shrink the list to see only the images in the <strong>vacation</strong> folder by entering <strong>vacation/</strong> into the filter text input and pressing Enter. The filter applies simultaneously to the list of photos and videos. </p></td>
+			</tr>			
+			<tr>
+				<td height="30"></td>
+			</tr>			
+			<tr>
+				<td class="section">Disclaimer</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					This software comes as is, without any warranties or claims for fitness, either 
+					explicit or implied. I, the author of this software, shall not be held liable should the use of this software 
+					cause any kind of damage or loss.
+				</td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+			<tr>
+				<td class="section">License</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					You may use this software free of charge. You may not distribute it 
+					without the prior consent of the author, nor sell it. This software includes the 
+					AMFPHP component, and an JPEG encoder, courtesy of Uro Tinic and <font class="bri">Cristi Cuturicu</font>. This package also comes with
+					the Medrano font, courtesy of Tepid Monkey (see the readme.txt file
+					in the fonts folder for more information).
+				</td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+			<tr>
+				<td class="section">Copyright</td>
+			</tr>
+			<tr>
+				<td height="10"></td>
+			</tr>
+			<tr>
+				<td class="sectiontext">
+					© 2005, Ivan Dramaliev, <a href="mailto:junker@slooz.com">junker@slooz.com</a><br>
+					<a href="http://www.slooz.com">http://www.slooz.com</a></td>
+			</tr>
+			<tr>
+				<td height="30"></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<table cellspacing="0" cellpadding="0" border="0" align="center">
+			<tr>
+				<td align="center"><img src="mng_screenshot.gif"></td>
+			</tr>
+		</table>
+	</body>
+</html>

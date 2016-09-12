@@ -1,0 +1,30 @@
+/*photogallery*/
+
+.phocagallery-box-file-first {
+	/*background:#f5f5f5;*/
+	/*width:100px;height:100px;*/ overflow: hidden;
+	display: table;
+	vertical-align:middle;
+	position: relative;
+}
+
+.phocagallery-box-file-second {
+	display: table-cell;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	left:50%;
+}
+
+.phocagallery-box-file-third {
+  position: relative;  top: -50%;  left:-50%;
+  padding-top:3px;
+}
+
+.phocagallery-box-file:hover, .phocagallery-box-file.hover  {
+	/*border:1px solid #135cae;padding:5px;background:#f5f5f5;text-decoration:none;*/
+}
+
+#description-msg {
+	bottom: 5px;
+}

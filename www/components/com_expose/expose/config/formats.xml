@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<expose version="2.0">
+	<format id="toolbtnlabel">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>aaaaaa</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-2</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="label">
+		<font>frutiger bold</font>
+		<size>14</size>
+		<color>999999</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>10</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="albumlist">
+		<font>frutiger bold</font>
+		<size>12</size>
+		<color>666666</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="albumtitle">
+		<font>frutiger bold</font>
+		<size>12</size>
+		<color>666666</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imginfotitle">
+		<font>frutiger black</font>
+		<size>14</size>
+		<color>909090</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>10</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imginfodate">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>aaaaaa</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imginfolocation">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>aaaaaa</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="desc">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>ffffff</color>
+		<shadowcolor>000000</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="albumnum">
+		<font>frutiger black</font>
+		<size>10</size>
+		<color>999999</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="selalblabel">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>aaaaaa</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="youarein">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>999999</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imgstriptitle">
+		<font>frutiger bold</font>
+		<size>13</size>
+		<color>808080</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>10</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imgstripdateloc">
+		<font>frutiger bold</font>
+		<size>10</size>
+		<color>aaaaaa</color>
+		<shadowcolor>e0e0e0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>0</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="slideshowcountdown">
+		<font>frutiger bold</font>
+		<size>14</size>
+		<color>999999</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>10</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imgcounteridx">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>999999</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>10</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imgcounterslash">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>ff3300</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>10</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imgcountertotal">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>999999</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>10</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="helpguide">
+		<font>frutiger bold</font>
+		<size>12</size>
+		<color>aaaaaa</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="helptext">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>aaaaaa</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="imgstripimgdesc">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>999999</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="albuminfodescription">
+		<font>frutiger bold</font>
+		<size>11</size>
+		<color>999999</color>
+		<shadowcolor>d0d0d0</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="loadingalbum">
+		<font>frutiger bold</font>
+		<size>12</size>
+		<color>999999</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="albumlistcancelbtn">
+		<font>frutiger bold</font>
+		<size>13</size>
+		<color>aaaaaa</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+	<format id="albumlistcancelbtn_ro">
+		<font>frutiger bold</font>
+		<size>13</size>
+		<color>777777</color>
+		<shadowcolor>d8d8d8</shadowcolor>
+		<shadowalpha>30</shadowalpha>
+		<leading>2</leading>
+		<hshift>-3</hshift>
+		<vshift>-2</vshift>
+		<align>left</align>
+	</format>
+</expose>
